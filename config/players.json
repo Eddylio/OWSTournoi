@@ -1,0 +1,372 @@
+{
+  "eventName": "SOLOQ SPRINT",
+  "region": "EUW1",
+  "startAt": "2026-10-31T22:17:00.000Z",
+  "startAtParis": "2026-10-31 23:17 (Europe/Paris)",
+  "players": [
+    {
+      "id": "joueur-01",
+      "gameName": "taudinico",
+      "tagLine": "EUW",
+      "baseline": {
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 64,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 5 j",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 64,
+        "indexedAge": "Il y a 2 mois",
+        "sourceUrl": "https://op.gg/nl/lol/summoners/euw/taudinico-EUW",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/taudinico-EUW"
+    },
+    {
+      "id": "joueur-02",
+      "gameName": "elpoupone",
+      "tagLine": "8534",
+      "baseline": {
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 0,
+        "checked": true,
+        "note": "Index OP.GG — à confirmer",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "PLATINUM",
+        "division": "I",
+        "lp": 50,
+        "indexedAge": "Il y a 2 semaines",
+        "sourceUrl": "https://op.gg/ro/lol/leaderboards/tier?region=euw&summoner=Mr+Mitcow-COW&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/elpoupone-8534"
+    },
+    {
+      "id": "joueur-03",
+      "gameName": "ciron",
+      "tagLine": "EUW",
+      "baseline": {
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 58,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 7 j · Un site tiers indique Émeraude I, 28 LP le 31/10 : conflit non tranché.",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 13,
+        "indexedAge": "Il y a 2 mois",
+        "sourceUrl": "https://op.gg/ru/lol/summoners/euw/Ciron-EUW",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/ciron-EUW"
+    },
+    {
+      "id": "joueur-04",
+      "gameName": "respectezvossupp",
+      "tagLine": "EUWFR",
+      "baseline": {
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 11,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 6 j",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 30,
+        "indexedAge": "Il y a 2 mois",
+        "sourceUrl": "https://op.gg/tr/lol/summoners/EUW/RespectezVosSupp-EUWFR",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/respectezvossupp-EUWFR"
+    },
+    {
+      "id": "joueur-05",
+      "gameName": "0nil0",
+      "tagLine": "EUW",
+      "baseline": {
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 65,
+        "checked": true,
+        "note": "Référence antérieure : Émeraude I, 65 LP. Une page de classement plus ancienne montrait 95 LP ; non vérifié à 23h17.",
+        "sourceUrl": "https://op.gg/da/lol/leaderboards/tier?region=euw&summoner=JESSE+PINKMAN-PSTAR&tier=all&type=ladder",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 95,
+        "indexedAge": "Il y a 1 mois",
+        "sourceUrl": "https://op.gg/ro/lol/leaderboards/tier?region=euw&summoner=tomat0carryu-carry&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/0nil0-EUW"
+    },
+    {
+      "id": "joueur-06",
+      "gameName": "kc fufuu",
+      "tagLine": "EUW",
+      "baseline": {
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 68,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 1 j",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 84,
+        "indexedAge": "Il y a 1 mois",
+        "sourceUrl": "https://op.gg/fr/lol/summoners/euw/KC%20FuFuu-EUW",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/kc%20fufuu-EUW"
+    },
+    {
+      "id": "joueur-07",
+      "gameName": "sofino",
+      "tagLine": "EUW",
+      "baseline": {
+        "tier": "PLATINUM",
+        "division": "IV",
+        "lp": 19,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 4 j",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 14,
+        "indexedAge": "Il y a 2 semaines",
+        "sourceUrl": "https://op.gg/da/lol/summoners/euw/sofino-EUW",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/sofino-EUW"
+    },
+    {
+      "id": "joueur-08",
+      "gameName": "youps",
+      "tagLine": "may",
+      "baseline": {
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 40,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 7 j",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 32,
+        "indexedAge": "Il y a 2 mois",
+        "sourceUrl": "https://op.gg/zh-cn/lol/summoners/euw/Youps-May",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/youps-may"
+    },
+    {
+      "id": "joueur-09",
+      "gameName": "exterminateur",
+      "tagLine": "otp",
+      "baseline": {
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 8,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 34 min",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "PLATINUM",
+        "division": "I",
+        "lp": 49,
+        "indexedAge": "Il y a 4 mois",
+        "sourceUrl": "https://op.gg/es/lol/summoners/euw/Exterminateur-OTP",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/exterminateur-otp"
+    },
+    {
+      "id": "joueur-10",
+      "gameName": "TheBerserker226",
+      "tagLine": "EUW",
+      "baseline": {
+        "tier": "SILVER",
+        "division": "IV",
+        "lp": 7,
+        "checked": true,
+        "note": "Rang et LP indiqués directement par l’organisateur le 31/10/2026. Non synchronisés avec Riot.",
+        "sourceUrl": "https://op.gg/fr/lol/summoners/euw/TheBerserker226-EUW",
+        "sourceType": "user",
+        "sourceAt": "31/10/2026"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/TheBerserker226-EUW"
+    },
+    {
+      "id": "joueur-11",
+      "gameName": "lastchance",
+      "tagLine": "zayko",
+      "baseline": {
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 72,
+        "checked": true,
+        "note": "Index OP.GG — veille, à confirmer",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "PLATINUM",
+        "division": "III",
+        "lp": 72,
+        "indexedAge": "Hier",
+        "sourceUrl": "https://op.gg/ja/lol/leaderboards/tier?page=9444&region=euw&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/lastchance-zayko"
+    },
+    {
+      "id": "joueur-12",
+      "gameName": "WRATH",
+      "tagLine": "226",
+      "baseline": {
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 14,
+        "checked": true,
+        "note": "OP.GG, classement EUW indexé le 31/10/2026 ; référence provisoire, non certifiée à 23h17",
+        "sourceUrl": "https://op.gg/zh-cn/lol/leaderboards/tier?page=18653&region=euw&tier=all&type=ladder",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "GOLD",
+        "division": "III",
+        "lp": 14,
+        "indexedAge": "Aujourd’hui",
+        "sourceUrl": "https://op.gg/zh-cn/lol/leaderboards/tier?page=18653&region=euw&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/WRATH-226"
+    },
+    {
+      "id": "joueur-13",
+      "gameName": "bb f4lo",
+      "tagLine": "euw",
+      "baseline": {
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 5,
+        "checked": true,
+        "note": "Index OP.GG — jour même, à confirmer",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 5,
+        "indexedAge": "Aujourd’hui",
+        "sourceUrl": "https://op.gg/lol/leaderboards/tier?region=euw&summoner=Rio404-EUW&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/bb%20f4lo-euw"
+    },
+    {
+      "id": "joueur-14",
+      "gameName": "no hwei",
+      "tagLine": "cqfd",
+      "baseline": {
+        "tier": "DIAMOND",
+        "division": "II",
+        "lp": 18,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 5 h",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "DIAMOND",
+        "division": "III",
+        "lp": 84,
+        "indexedAge": "Hier",
+        "sourceUrl": "https://op.gg/lol/leaderboards/tier?region=euw&summoner=Rio404-EUW&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/no%20hwei-cqfd"
+    },
+    {
+      "id": "joueur-15",
+      "gameName": "ShadowPhen",
+      "tagLine": "1005",
+      "baseline": {
+        "tier": "GOLD",
+        "division": "IV",
+        "lp": 24,
+        "checked": true,
+        "note": "Rang et LP indiqués directement par l’organisateur le 31/10/2026. Non synchronisés avec Riot.",
+        "sourceUrl": "https://op.gg/fr/lol/summoners/euw/ShadowPhen-1005",
+        "sourceType": "user",
+        "sourceAt": "31/10/2026"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/ShadowPhen-1005"
+    },
+    {
+      "id": "joueur-16",
+      "gameName": "Own by Fakir",
+      "tagLine": "EASY",
+      "baseline": {
+        "tier": "MASTER",
+        "division": null,
+        "lp": 54,
+        "checked": true,
+        "note": "Fiche OP.GG — maj il y a 2 j",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "MASTER",
+        "division": null,
+        "lp": 19,
+        "indexedAge": "Il y a 2 semaines",
+        "sourceUrl": "https://op.gg/de/lol/leaderboards/tier?page=361&region=euw&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/Own%20by%20Fakir-EASY"
+    },
+    {
+      "id": "joueur-17",
+      "gameName": "LamaOnSteroid",
+      "tagLine": "DOGO",
+      "baseline": {
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 1,
+        "checked": true,
+        "note": "Index OP.GG — veille, à confirmer",
+        "sourceType": "previous"
+      },
+      "indexedReport": {
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 1,
+        "indexedAge": "Hier",
+        "sourceUrl": "https://op.gg/ru/lol/leaderboards/tier?page=4761&region=euw&tier=all&type=ladder",
+        "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
+      },
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/LamaOnSteroid-DOGO"
+    }
+  ]
+}

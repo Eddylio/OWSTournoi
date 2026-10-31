@@ -1,0 +1,51 @@
+name: SOLOQ Sprint - OP.GG et publication
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Une seule collecte par jour, pour limiter la charge sur OP.GG.
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+concurrency:
+  group: soloq-sprint
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier les calculs et le parseur
+        run: node --test tests/*.test.mjs
+      - name: Lire les fiches publiques OP.GG sans clé Riot
+        # Un échec ne doit pas empêcher l'affichage des dernières données connues.
+        continue-on-error: true
+        run: node scripts/sync-opgg.mjs
+      - name: Enregistrer les données réellement mises à jour
+        run: |
+          git add public/data/latest.json public/data/history.json state/opgg-state.json
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "stats: relevé OP.GG"
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+      - name: Publier sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

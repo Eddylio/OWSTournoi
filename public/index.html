@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080d18" />
+  <meta name="description" content="SOLOQ SPRINT — Classement League of Legends EUW : rangs, LP, parties et progression depuis le 31 octobre 2026." />
+  <title>SoloQ Sprint — Classement EUW</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="SoloQ Sprint, accueil">
+        <span class="brand-mark"><svg viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M18 2 33 11v14L18 34 3 25V11L18 2Z" stroke="currentColor" stroke-width="1.8"/><path d="m10 23 8-12 8 12M13 19h10" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span class="brand-text">SOLOQ<span>SPRINT</span><small>EUROPE WEST / TRACKER</small></span>
+      </a>
+      <nav class="top-nav" aria-label="Navigation principale"><a href="#classement" class="active">Classement</a><a href="#evolution">Progression</a><a href="#infos">Infos</a></nav>
+      <div class="header-side"><span class="region-chip"><span class="region-dot"></span> EUW</span><a class="header-link" href="#classement">Voir le classement <span aria-hidden="true">↗</span></a></div>
+    </header>
+
+    <main id="accueil">
+      <div class="eyebrow"><span class="eyebrow-line"></span> LE CHALLENGE SOLOQ <span class="eyebrow-season">/ SAISON 2026—27</span></div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-text">
+          <h1 id="hero-title">La course<br /><span>au sommet<span class="title-period">.</span></span></h1>
+          <p>17 invocateurs. Une seule compétition. Chaque partie compte, chaque LP fait la différence.</p>
+          <div class="hero-actions"><a href="#classement" class="button-primary">Découvrir le classement <span aria-hidden="true">↗</span></a><span class="start-label"><span class="live-pulse"></span> Départ : 31 oct. 2026 · 23:17</span></div>
+        </div>
+        <div class="podium-scene" aria-label="Podium des trois premiers joueurs">
+          <div class="scene-grid"></div><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+          <div class="podium-title"><span class="label-micro">TOP PLAYERS</span><span class="podium-season">SOLOQ / 2026</span></div>
+          <div id="podium" class="podium-players"><div class="podium-loading">Préparation du podium…</div></div>
+          <div class="podium-footer"><span>PROGRESSION TRACKER</span><span>01 / 03</span></div>
+        </div>
+      </section>
+
+      <section class="status-strip" aria-label="Statut de synchronisation"><span id="sync-indicator" class="sync-light pending"></span><span id="sync-status">En attente de la première collecte OP.GG</span><span class="strip-separator"></span><span id="sync-date">Données de référence : 31 oct. 2026</span><span class="strip-spacer"></span><span class="auto-mention">↻ OP.GG : vérification quotidienne, si accessible</span><span id="baseline-coverage" class="coverage-note" title="Provenance des LP de départ">17 / 17 références renseignées</span></section>
+
+      <aside class="verify-warning" role="note"><span class="verify-symbol">!</span><div><strong>Relevés de départ — pas de données en direct.</strong><p>La collecte lit les pages publiques OP.GG au maximum une fois par jour sans clé Riot ni rafraîchissement forcé : l’accès peut être refusé ou les données obsolètes. Les 17 valeurs de départ sont conservées. Le comptage des parties commence au premier relevé exploitable des victoires/défaites, pas rétroactivement au 31 octobre. La date de la dernière collecte est visible, et les données incertaines ne sont jamais inventées.</p></div></aside>
+
+      <section class="overview" aria-label="Statistiques du défi">
+        <article class="metric"><div class="metric-heading"><span>JOUEURS EN LICE</span><span class="metric-icon">♟</span></div><div class="metric-value" id="stat-players">17<span class="metric-mini">/ 17</span></div><div class="metric-note">Sur le serveur EUW</div></article>
+        <article class="metric"><div class="metric-heading"><span>PARTIES JOUÉES</span><span class="metric-icon">◎</span></div><div class="metric-value" id="stat-games">0</div><div class="metric-note">Depuis la première collecte des résultats (non rétroactif)</div></article>
+        <article class="metric"><div class="metric-heading"><span>LP NETS CUMULÉS</span><span class="metric-icon">↗</span></div><div class="metric-value" id="stat-lps">0</div><div class="metric-note">Évolution de rang des joueurs</div></article>
+        <article class="metric"><div class="metric-heading"><span>MEILLEUR WINRATE</span><span class="metric-icon">◈</span></div><div class="metric-value" id="stat-wr">—</div><div class="metric-note" id="stat-wr-note">En attente des premières parties</div></article>
+      </section>
+
+      <section class="leaderboard section-panel" id="classement">
+        <div class="section-intro"><div><div class="section-kicker">01 <span></span> LEADERBOARD</div><h2>Le classement<span>.</span></h2><p id="ranking-description">Classement initial par rang, puis par progression nette en LP après synchronisation.</p></div><span id="player-total" class="roster-count">17 INVOCATEURS</span></div>
+        <div class="table-toolbar">
+          <label class="search-field"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="player-search" type="search" placeholder="Rechercher un joueur..." aria-label="Rechercher un joueur" /></label>
+          <div class="toolbar-right"><label class="select-wrap"><span>TRIER PAR</span><select id="sort-by" aria-label="Trier par"><option value="progression">Progression LP</option><option value="rank">Rang SoloQ</option><option value="games">Parties jouées</option><option value="winrate">Winrate</option></select></label><label class="select-wrap"><span>RANG</span><select id="filter-tier" aria-label="Filtrer par rang"><option value="all">Tous les rangs</option><option value="IRON">Fer</option><option value="BRONZE">Bronze</option><option value="SILVER">Argent</option><option value="GOLD">Or</option><option value="PLATINUM">Platine</option><option value="EMERALD">Émeraude</option><option value="DIAMOND">Diamant</option><option value="MASTER,GRANDMASTER,CHALLENGER">Master+</option></select></label></div>
+        </div>
+        <div class="table-container"><table id="players-table"><thead><tr><th>POS.</th><th>INVOCATEUR</th><th>RANG SOLOQ</th><th class="num">LP</th><th class="num">PARTIES</th><th class="num">V / D</th><th class="num">WINRATE</th><th class="num">LP NETS</th><th>SOURCE / DERNIER RELEVÉ</th><th class="link-col">OP.GG</th></tr></thead><tbody id="players-body"><tr><td colspan="10" class="loading-row">Chargement du classement…</td></tr></tbody></table></div>
+        <div class="leaderboard-foot"><span id="table-status">Données de référence · Non synchronisées</span><span><i class="legend-dot green"></i> Gain de LP <i class="legend-dot red"></i> Perte de LP</span></div>
+      </section>
+
+      <section class="bottom-grid" id="evolution">
+        <article class="section-panel progress-panel"><div class="section-kicker">02 <span></span> PERFORMANCE</div><div class="panel-head"><div><h2>Les plus gros <em>gains.</em></h2><p>Progression nette en LP depuis le début.</p></div><span class="mini-badge">TOP 5</span></div><div class="gain-list" id="gain-list"><p class="empty-state">Les résultats apparaîtront après synchronisation.</p></div></article>
+        <article class="section-panel history-panel"><div class="section-kicker">03 <span></span> HISTORIQUE</div><div class="panel-head"><div><h2>Au fil des <em>semaines.</em></h2><p>Relevés sauvegardés chaque semaine.</p></div><span class="mini-badge">ÉVOLUTION</span></div><div class="chart-space" id="history-chart"><p class="empty-state">L’historique se remplira au fil des semaines.</p></div><div id="history-legend" class="chart-legend"></div></article>
+      </section>
+      <section class="info-section" id="infos"><div><div class="section-kicker">04 <span></span> À PROPOS</div><h2>Chaque LP<br/>fait la <span>différence.</span></h2></div><div class="info-copy"><p>La période de calcul commence le <strong>31 octobre 2026 à 23h17, heure de Paris</strong>. Le rang et les LP de départ servent de référence ; les parties ne peuvent être comptées qu’à partir de la première lecture des compteurs SoloQ OP.GG. Les résultats antérieurs ne peuvent pas être reconstitués avec certitude.</p><p>La colonne « LP nets » compare le niveau classé actuel au rang et aux LP de départ, en tenant compte des changements de division. Ce n’est pas l’historique exact des gains et pertes à chaque match. Les rangs de départ ont été renseignés, mais la plupart ne sont pas certifiés à la minute près et une remise à zéro de saison peut affecter la comparaison.</p><p>Les rangs et LP peuvent être relevés sur les pages publiques OP.GG lorsque l’accès est permis ; sans clé officielle, aucun rafraîchissement ni disponibilité n’est garanti. Le site n’est pas affilié à Riot Games ou OP.GG.</p></div></section>
+    </main>
+    <footer><a class="brand footer-brand" href="#accueil"><span class="brand-mark">◈</span><span class="brand-text">SOLOQ<span>SPRINT</span></span></a><div>MADE FOR THE GRIND <span>✳</span> EUW</div><div>© 2026 SOLOQ SPRINT · <a href="https://op.gg/fr/lol" target="_blank" rel="noopener noreferrer">Source : OP.GG ↗</a></div></footer>
+  </div>
+</body></html>

@@ -1,0 +1,79 @@
+{
+  "startAt": "2026-10-31T22:17:00.000Z",
+  "snapshots": [
+    {
+      "week": 0,
+      "capturedAt": "2026-10-31T22:17:00.000Z",
+      "players": [
+        {
+          "id": "joueur-01",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-02",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-03",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-04",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-05",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-06",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-07",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-08",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-09",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-10",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-11",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-12",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-13",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-14",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-15",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-16",
+          "lpDelta": 0
+        },
+        {
+          "id": "joueur-17",
+          "lpDelta": 0
+        }
+      ]
+    }
+  ]
+}
