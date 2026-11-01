@@ -3,42 +3,37 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#080d18" />
+  <meta name="theme-color" content="#080b0a" />
   <meta name="description" content="SOLOQ SPRINT — Classement League of Legends EUW : rangs, LP, parties et progression depuis le 31 octobre 2026." />
-  <title>SoloQ Sprint — Classement EUW</title>
+  <title>OWS — Le tournoi SoloQ</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css?v=ows-1" />
   <script defer src="assets/app.js"></script>
 </head>
 <body>
   <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
   <div class="page">
     <header class="site-header">
-      <a class="brand" href="#accueil" aria-label="SoloQ Sprint, accueil">
-        <span class="brand-mark"><svg viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="M18 2 33 11v14L18 34 3 25V11L18 2Z" stroke="currentColor" stroke-width="1.8"/><path d="m10 23 8-12 8 12M13 19h10" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <span class="brand-text">SOLOQ<span>SPRINT</span><small>EUROPE WEST / TRACKER</small></span>
+      <a class="brand" href="#accueil" aria-label="OWS, accueil">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-text">OWS<small>LE TOURNOI SOLOQ</small></span>
       </a>
       <nav class="top-nav" aria-label="Navigation principale"><a href="#classement" class="active">Classement</a><a href="#evolution">Progression</a><a href="#infos">Infos</a></nav>
       <div class="header-side"><span class="region-chip"><span class="region-dot"></span> EUW</span><a class="header-link" href="#classement">Voir le classement <span aria-hidden="true">↗</span></a></div>
     </header>
 
     <main id="accueil">
-      <div class="eyebrow"><span class="eyebrow-line"></span> LE CHALLENGE SOLOQ <span class="eyebrow-season">/ SAISON 2026—27</span></div>
+      <div class="eyebrow"><span class="eyebrow-line"></span> L’ARÈNE DES INVOCATEURS <span class="eyebrow-season">/ EUW · 2026</span></div>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-text">
-          <h1 id="hero-title">La course<br /><span>au sommet<span class="title-period">.</span></span></h1>
+          <h1 id="hero-title">La course<br /><span>au sommet.</span></h1>
           <p>17 invocateurs. Une seule compétition. Chaque partie compte, chaque LP fait la différence.</p>
           <div class="hero-actions"><a href="#classement" class="button-primary">Découvrir le classement <span aria-hidden="true">↗</span></a><span class="start-label"><span class="live-pulse"></span> Départ : 31 oct. 2026 · 23:17</span></div>
         </div>
-        <div class="podium-scene" aria-label="Podium des trois premiers joueurs">
-          <div class="scene-grid"></div><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
-          <div class="podium-title"><span class="label-micro">TOP PLAYERS</span><span class="podium-season">SOLOQ / 2026</span></div>
-          <div id="podium" class="podium-players"><div class="podium-loading">Préparation du podium…</div></div>
-          <div class="podium-footer"><span>PROGRESSION TRACKER</span><span>01 / 03</span></div>
-        </div>
+        <figure class="ows-emblem"><img src="assets/ows-emblem.webp" width="1000" height="1000" alt="Emblème OWS : quatre oiseaux rubis, émeraude, améthyste et saphir réunis dans un cercle doré" fetchpriority="high" /><figcaption>UN TOURNOI. UNE PLACE AU SOMMET.</figcaption></figure>
       </section>
 
       <section class="status-strip" aria-label="Statut de synchronisation"><span id="sync-indicator" class="sync-light pending"></span><span id="sync-status">En attente de la première collecte OP.GG</span><span class="strip-separator"></span><span id="sync-date">Données de référence : 31 oct. 2026</span><span class="strip-spacer"></span><span class="auto-mention">↻ OP.GG : vérification quotidienne, si accessible</span><span id="baseline-coverage" class="coverage-note" title="Provenance des LP de départ">17 / 17 références renseignées</span></section>
@@ -51,6 +46,13 @@
         <article class="metric"><div class="metric-heading"><span>LP NETS CUMULÉS</span><span class="metric-icon">↗</span></div><div class="metric-value" id="stat-lps">0</div><div class="metric-note">Évolution de rang des joueurs</div></article>
         <article class="metric"><div class="metric-heading"><span>MEILLEUR WINRATE</span><span class="metric-icon">◈</span></div><div class="metric-value" id="stat-wr">—</div><div class="metric-note" id="stat-wr-note">En attente des premières parties</div></article>
       </section>
+
+      <section class="ows-podium" aria-label="Les trois premiers du tournoi">        <div class="podium-scene" aria-label="Podium des trois premiers joueurs">
+          <div class="scene-grid"></div><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+          <div class="podium-title"><span class="label-micro">LE CERCLE DES LEADERS</span><span class="podium-season">SOLOQ / 2026</span></div>
+          <div id="podium" class="podium-players"><div class="podium-loading">Préparation du podium…</div></div>
+          <div class="podium-footer"><span>LA CONQUÊTE DU SOMMET</span><span>01 / 03</span></div>
+        </div></section>
 
       <section class="leaderboard section-panel" id="classement">
         <div class="section-intro"><div><div class="section-kicker">01 <span></span> LEADERBOARD</div><h2>Le classement<span>.</span></h2><p id="ranking-description">Classement initial par rang, puis par progression nette en LP après synchronisation.</p></div><span id="player-total" class="roster-count">17 INVOCATEURS</span></div>
@@ -68,6 +70,6 @@
       </section>
       <section class="info-section" id="infos"><div><div class="section-kicker">04 <span></span> À PROPOS</div><h2>Chaque LP<br/>fait la <span>différence.</span></h2></div><div class="info-copy"><p>La période de calcul commence le <strong>31 octobre 2026 à 23h17, heure de Paris</strong>. Le rang et les LP de départ servent de référence ; les parties sont comptées selon leur date de début, avec leurs victoires et défaites. Les parties Flex et les remakes sont exclus. Le site conserve chaque partie retrouvée. Si l’historique public ne couvre pas toute la période, les totaux sont partiels et signalés comme tels.</p><p>La colonne « LP nets » compare le niveau classé actuel au rang et aux LP de départ, en tenant compte des changements de division. Ce n’est pas l’historique exact des gains et pertes à chaque match. Les rangs de départ ont été renseignés, mais la plupart ne sont pas certifiés à la minute près et une remise à zéro de saison peut affecter la comparaison.</p><p>Les rangs et LP peuvent être relevés sur les pages publiques OP.GG lorsque l’accès est permis ; sans clé officielle, aucun rafraîchissement ni disponibilité n’est garanti. Le site n’est pas affilié à Riot Games ou OP.GG.</p></div></section>
     </main>
-    <footer><a class="brand footer-brand" href="#accueil"><span class="brand-mark">◈</span><span class="brand-text">SOLOQ<span>SPRINT</span></span></a><div>MADE FOR THE GRIND <span>✳</span> EUW</div><div>© 2026 SOLOQ SPRINT · <a href="https://op.gg/fr/lol" target="_blank" rel="noopener noreferrer">Source : OP.GG ↗</a></div></footer>
+    <footer><a class="brand footer-brand" href="#accueil"><span class="brand-mark">◈</span><span class="brand-text">OWS</span></a><div>LA GLOIRE SE MÉRITE <span>✳</span> EUW</div><div>© 2026 OWS · <a href="https://op.gg/fr/lol" target="_blank" rel="noopener noreferrer">Source : OP.GG ↗</a></div></footer>
   </div>
 </body></html>
