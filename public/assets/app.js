@@ -23,7 +23,85 @@
   const initial = { players: [], source: 'baseline', updatedAt: null, startAt: '2026-10-31T22:17:00.000Z' };
   let data = initial;
   let history = { snapshots: [] };
+  let matchResults = { matches: [] };
+  let matchByPlayer = new Map();
+  let dragonVersion = '16.21.1'; // Version de secours, remplacée par la plus récente si disponible.
+  let officialChampionIds = new Map();
   let search = '', sortBy = 'progression', tierFilter = 'all';
+
+  // Seules les parties SoloQ (file 420) datées depuis le 31/10/2026 23h17 Paris sont comptées.
+  // Données saisies dans data/matches.json ; pas de scraping de l'historique OP.GG.
+  function prepareMatchStats() {
+    const players = new Set((data.players || []).map(p => p.id));
+    const found = new Map();
+    const seen = new Set();
+    const threshold = Date.parse(initial.startAt);
+    const futureLimit = Date.now() + 120 * 60 * 1000;
+    for (const m of (Array.isArray(matchResults.matches) ? matchResults.matches : [])) {
+      if (!m || !players.has(m.playerId) || m.queueId !== 420 || typeof m.id !== 'string' || !m.id.trim()) continue;
+      const time = typeof m.playedAt === 'string' && /(Z|[+-]\d{2}:\d{2})$/.test(m.playedAt) ? Date.parse(m.playedAt) : NaN;
+      if (!Number.isFinite(time) || time < threshold || time > futureLimit) continue;
+      if (!/^[a-zA-Z][a-zA-Z0-9]{1,29}$/.test(String(m.champion || '')) || !['V','D'].includes(m.result)) continue;
+      const key = `${m.playerId}:${m.id}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      if (!found.has(m.playerId)) found.set(m.playerId, []);
+      found.get(m.playerId).push({time, id:m.id, champion:m.champion, result:m.result});
+    }
+    matchByPlayer = new Map();
+    for (const [id, games] of found) {
+      games.sort((a,b) => b.time - a.time || b.id.localeCompare(a.id));
+      const counts = new Map();
+      for (const game of games) counts.set(game.champion, (counts.get(game.champion) || 0) + 1);
+      const champions = [...counts].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
+      matchByPlayer.set(id, { champions: champions.slice(0,3), form: games.slice(0,3).reverse().map(g => g.result), games: games.length });
+    }
+  }
+
+  function championPortraits(p, variant='table') {
+    const champs = matchByPlayer.get(p.id)?.champions;
+    if (!champs?.length) return ''; // Aucune partie : aucune icône, même pas un placeholder.
+    const icons = champs.map(([champion,count]) => {
+      const id = officialChampionIds.get(champion.toLowerCase()) || champion;
+      const url = `https://ddragon.leagueoflegends.com/cdn/${dragonVersion}/img/champion/${encodeURIComponent(id)}.png`;
+      return `<img class="champion-icon" src="${escaped(url)}" width="26" height="26" loading="lazy" alt="${escaped(champion)}" title="${escaped(champion)} · ${count} partie${count>1?'s':''} depuis le départ" />`;
+    }).join('');
+    return `<div class="player-champions ${variant==='podium'?'podium-champions':''}" aria-label="Champions les plus joués">${icons}</div>`;
+  }
+
+  function formBadges(p) {
+    const recent = matchByPlayer.get(p.id)?.form || [];
+    if (!recent.length) return '<div class="recent-form no-form" title="Aucune partie renseignée depuis le début">Forme : —</div>';
+    return `<div class="recent-form" title="Dernières parties SoloQ : de la plus ancienne à la plus récente"><span class="recent-form-label">FORME</span>${recent.map(r => `<span class="form-result ${r==='V'?'form-win':'form-loss'}" aria-label="${r==='V'?'Victoire':'Défaite'}">${r}</span>`).join('')}</div>`;
+  }
+
+  function competitionLeaders() {
+    const active = ['riot','opgg'].includes(data.source);
+    return [...(data.players || [])].filter(p => Number.isFinite(playerScore(p))).sort((a,b) => {
+      const aDelta = active && Number.isFinite(a.lpDelta) ? a.lpDelta : (active ? -Infinity : playerScore(a));
+      const bDelta = active && Number.isFinite(b.lpDelta) ? b.lpDelta : (active ? -Infinity : playerScore(b));
+      return bDelta - aDelta || playerScore(b) - playerScore(a) || riotId(a).localeCompare(riotId(b),'fr');
+    }).slice(0,3);
+  }
+
+  async function updateOfficialChampionRegistry() {
+    if (!matchByPlayer.size) return;
+    try {
+      const versions = await fetch('https://ddragon.leagueoflegends.com/api/versions.json');
+      if (!versions.ok) return;
+      const list = await versions.json();
+      const version = Array.isArray(list) && /^\d+\.\d+\.\d+$/.test(list[0]) ? list[0] : dragonVersion;
+      const response = await fetch(`https://ddragon.leagueoflegends.com/cdn/${version}/data/en_US/champion.json`);
+      if (!response.ok) return;
+      const metadata = await response.json();
+      const registry = new Map();
+      for (const champion of Object.values(metadata.data || {})) {
+        if (champion?.id) { registry.set(champion.id.toLowerCase(),champion.id); registry.set(String(champion.name||'').toLowerCase().replace(/[^a-z0-9]/g,''),champion.id); }
+      }
+      dragonVersion = version; officialChampionIds = registry;
+      renderPodium();renderTable();
+    } catch (error) {console.warn('Icônes Data Dragon : utilisation de la version de secours',error);}
+  }
 
   function sortedPlayers() {
     const all = [...(data.players || [])];
@@ -75,13 +153,13 @@
   }
 
   function renderPodium() {
-    const leaders = [...data.players].filter(p => Number.isFinite(playerScore(p))).sort((a,b) => playerScore(b) - playerScore(a)).slice(0,3);
+    const leaders = competitionLeaders();
     if (!leaders.length) { $('podium').innerHTML = '<div class="podium-loading">En attente du classement…</div>'; return; }
     const byPosition = [leaders[1],leaders[0],leaders[2]];
     $('podium').innerHTML = byPosition.map((p,i) => {
       if (!p) return '';
       const place = [2,1,3][i];
-      return `<div class="podium-item podium-${place===1?'first':place===2?'second':'third'}"><div class="podium-number">0${place}</div><div class="podium-avatar">${escaped(p.gameName.trim()[0]?.toUpperCase() || '?')}</div><div class="podium-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="podium-meta">${escaped(rankName(p))} · ${fmt(p.lp)} LP</div><div class="podium-step">0${place}</div></div>`;
+      return `<div class="podium-item podium-${place===1?'first':place===2?'second':'third'}"><div class="podium-number">0${place}</div><div class="podium-avatar">${escaped(p.gameName.trim()[0]?.toUpperCase() || '?')}</div><div class="podium-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="podium-meta">${escaped(rankName(p))} · ${fmt(p.lp)} LP</div>${championPortraits(p,'podium')}${formBadges(p)}<div class="podium-step">0${place}</div></div>`;
     }).join('');
   }
 
@@ -105,7 +183,7 @@
       const wr = p.games ? `${p.winrate.toFixed(1).replace('.',',')}%` : 'None';
       const tier = tierClasses[p.tier] || '';
       return `<tr><td><span class="rank-number ${index===1?'first':''}">${String(index).padStart(2,'0')}</span></td>
-        <td><div class="player-cell"><span class="player-avatar ${index<=3?'top':''}">${escaped(initials)}</span><div><div class="player-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="player-tag">#${escaped(p.tagLine)}</div><div class="origin-label ${p.baselineSource==='user'?'is-user':''}" title="${escaped(sourceDetails)}">${escaped(sourceLabel)}</div></div></div></td>
+        <td><div class="player-cell"><span class="player-avatar ${index<=3?'top':''}">${escaped(initials)}</span><div><div class="player-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="player-tag">#${escaped(p.tagLine)}</div>${championPortraits(p)}<div class="origin-label ${p.baselineSource==='user'?'is-user':''}" title="${escaped(sourceDetails)}">${escaped(sourceLabel)}</div></div></div></td>
         <td><span class="tier-pill ${tier}">${escaped(rankName(p))}</span></td>
         <td class="num"><span class="num-main">${fmt(p.lp)}</span></td>
         <td class="num"><span class="num-main">${fmt(p.games)}</span><div class="player-tag">${p.matchHistoryStatus==='covered'?'Depuis le départ (OP.GG)':p.matchHistoryStatus==='partial'?'Historique partiel':'Historique indisponible'}</div></td>
@@ -151,13 +229,19 @@
   $('sort-by').addEventListener('change', e => { sortBy=e.target.value;renderTable(); });
   $('filter-tier').addEventListener('change', e => { tierFilter=e.target.value;renderTable(); });
   async function load() {
-    if (window.SOLOQ_PREVIEW_DATA) { data=window.SOLOQ_PREVIEW_DATA.latest;history=window.SOLOQ_PREVIEW_DATA.history;render();return; }
+    if (window.SOLOQ_PREVIEW_DATA) { data=window.SOLOQ_PREVIEW_DATA.latest;history=window.SOLOQ_PREVIEW_DATA.history;matchResults=window.SOLOQ_PREVIEW_DATA.matches||{matches:[]};prepareMatchStats();render();return; }
     try {
       const r=await fetch('data/latest.json?ts='+Date.now(), {cache:'no-store'});
       if (!r.ok) throw new Error('Impossible de lire les données de classement');
       const payload=await r.json();
       if (!Array.isArray(payload.players)) throw new Error('Format invalide');
       data=payload;
+      try {
+        const m=await fetch('data/matches.json?ts='+Date.now(),{cache:'no-store'});
+        matchResults=m.ok ? await m.json() : {matches:[]};
+      } catch (e) {matchResults={matches:[]}; console.warn('Historique des matchs non disponible',e);}
+      prepareMatchStats();
+      updateOfficialChampionRegistry();
       try {const h=await fetch('data/history.json?ts='+Date.now(),{cache:'no-store'});if(h.ok)history=await h.json();} catch (e) {console.warn('Historique indisponible',e);}
       render();
     } catch(e) {console.error(e);$('sync-indicator').className='sync-light error';$('sync-status').textContent='Impossible de charger les données';$('players-body').innerHTML='<tr><td colspan="10" class="loading-row">Données indisponibles. Lancez un serveur web local ou publiez le site via GitHub Pages.</td></tr>';}
