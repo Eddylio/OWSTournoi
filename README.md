@@ -64,3 +64,26 @@ Site : <http://localhost:8000>.
 Il est impossible de promettre un suivi entièrement automatique et exact via OP.GG uniquement, sans accès garanti à des données fraîches et sans archive des parties au départ. Une première exécution en vrai sur GitHub Actions est nécessaire pour déterminer si la structure des fiches peut être lue. Si elle ne peut pas, le site continue à publier les valeurs précédentes, avec les liens OP.GG pour un contrôle manuel. N'augmentez pas la fréquence pour contourner une limitation.
 
 SOLOQ SPRINT est indépendant, non affilié à Riot Games ni OP.GG. **Source des statistiques disponibles : OP.GG (https://op.gg).**
+
+## Top 3, forme et portraits des champions (sans clé Riot)
+
+Le site affiche sur le **podium des 3 premiers** la forme des **trois dernières parties renseignées**, dans l'ordre **de la plus ancienne à la plus récente** : `V` pour victoire, `D` pour défaite. Sous les pseudos, jusqu'à **3 portraits de champions officiels** (Riot **Data Dragon**) apparaissent, classés par nombre de parties renseignées depuis le **31 octobre 2026 à 23h17 (Paris)**.
+
+**Sans match renseigné : aucune icône n'est affichée et la forme est « — ».** Le suivi de rang OP.GG existant ne fournit pas l'historique fiable des champions et résultats des matchs. Cette fonctionnalité utilise donc **uniquement `public/data/matches.json`**, sans clé Riot, sans scraping additionnel d'OP.GG. Ce fichier est une liste de matchs renseignés manuellement par l'organisateur, vérifiés sur les pages de match. Il ne faut jamais inventer des entrées.
+
+Pour ajouter une partie, sur GitHub ouvre `public/data/matches.json`, puis « Edit this file » et insère une ligne dans `matches` :
+
+```json
+{
+  "id": "EUW1_123456789",
+  "playerId": "joueur-01",
+  "playedAt": "2026-11-01T12:35:00Z",
+  "queueId": 420,
+  "champion": "Ahri",
+  "result": "V"
+}
+```
+
+Cet objet est **un exemple de format**, pas une partie réellement jouée ; il **n'est pas inclus** dans les données du site. Remplace chaque champ par les valeurs vérifiées. Utilise `joueur-01` à `joueur-17` tels qu'ils figurent dans `config/players.json`. `playedAt` est en ISO 8601 avec fuseau (`Z` pour UTC), `queueId` doit être `420` (Solo/Duo) et `champion` est l'identifiant Data Dragon anglais officiel (ex. `LeeSin`, `MissFortune`, `MonkeyKing`). Si plusieurs participants sont dans la même partie, chaque joueur a sa propre entrée avec le même `id` et un `playerId` différent. Les doublons d'un joueur sont ignorés, et les parties hors période ou hors SoloQ sont exclues.
+
+Les nouvelles entrées sont visibles après le prochain déploiement GitHub Pages. Les portraits proviennent de `https://ddragon.leagueoflegends.com` (CDN officiel), sans clé. Les statistiques de champions peuvent être **partielles** si l'organisateur n'a pas ajouté toutes les parties. Le nombre de parties et le winrate du tableau principal continuent d'utiliser l'ancien suivi et ne sont **pas automatiquement déduits** de ce registre manuel.
