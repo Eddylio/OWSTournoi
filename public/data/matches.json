@@ -1,6 +1,47 @@
 {
   "startAt": "2026-10-31T22:17:00.000Z",
-  "source": "manual-confirmed-matches",
-  "note": "Parties SoloQ vérifiées et renseignées manuellement. Aucune donnée inventée. Les icônes restent absentes sans parties.",
-  "matches": []
+  "source": "opgg-structured-history-and-confirmed-manual",
+  "note": "Matchs SoloQ datés et identifiés issus des relevés OP.GG ou ajoutés après confirmation. Portraits seulement si champion explicitement identifié. Historique potentiellement incomplet.",
+  "matches": [
+    {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOKJA1mxT8ZLIKAtV40aZr_CfpPx6XvKmC4=",
+      "playedAt": "2026-10-31T23:57:58.000Z",
+      "queueId": 420,
+      "result": "D",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOIq5kMYHeBxf1Fp4d6TYnN8EigKuD4iUMM=",
+      "playedAt": "2026-11-01T00:34:38.000Z",
+      "queueId": 420,
+      "result": "V",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-11",
+      "id": "ta1XN8oiMOLqCQSnLCJD3HrzhcyLw6DwHm-fgUiC0io=",
+      "playedAt": "2026-11-01T10:40:29.000Z",
+      "queueId": 420,
+      "result": "V",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-11",
+      "id": "ta1XN8oiMOJP6Jf--ba_DDzG7hqmzc1are46B5VkRF8=",
+      "playedAt": "2026-11-01T11:17:04.000Z",
+      "queueId": 420,
+      "result": "V",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-11",
+      "id": "ta1XN8oiMOKU_Ghm6W3Zpn5EHIrCKPs4BJFsNws-dd4=",
+      "playedAt": "2026-11-01T11:54:29.000Z",
+      "queueId": 420,
+      "result": "D",
+      "source": "opgg-structured-history"
+    }
+  ]
 }
