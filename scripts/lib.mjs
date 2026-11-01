@@ -10,7 +10,10 @@ export const BASE_START = '2026-10-31T22:17:00.000Z';
 export const START_SECONDS = Math.floor(Date.parse(BASE_START)/1000);
 export function viewOf(p, saved, status='baseline') {
   const b = p.baseline || {};
-  const current = saved?.rank || {tier:b.tier,division:b.division,lp:b.lp};
+  const rejected=b.disputedObservation;
+  const rankPending=!!rejected&&saved?.rank?.tier===rejected.tier&&saved?.rank?.division===rejected.division&&saved?.rank?.lp===rejected.lp&&
+    (!Number.isFinite(Date.parse(saved?.sourceUpdatedAt))||Date.parse(saved.sourceUpdatedAt)<=Date.parse(rejected.sourceUpdatedAt));
+  const current = (rankPending?null:saved?.rank) || {tier:b.tier,division:b.division,lp:b.lp};
   const baselineScore = scoreOf(b.tier,b.division,b.lp);
   const score=scoreOf(current.tier,current.division,current.lp);
   const games= status==='baseline' ? 0 : (saved?.wins||0)+(saved?.losses||0);
@@ -23,11 +26,11 @@ export function viewOf(p, saved, status='baseline') {
     division:rankKnown ? current.division : null,
     lp:rankKnown ? current.lp : null,
     score,baselineScore,baselineKnown:baselineScore!==null,
-    lpDelta: status==='baseline' ? 0 : baselineScore!==null&&score!==null ? score-baselineScore : null,
+    lpDelta: rankPending||status==='baseline' ? 0 : baselineScore!==null&&score!==null ? score-baselineScore : null,
     games,wins,losses,winrate: games ? Math.round(wins/games*1000)/10 : null,
     topChampions:saved?.topChampions??[],recentForm:saved?.recentForm??[],
     matchHistoryStatus:saved?.matchHistoryStatus??'unavailable',sourceUpdatedAt:saved?.sourceUpdatedAt??null,latestMatchAt:saved?.latestMatchAt??null,trackerStartsAt:saved?.trackerStartsAt??null,
-    status,baselineNote:b.note || '',baselineSource:b.sourceType||'previous',baselineSourceAt:b.sourceAt||null,baselineTier:b.tier,baselineDivision:b.division,baselineLp:b.lp,opggUrl:p.opggUrl||null,indexedReport:p.indexedReport||null,
+    rankPending,status:rankPending?'baseline':status,baselineNote:b.note || '',baselineSource:b.sourceType||'previous',baselineSourceAt:b.sourceAt||null,baselineTier:b.tier,baselineDivision:b.division,baselineLp:b.lp,opggUrl:p.opggUrl||null,indexedReport:p.indexedReport||null,
   };
 }
 export function makeBaseline(config) {

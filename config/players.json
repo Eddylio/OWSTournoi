@@ -99,12 +99,18 @@
       "tagLine": "EUW",
       "baseline": {
         "tier": "DIAMOND",
-        "division": "IV",
-        "lp": 3,
+        "division": "III",
+        "lp": 74,
         "checked": true,
-        "note": "Rang au début du tournoi corrigé par l’organisateur le 01/11/2026.",
+        "note": "Référence du début du tournoi corrigée par l’organisateur : Diamant III, 74 LP (01/11/2026). Ancien relevé OP.GG Diamant IV, 3 LP écarté ; rang actuel à confirmer jusqu’à un relevé plus récent.",
         "sourceType": "user",
-        "sourceAt": "01/11/2026"
+        "sourceAt": "01/11/2026",
+        "disputedObservation": {
+          "tier": "DIAMOND",
+          "division": "IV",
+          "lp": 3,
+          "sourceUpdatedAt": "2026-11-01T07:41:03+09:00"
+        }
       },
       "indexedReport": {
         "tier": "EMERALD",
