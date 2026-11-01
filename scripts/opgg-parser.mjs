@@ -29,7 +29,7 @@ function rankObject(o, context) {
   // OP.GG may put tier and rank into one field (e.g. 'GOLD IV').
   const combined=String(pick(o,['rank','tier','tierName','league'])??'');
   if(!tier){const m=combined.match(/\b(IRON|BRONZE|SILVER|GOLD|PLATINUM|EMERALD|DIAMOND|MASTER|GRANDMASTER|CHALLENGER)\s+(IV|III|II|I)\b/i);if(m){tier=tierOf(m[1]);division=divOf(m[2]);}}
-  if(!tier || lp===null || (!HIGH.has(tier)&&!division))return null;
+  if(!solo || !tier || lp===null || (!HIGH.has(tier)&&!division))return null;
   const wins=countOf(pick(o,['wins','win','winCount','win_count']));
   const losses=countOf(pick(o,['losses','lose','loss','loseCount','loss_count']));
   return {tier,division:HIGH.has(tier)?null:division,lp,wins,losses,score:solo?5:(context==='root'?0:1)};
@@ -57,21 +57,23 @@ function parseJsonScripts(html) {
   return candidates;
 }
 function textCandidates(html){
-  const stripped=decode(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ');
+  const stripped=decode(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' '))
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ');
   const out=[];
-  // Require an explicit Solo/Duo heading in a short window to avoid reading Flex.
-  const headings=[...stripped.matchAll(/(?:ranked\s+solo(?:\s*\/\s*duo)?|solo\s*\/\s*duo|classe(?:e|ment)?\s+solo(?:\s*\/\s*duo)?)/gi)];
-  const pattern=/(IRON|FER|BRONZE|SILVER|ARGENT|GOLD|OR|PLATINUM|PLATINE|EMERALD|EMERAUDE|DIAMOND|DIAMANT|MASTER|MAITRE|GRANDMASTER|CHALLENGER)\s*(IV|III|II|I)?\s*(\d{1,4})\s*LP\b/gi;
+  // Only accept a rank immediately after the queue label. A wide window can
+  // cross into Flex, season history or the player's peak ("Top Tier").
+  const headings=[...stripped.matchAll(/(?:ranked\s+solo(?:\s*\/\s*duo)?|solo\s*\/\s*duo|classe(?:e|ment)?\s+(?:en\s+)?solo(?:\s*\/\s*duo)?)/gi)];
+  const pattern=/^\s*(GRAND\s*MASTER|GRAND\s*MAITRE|CHALLENGER|MASTER|MAITRE|IRON|FER|BRONZE|SILVER|ARGENT|GOLD|OR|PLATINUM|PLATINE|EMERALD|EMERAUDE|DIAMOND|DIAMANT)\s*(IV|III|II|I|[1-4])?\s+(\d{1,4})\s*LP\b/i;
   for(const heading of headings){
-    const clip=stripped.slice(heading.index,heading.index+500);
-    for(const found of clip.matchAll(pattern)){
-      const tier=tierOf(found[1]),division=divOf(found[2]),lp=Number(found[3]);
-      if(!tier || (!division&&!HIGH.has(tier)))continue;
-      const near=clip.slice(found.index,found.index+180);
-      const record=near.match(/(\d{1,4})\s*(?:W|V|victoires?)\s*(\d{1,4})\s*(?:L|D|defaites?)/i);
-      out.push({tier,division:HIGH.has(tier)?null:division,lp,wins:record?Number(record[1]):null,losses:record?Number(record[2]):null,score:2});
-      break;
-    }
+    const clip=stripped.slice(heading.index+heading[0].length,heading.index+heading[0].length+200);
+    const found=clip.match(pattern);
+    if(!found)continue;
+    const tier=tierOf(clean(found[1]).replace(/\s/g,'').replace('GRANDMAITRE','GRANDMASTER'));
+    const division=divOf(found[2]),lp=lpOf(found[3]);
+    if(!tier || lp===null || (!division&&!HIGH.has(tier)))continue;
+    // Counters must directly follow this rank, never a peak or another queue.
+    const record=clip.slice(found[0].length).match(/^\s*(\d{1,4})\s*(?:victoires?|wins?|W|V)\s*(\d{1,4})\s*(?:defaites?|losses|L|D)\b/i);
+    out.push({tier,division:HIGH.has(tier)?null:division,lp,wins:record?Number(record[1]):null,losses:record?Number(record[2]):null,score:2});
   }
   return out;
 }
