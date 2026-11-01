@@ -13,7 +13,12 @@ export function parseMatchHistory(html, riotId){
       const p=Object.fromEntries((x.additionalProperty??[]).map(v=>[v.name,v.value]));
       const time=Date.parse(x.startTime);
       if(typeof p.matchId!=='string'||!p.matchId||!Number.isFinite(time)||!p.queueType||!p.result)continue;
-      matches.push({id:p.matchId,startAt:new Date(time).toISOString(),queue:p.queueType,result:p.result});
+      // Champion uniquement s'il figure explicitement dans les propriétés de la partie OP.GG.
+      // Ne jamais le déduire de la maîtrise, des champions saisonniers ou du nom du joueur.
+      const rawChampion=(x.additionalProperty??[]).find(v=>/^(champion|championName|playedChampion)$/i.test(String(v?.name??'')))?.value;
+      const champion=typeof rawChampion==='string'?rawChampion.replace(/[^a-zA-Z0-9]/g,''):null;
+      matches.push({id:p.matchId,startAt:new Date(time).toISOString(),queue:p.queueType,result:p.result,
+        ...(champion&&/^[A-Za-z][A-Za-z0-9]{1,29}$/.test(champion)?{champion}:{})});
     }
     return {matches,valid:matches.length===list.itemListElement.length&&matches.length>0,
       sourceUpdatedAt:graph.find(x=>x['@type']==='ProfilePage')?.dateModified??null};
@@ -23,7 +28,7 @@ export function parseMatchHistory(html, riotId){
 export function updateMatches(previous, history, now){
   const old=previous.matchLedger??{};
   const ledger={...old};
-  for(const m of history.matches)ledger[m.id]=m;
+  for(const m of history.matches)ledger[m.id]={...old[m.id],...m};
   // Retain recent pre-start matches too: they establish overlap on later reads.
   const timestamps=history.matches.map(x=>Date.parse(x.startAt));
   const oldest=Math.min(...timestamps),newest=Math.max(...timestamps);
