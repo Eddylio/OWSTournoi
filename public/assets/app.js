@@ -41,18 +41,19 @@
       if (!m || !players.has(m.playerId) || m.queueId !== 420 || typeof m.id !== 'string' || !m.id.trim()) continue;
       const time = typeof m.playedAt === 'string' && /(Z|[+-]\d{2}:\d{2})$/.test(m.playedAt) ? Date.parse(m.playedAt) : NaN;
       if (!Number.isFinite(time) || time < threshold || time > futureLimit) continue;
-      if (!/^[a-zA-Z][a-zA-Z0-9]{1,29}$/.test(String(m.champion || '')) || !['V','D'].includes(m.result)) continue;
+      if (!['V','D'].includes(m.result)) continue; // Les résultats restent visibles si le champion n'est pas disponible.
       const key = `${m.playerId}:${m.id}`;
       if (seen.has(key)) continue;
       seen.add(key);
       if (!found.has(m.playerId)) found.set(m.playerId, []);
-      found.get(m.playerId).push({time, id:m.id, champion:m.champion, result:m.result});
+      const champion=/^[a-zA-Z][a-zA-Z0-9]{1,29}$/.test(String(m.champion??''))?m.champion:null;
+      found.get(m.playerId).push({time, id:m.id, champion, result:m.result});
     }
     matchByPlayer = new Map();
     for (const [id, games] of found) {
       games.sort((a,b) => b.time - a.time || b.id.localeCompare(a.id));
       const counts = new Map();
-      for (const game of games) counts.set(game.champion, (counts.get(game.champion) || 0) + 1);
+      for (const game of games) if (game.champion) counts.set(game.champion, (counts.get(game.champion) || 0) + 1);
       const champions = [...counts].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
       matchByPlayer.set(id, { champions: champions.slice(0,3), form: games.slice(0,3).reverse().map(g => g.result), games: games.length });
     }
