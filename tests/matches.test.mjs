@@ -28,7 +28,7 @@ test('lit le JSON-LD public avec identité, résultat et fuseau horaire vérifi�
 });
 test('les références corrigées remettent les LP nets à zéro',()=>{
  const cfg=JSON.parse(readFileSync(new URL('../config/players.json',import.meta.url)));
- for(const [name,tier,division,lp] of [['0nil0','DIAMOND','III',74],['ciron','EMERALD','I',28]]){
+ for(const [name,tier,division,lp] of [['0nil0','DIAMOND','IV',3],['no hwei','DIAMOND','III',74],['ciron','EMERALD','I',28]]){
   const p=cfg.players.find(x=>x.gameName===name);assert.deepEqual([p.baseline.tier,p.baseline.division,p.baseline.lp],[tier,division,lp]);
   assert.equal(viewOf(p,{rank:{tier,division,lp}},'ok').lpDelta,0);
  }
@@ -47,8 +47,8 @@ test('champions du tournoi uniquement, classement par fréquence et forme chrono
  assert.deepEqual(summary.recentForm.map(x=>x.result),['V','D','V','D','V']);
  assert.deepEqual(summarizeMatches({}),{topChampions:[],recentForm:[]});
 });
-test('écarte le relevé contesté de 0nil0 sans bloquer une observation plus récente',()=>{
- const cfg=JSON.parse(readFileSync(new URL('../config/players.json',import.meta.url)));const p=cfg.players.find(x=>x.gameName==='0nil0');
+test('écarte un relevé contesté sans bloquer une observation plus récente',()=>{
+ const p={id:'fixture',gameName:'Test',tagLine:'EUW',baseline:{tier:'DIAMOND',division:'III',lp:74,disputedObservation:{tier:'DIAMOND',division:'IV',lp:3,sourceUpdatedAt:'2026-10-31T22:41:03Z'}}};
  const rank={tier:'DIAMOND',division:'IV',lp:3};
  const stale=viewOf(p,{rank,sourceUpdatedAt:'2026-10-31T22:41:03Z'},'ok');
  assert.equal(stale.lpDelta,0);assert.equal(stale.division,'III');assert.equal(stale.lp,74);assert.equal(stale.rankPending,true);

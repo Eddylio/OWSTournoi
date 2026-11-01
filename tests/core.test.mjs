@@ -28,7 +28,7 @@ test('Départ à zéro et None, LP de départ inconnu',()=>{
   assert.ok(b.players.every(p=>p.games===0&&p.lpDelta===0&&p.winrate===null));
   assert.equal(b.players.filter(p=>p.baselineKnown===false).length,0);
   assert.equal(b.players.find(p=>p.gameName==='WRATH').lp,14);
-  assert.equal(b.players.find(p=>p.gameName==='0nil0').lp,74);
+  assert.equal(b.players.find(p=>p.gameName==='0nil0').lp,3);
   assert.equal(b.players.find(p=>p.gameName==='ShadowPhen').lp,24);
   assert.equal(b.players.find(p=>p.gameName==='ShadowPhen').division,'IV');
   assert.equal(b.players.find(p=>p.gameName==='TheBerserker226').lp,7);

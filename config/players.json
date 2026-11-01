@@ -99,18 +99,12 @@
       "tagLine": "EUW",
       "baseline": {
         "tier": "DIAMOND",
-        "division": "III",
-        "lp": 74,
+        "division": "IV",
+        "lp": 3,
         "checked": true,
-        "note": "Référence du début du tournoi corrigée par l’organisateur : Diamant III, 74 LP (01/11/2026). Ancien relevé OP.GG Diamant IV, 3 LP écarté ; rang actuel à confirmer jusqu’à un relevé plus récent.",
+        "note": "Référence confirmée par l’organisateur : Diamant IV, 3 LP. Correction Diamant III, 74 LP annulée car elle concernait no hwei.",
         "sourceType": "user",
-        "sourceAt": "01/11/2026",
-        "disputedObservation": {
-          "tier": "DIAMOND",
-          "division": "IV",
-          "lp": 3,
-          "sourceUpdatedAt": "2026-11-01T07:41:03+09:00"
-        }
+        "sourceAt": "01/11/2026"
       },
       "indexedReport": {
         "tier": "EMERALD",
@@ -299,11 +293,12 @@
       "tagLine": "cqfd",
       "baseline": {
         "tier": "DIAMOND",
-        "division": "II",
-        "lp": 18,
+        "division": "III",
+        "lp": 74,
         "checked": true,
-        "note": "Fiche OP.GG — maj il y a 5 h",
-        "sourceType": "previous"
+        "note": "Référence du début du tournoi corrigée par l’organisateur : Diamant III, 74 LP (01/11/2026).",
+        "sourceType": "user",
+        "sourceAt": "01/11/2026"
       },
       "indexedReport": {
         "tier": "DIAMOND",
