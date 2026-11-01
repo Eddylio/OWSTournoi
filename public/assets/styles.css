@@ -31,3 +31,20 @@ body{background:radial-gradient(ellipse at 82% 12%,#17201855,transparent 38%),#0
 @media(max-width:1100px){.page{padding:0 32px}.hero{min-height:480px}.hero-text h1{font-size:86px}.ows-emblem{margin:0}.podium-players{gap:24px}}
 @media(max-width:930px){.hero{grid-template-columns:1fr 1fr;gap:0;min-height:420px}.hero-text h1{font-size:69px}.hero-text p{font-size:12px}.ows-emblem figcaption{font-size:6px;letter-spacing:2px}.hero-actions{gap:20px}.site-header{height:90px}.info-section h2{font-size:46px}}
 @media(max-width:650px){.page{padding:0 18px}.site-header{height:82px}.brand-text{font-size:30px;letter-spacing:4px}.brand-text small{font-size:7px;letter-spacing:2px}.brand-mark{font-size:30px}.eyebrow{margin-top:30px;letter-spacing:1.5px;font-size:8px}.eyebrow-season{font-size:8px}.hero{display:flex;flex-direction:column;gap:0;padding-top:26px;padding-bottom:32px}.hero-text{width:100%}.hero-text h1{font-size:76px;letter-spacing:-2px;line-height:.94;margin-bottom:22px}.hero-text p{font-size:13px;max-width:310px}.hero-actions{margin-top:24px}.ows-emblem{width:100%;max-width:390px;margin:15px 0 0}.ows-emblem figcaption{font-size:7px;letter-spacing:2.5px}.metric{padding:17px 13px;min-height:132px}.metric-value{font-size:36px}.metric-heading{font-size:8px}.metric-note{font-size:10px}.overview{gap:8px}.ows-podium .podium-scene{height:290px;padding:20px 12px}.podium-players{gap:8px}.podium-name{font-size:10px}.podium-title,.podium-footer{font-size:7px;letter-spacing:1px}.section-intro h2{font-size:34px}.section-intro{align-items:flex-start}.roster-count{font-size:7px;padding:7px;margin-top:5px}#players-table tbody tr{background:#131a11;border-color:#3b432e;border-radius:1px}#players-table tbody tr:hover{background:#1c2317}#players-table td:nth-child(6){display:block;grid-column:1 / -1;grid-row:5;text-align:left;color:#bdc8ac;border-top:1px solid #36412b;padding-top:7px!important}#players-table td:nth-child(6):before{content:'VICTOIRES / DÉFAITES  ';font-size:8px;color:#9ba789;margin-right:12px}#players-table td:nth-child(4):before,#players-table td:nth-child(5):before,#players-table td:nth-child(7):before,#players-table td:nth-child(8):before,#players-table td:nth-child(9):before{color:#a2ac8e}.info-section h2{font-size:46px}.footer-brand .brand-text{font-size:25px}.info-copy p{font-size:12px}.verify-warning{margin-top:14px}.verify-warning p{font-size:10px}}
+
+/* Historique des champions officiels (Data Dragon) et forme récente */
+.player-champions{display:flex;align-items:center;gap:4px;margin-top:7px;min-height:0}
+.champion-icon{width:26px;height:26px;object-fit:cover;border:1px solid var(--line);border-radius:6px;background:var(--panel-2);box-shadow:0 1px 5px #0005}
+.podium-item{gap:5px}
+.podium-scene{height:397px}
+.podium-players{height:284px}
+.podium-champions{margin-top:1px;justify-content:center}
+.podium-champions .champion-icon{width:29px;height:29px}
+.recent-form{display:flex;align-items:center;justify-content:center;gap:4px;min-height:21px;white-space:nowrap}
+.recent-form-label{font-weight:800;font-size:8px;letter-spacing:.6px;color:var(--muted);margin-right:2px}
+.form-result{font-size:10px;min-width:20px;line-height:20px;text-align:center;border-radius:5px;font-weight:900}
+.form-win{color:#111a12;background:#b2f08c}
+.form-loss{color:#ffebef;background:#a33950}
+.no-form{font-size:9px;color:var(--muted)}
+.match-note{color:var(--muted);font-size:10px;margin:8px 2px 13px;line-height:1.5}
+@media(max-width:650px){.podium-scene{height:401px}.podium-players{height:288px}.podium-item{gap:5px}.podium-champions .champion-icon{width:23px;height:23px}.player-champions .champion-icon{width:23px;height:23px}}
