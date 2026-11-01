@@ -28,7 +28,7 @@ export function parseMatchHistory(html, riotId){
 export function updateMatches(previous, history, now){
   const old=previous.matchLedger??{};
   const ledger={...old};
-  for(const m of history.matches)ledger[m.id]={...old[m.id],...m};
+  for(const m of history.matches){const clean=Object.fromEntries(Object.entries(m).filter(([,v])=>v!==undefined));ledger[m.id]={...old[m.id],...clean};}
   // Retain recent pre-start matches too: they establish overlap on later reads.
   const timestamps=history.matches.map(x=>Date.parse(x.startAt));
   const oldest=Math.min(...timestamps),newest=Math.max(...timestamps);
