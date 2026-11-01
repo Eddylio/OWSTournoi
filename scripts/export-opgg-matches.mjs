@@ -4,7 +4,8 @@
 import {readFileSync, writeFileSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
 const getJson=(url)=>JSON.parse(readFileSync(url,'utf8'));
-const normalizeChampion=(x)=>typeof x==='string' && /^[A-Za-z][A-Za-z0-9]{1,29}$/.test(x.replace(/[^A-Za-z0-9]/g,''))?x.replace(/[^A-Za-z0-9]/g,''):null;
+import {resolveChampion} from './opgg-matches.mjs';
+const normalizeChampion=x=>resolveChampion(x)?.id??null;
 export function buildMatchFeed(config,state,existing={matches:[]}) {
   const start=Date.parse(config.startAt);
   if(!Number.isFinite(start)) throw new Error('Date de tournoi invalide');

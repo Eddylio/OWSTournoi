@@ -33,3 +33,17 @@ test('les références corrigées remettent les LP nets à zéro',()=>{
   assert.equal(viewOf(p,{rank:{tier,division,lp}},'ok').lpDelta,0);
  }
 });
+test('champions du tournoi uniquement, classement par fréquence et forme chronologique',async()=>{
+ const {summarizeMatches}=await import('../scripts/opgg-matches.mjs');
+ const ledger={};
+ for(let i=0;i<7;i++)ledger[i]={...match(String(i),`2026-11-01T0${i}:00:00Z`,i%2?'LOSE':'WIN'),champion:i<4?'Séraphine':'Ahri'};
+ ledger.old={...match('old','2026-10-30T12:00:00Z'),champion:'Leona'};
+ ledger.flex={...match('flex','2026-11-01T12:00:00Z','WIN','FLEXRANKED'),champion:'Leona'};
+ ledger.remake={...match('remake','2026-11-01T12:00:00Z','REMAKE'),champion:'Leona'};
+ const summary=summarizeMatches(ledger);
+ assert.equal(summary.topChampions[0].id,'Seraphine');assert.equal(summary.topChampions[0].games,4);
+ assert.equal(summary.topChampions[1].games,3);assert.equal(summary.topChampions.length,2);
+ assert.ok(summary.topChampions[0].icon.startsWith('https://ddragon.leagueoflegends.com/'));
+ assert.deepEqual(summary.recentForm.map(x=>x.result),['V','D','V','D','V']);
+ assert.deepEqual(summarizeMatches({}),{topChampions:[],recentForm:[]});
+});

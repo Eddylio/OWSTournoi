@@ -9,6 +9,7 @@
       "playedAt": "2026-10-31T23:57:58.000Z",
       "queueId": 420,
       "result": "D",
+      "champion": "Gnar",
       "source": "opgg-structured-history"
     },
     {
@@ -17,6 +18,7 @@
       "playedAt": "2026-11-01T00:34:38.000Z",
       "queueId": 420,
       "result": "V",
+      "champion": "Yasuo",
       "source": "opgg-structured-history"
     },
     {
@@ -25,6 +27,7 @@
       "playedAt": "2026-11-01T10:40:29.000Z",
       "queueId": 420,
       "result": "V",
+      "champion": "DrMundo",
       "source": "opgg-structured-history"
     },
     {
@@ -33,6 +36,7 @@
       "playedAt": "2026-11-01T11:17:04.000Z",
       "queueId": 420,
       "result": "V",
+      "champion": "Yunara",
       "source": "opgg-structured-history"
     },
     {
@@ -41,6 +45,7 @@
       "playedAt": "2026-11-01T11:54:29.000Z",
       "queueId": 420,
       "result": "D",
+      "champion": "Jhin",
       "source": "opgg-structured-history"
     }
   ]

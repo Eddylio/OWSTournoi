@@ -30,7 +30,7 @@
   let search = '', sortBy = 'progression', tierFilter = 'all';
 
   // Seules les parties SoloQ (file 420) datées depuis le 31/10/2026 23h17 Paris sont comptées.
-  // Données saisies dans data/matches.json ; pas de scraping de l'historique OP.GG.
+  // Registre exporté depuis les parties OP.GG et les matchs confirmés.
   function prepareMatchStats() {
     const players = new Set((data.players || []).map(p => p.id));
     const found = new Map();
@@ -55,7 +55,7 @@
       const counts = new Map();
       for (const game of games) if (game.champion) counts.set(game.champion, (counts.get(game.champion) || 0) + 1);
       const champions = [...counts].sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]));
-      matchByPlayer.set(id, { champions: champions.slice(0,3), form: games.slice(0,3).reverse().map(g => g.result), games: games.length });
+      matchByPlayer.set(id, { champions: champions.slice(0,3), form: games.slice(0,5).reverse().map(g => g.result), games: games.length });
     }
   }
 
@@ -72,7 +72,7 @@
 
   function formBadges(p) {
     const recent = matchByPlayer.get(p.id)?.form || [];
-    if (!recent.length) return '<div class="recent-form no-form" title="Aucune partie renseignée depuis le début">Forme : —</div>';
+    if (!recent.length) return '';
     return `<div class="recent-form" title="Dernières parties SoloQ : de la plus ancienne à la plus récente"><span class="recent-form-label">FORME</span>${recent.map(r => `<span class="form-result ${r==='V'?'form-win':'form-loss'}" aria-label="${r==='V'?'Victoire':'Défaite'}">${r}</span>`).join('')}</div>`;
   }
 
@@ -128,7 +128,7 @@
     const indicator = $('sync-indicator');
     indicator.className = 'sync-light ' + (live ? '' : 'pending');
     $('sync-status').textContent = live ? (data.source==='opgg' ? 'Collecte OP.GG expérimentale' : 'Synchronisation Riot') : 'Références de départ · Collecte OP.GG non encore vérifiée';
-    $('sync-date').textContent = live ? 'Dernière collecte partielle : ' + new Date(data.updatedAt).toLocaleString('fr-FR', {timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'}) : 'Références du 31 oct. 2026 · Non actualisées';
+    $('sync-date').textContent = live ? 'Dernière lecture OP.GG : ' + new Date(data.updatedAt).toLocaleString('fr-FR', {timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'}) : 'Références du 31 oct. 2026 · Non actualisées';
     const baselines = (data.players || []).filter(p => p.baselineKnown).length;
     $('baseline-coverage').textContent = `${baselines} / ${data.players.length} références renseignées`;
     $('baseline-coverage').title = 'Références de départ parfois estimées ; attention à la comparaison de LP.';
@@ -160,7 +160,7 @@
     $('podium').innerHTML = byPosition.map((p,i) => {
       if (!p) return '';
       const place = [2,1,3][i];
-      return `<div class="podium-item podium-${place===1?'first':place===2?'second':'third'}"><div class="podium-number">0${place}</div><div class="podium-avatar">${escaped(p.gameName.trim()[0]?.toUpperCase() || '?')}</div><div class="podium-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="podium-meta">${escaped(rankName(p))} · ${fmt(p.lp)} LP</div>${championPortraits(p,'podium')}${formBadges(p)}<div class="podium-step">0${place}</div></div>`;
+      return `<div class="podium-item podium-${place===1?'first':place===2?'second':'third'}"><div class="podium-number">0${place}</div><div class="podium-avatar">${escaped(p.gameName.trim()[0]?.toUpperCase() || '?')}</div><div class="podium-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="podium-meta">${escaped(rankName(p))} · ${fmt(p.lp)} LP</div><div class="podium-progress">${relative(p.lpDelta)} <small>LP NETS</small></div>${championPortraits(p,'podium')}${formBadges(p)}<div class="podium-step">0${place}</div></div>`;
     }).join('');
   }
 
@@ -184,7 +184,7 @@
       const wr = p.games ? `${p.winrate.toFixed(1).replace('.',',')}%` : 'None';
       const tier = tierClasses[p.tier] || '';
       return `<tr><td><span class="rank-number ${index===1?'first':''}">${String(index).padStart(2,'0')}</span></td>
-        <td><div class="player-cell"><span class="player-avatar ${index<=3?'top':''}">${escaped(initials)}</span><div><div class="player-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="player-tag">#${escaped(p.tagLine)}</div>${championPortraits(p)}<div class="origin-label ${p.baselineSource==='user'?'is-user':''}" title="${escaped(sourceDetails)}">${escaped(sourceLabel)}</div></div></div></td>
+        <td><div class="player-cell"><span class="player-avatar ${index<=3?'top':''}">${escaped(initials)}</span><div><div class="player-name" title="${escaped(riotId(p))}">${escaped(p.gameName)}</div><div class="player-tag">#${escaped(p.tagLine)}</div>${championPortraits(p)}${formBadges(p)}<div class="origin-label ${p.baselineSource==='user'?'is-user':''}" title="${escaped(sourceDetails)}">${escaped(sourceLabel)}</div></div></div></td>
         <td><span class="tier-pill ${tier}">${escaped(rankName(p))}</span></td>
         <td class="num"><span class="num-main">${fmt(p.lp)}</span></td>
         <td class="num"><span class="num-main">${fmt(p.games)}</span><div class="player-tag">${p.matchHistoryStatus==='covered'?'Depuis le départ (OP.GG)':p.matchHistoryStatus==='partial'?'Historique partiel':'Historique indisponible'}</div></td>

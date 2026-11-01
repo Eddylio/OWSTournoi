@@ -25,6 +25,7 @@ export function viewOf(p, saved, status='baseline') {
     score,baselineScore,baselineKnown:baselineScore!==null,
     lpDelta: status==='baseline' ? 0 : baselineScore!==null&&score!==null ? score-baselineScore : null,
     games,wins,losses,winrate: games ? Math.round(wins/games*1000)/10 : null,
+    topChampions:saved?.topChampions??[],recentForm:saved?.recentForm??[],
     matchHistoryStatus:saved?.matchHistoryStatus??'unavailable',sourceUpdatedAt:saved?.sourceUpdatedAt??null,latestMatchAt:saved?.latestMatchAt??null,trackerStartsAt:saved?.trackerStartsAt??null,
     status,baselineNote:b.note || '',baselineSource:b.sourceType||'previous',baselineSourceAt:b.sourceAt||null,baselineTier:b.tier,baselineDivision:b.division,baselineLp:b.lp,opggUrl:p.opggUrl||null,indexedReport:p.indexedReport||null,
   };

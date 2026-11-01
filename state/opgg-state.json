@@ -19,61 +19,71 @@
           "id": "ta1XN8oiMOJAURNu5_LWK_zVkdeUlfM-V2_yEhO3f1Q=",
           "startAt": "2026-10-31T10:23:11.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Leona"
         },
         "ta1XN8oiMOJruzSUL9AwXmxmCHiYCGYcMrp2FrZiOjI=": {
           "id": "ta1XN8oiMOJruzSUL9AwXmxmCHiYCGYcMrp2FrZiOjI=",
           "startAt": "2026-10-30T21:59:36.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "JarvanIV"
         },
         "ta1XN8oiMOIWMYcgR6VQKq_XBxraho1QsX_a2QdFvmQ=": {
           "id": "ta1XN8oiMOIWMYcgR6VQKq_XBxraho1QsX_a2QdFvmQ=",
           "startAt": "2026-10-30T21:19:52.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Lux"
         },
         "ta1XN8oiMOK1f4cv3Qv3BnzDm8KOKsggxs86fek5xcI=": {
           "id": "ta1XN8oiMOK1f4cv3Qv3BnzDm8KOKsggxs86fek5xcI=",
           "startAt": "2026-10-30T20:49:57.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOJYeqJz-oM6C-P-ai8BYV_Ci8mEB275kuM=": {
           "id": "ta1XN8oiMOJYeqJz-oM6C-P-ai8BYV_Ci8mEB275kuM=",
           "startAt": "2026-10-30T19:38:17.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Lulu"
         },
         "ta1XN8oiMOJeVuz_tU2-yiZBumVjLXvb96Uyot_GPc4=": {
           "id": "ta1XN8oiMOJeVuz_tU2-yiZBumVjLXvb96Uyot_GPc4=",
           "startAt": "2026-10-30T19:01:26.000Z",
           "queue": "FLEXRANKED",
-          "result": "REMAKE"
+          "result": "REMAKE",
+          "champion": "Lulu"
         },
         "ta1XN8oiMOIKUiCCuNAp_YRQCTlFQ-_UP8nZVKRffa4=": {
           "id": "ta1XN8oiMOIKUiCCuNAp_YRQCTlFQ-_UP8nZVKRffa4=",
           "startAt": "2026-10-30T17:19:32.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Leona"
         },
         "ta1XN8oiMOL8xFpgy0JkKForK66bPK_k_pAH3gu4FvU=": {
           "id": "ta1XN8oiMOL8xFpgy0JkKForK66bPK_k_pAH3gu4FvU=",
           "startAt": "2026-10-30T16:41:49.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Swain"
         },
         "ta1XN8oiMOJBfbyBEVrL8Oa8qYlmEt5ocm5asbByAJA=": {
           "id": "ta1XN8oiMOJBfbyBEVrL8Oa8qYlmEt5ocm5asbByAJA=",
           "startAt": "2026-10-30T16:01:28.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOKBNDgtanO8wc9mLt_r8HP4LCQlauNlFQs=": {
           "id": "ta1XN8oiMOKBNDgtanO8wc9mLt_r8HP4LCQlauNlFQs=",
           "startAt": "2026-10-30T10:34:14.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Poppy"
         }
       },
       "matchCoverageWindows": [
@@ -86,7 +96,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-10-26T23:55:09+09:00",
-      "latestMatchAt": "2026-10-31T10:23:11.000Z"
+      "latestMatchAt": "2026-10-31T10:23:11.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-02": {
       "lastSeasonWins": 44,
@@ -107,61 +119,71 @@
           "id": "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=",
           "startAt": "2026-10-26T21:53:23.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Nocturne"
         },
         "ta1XN8oiMOKuPg0yf_TL59srkEropHxGsMQI9ueCRHs=": {
           "id": "ta1XN8oiMOKuPg0yf_TL59srkEropHxGsMQI9ueCRHs=",
           "startAt": "2026-10-26T20:57:34.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Camille"
         },
         "ta1XN8oiMOI98VgPDACJLMLgRS69DAgJEekHPn5Xdhc=": {
           "id": "ta1XN8oiMOI98VgPDACJLMLgRS69DAgJEekHPn5Xdhc=",
           "startAt": "2026-10-26T20:14:16.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Zaahen"
         },
         "ta1XN8oiMOLokSDcqp0qkuWSXwh5h9QEc3RLMn-ZHK0=": {
           "id": "ta1XN8oiMOLokSDcqp0qkuWSXwh5h9QEc3RLMn-ZHK0=",
           "startAt": "2026-10-25T19:11:05.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Jax"
         },
         "ta1XN8oiMOImaZMiwU6SkdA-nuG2WTjGmmQ3L0O8lGQ=": {
           "id": "ta1XN8oiMOImaZMiwU6SkdA-nuG2WTjGmmQ3L0O8lGQ=",
           "startAt": "2026-10-25T18:31:51.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Ornn"
         },
         "ta1XN8oiMOJ5vSchDX7hM2qyNR-x7JFokgwsGrg8roc=": {
           "id": "ta1XN8oiMOJ5vSchDX7hM2qyNR-x7JFokgwsGrg8roc=",
           "startAt": "2026-10-25T17:42:55.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kennen"
         },
         "ta1XN8oiMOJDOEj_-nnJwfjjmc9LLnJWarhYtQrRNkQ=": {
           "id": "ta1XN8oiMOJDOEj_-nnJwfjjmc9LLnJWarhYtQrRNkQ=",
           "startAt": "2026-10-25T11:52:53.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Rumble"
         },
         "ta1XN8oiMOIQmmcqVtHdbzKzEQI4TZll3WtyWCTmD5c=": {
           "id": "ta1XN8oiMOIQmmcqVtHdbzKzEQI4TZll3WtyWCTmD5c=",
           "startAt": "2026-10-25T11:16:39.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kennen"
         },
         "ta1XN8oiMOLWKxoplhwsGsQSm1adxBaqUZ9UiK6e1u0=": {
           "id": "ta1XN8oiMOLWKxoplhwsGsQSm1adxBaqUZ9UiK6e1u0=",
           "startAt": "2026-10-25T10:25:15.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kennen"
         },
         "ta1XN8oiMOJkHIMuq9K0kJZEpzZei6EBsWqIEYcqJSw=": {
           "id": "ta1XN8oiMOJkHIMuq9K0kJZEpzZei6EBsWqIEYcqJSw=",
           "startAt": "2026-10-24T22:13:17.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Ambessa"
         }
       },
       "matchCoverageWindows": [
@@ -174,7 +196,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-10-30T02:07:47+09:00",
-      "latestMatchAt": "2026-10-26T21:53:23.000Z"
+      "latestMatchAt": "2026-10-26T21:53:23.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-03": {
       "lastSeasonWins": 268,
@@ -195,61 +219,71 @@
           "id": "ta1XN8oiMOK2CGiHvrPRxEv7yzRF7hmFakDQ2qRmzQA=",
           "startAt": "2026-10-30T13:56:48.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Ezreal"
         },
         "ta1XN8oiMOI_y2hUDsu9n0HAYJmL9XdF_V-Str-7F3s=": {
           "id": "ta1XN8oiMOI_y2hUDsu9n0HAYJmL9XdF_V-Str-7F3s=",
           "startAt": "2026-10-29T18:41:51.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Xayah"
         },
         "ta1XN8oiMOKUipQio1Y_hgjVusjYoAMdMbG-O0UoF78=": {
           "id": "ta1XN8oiMOKUipQio1Y_hgjVusjYoAMdMbG-O0UoF78=",
           "startAt": "2026-10-29T17:53:33.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Ezreal"
         },
         "ta1XN8oiMOJom7audESxN0r7dkunhTf9JFHZxF5cx0o=": {
           "id": "ta1XN8oiMOJom7audESxN0r7dkunhTf9JFHZxF5cx0o=",
           "startAt": "2026-10-26T10:07:49.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "MissFortune"
         },
         "ta1XN8oiMOLGR1MLivahGQQo5MndSevLEH2OoCCYLOo=": {
           "id": "ta1XN8oiMOLGR1MLivahGQQo5MndSevLEH2OoCCYLOo=",
           "startAt": "2026-10-26T07:33:02.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Nami"
         },
         "ta1XN8oiMOLzlDaSJsZdwu5vmzTdlPnlO1hYVAk0PKs=": {
           "id": "ta1XN8oiMOLzlDaSJsZdwu5vmzTdlPnlO1hYVAk0PKs=",
           "startAt": "2026-10-21T20:06:12.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Vayne"
         },
         "ta1XN8oiMOIBd_K6SxMf_2Pq49Luy9G2oig8u-ByaIY=": {
           "id": "ta1XN8oiMOIBd_K6SxMf_2Pq49Luy9G2oig8u-ByaIY=",
           "startAt": "2026-10-21T19:23:21.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Vayne"
         },
         "ta1XN8oiMOIg9d_I8LvfxbHGQgVN7HbwIUe_ntjjndU=": {
           "id": "ta1XN8oiMOIg9d_I8LvfxbHGQgVN7HbwIUe_ntjjndU=",
           "startAt": "2026-10-21T18:47:34.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Vayne"
         },
         "ta1XN8oiMOInJeY3KogNrQddQbwgo69v2twagUgbsLg=": {
           "id": "ta1XN8oiMOInJeY3KogNrQddQbwgo69v2twagUgbsLg=",
           "startAt": "2026-10-21T16:29:27.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Tristana"
         },
         "ta1XN8oiMOIf6XlMP6MdD5boKqwmGfJuMxpj6PCrLnM=": {
           "id": "ta1XN8oiMOIf6XlMP6MdD5boKqwmGfJuMxpj6PCrLnM=",
           "startAt": "2026-10-21T15:55:48.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Sivir"
         }
       },
       "matchCoverageWindows": [
@@ -262,7 +296,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T21:56:20+09:00",
-      "latestMatchAt": "2026-10-30T13:56:48.000Z"
+      "latestMatchAt": "2026-10-30T13:56:48.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-04": {
       "lastSeasonWins": 252,
@@ -283,61 +319,71 @@
           "id": "ta1XN8oiMOIJYLyiAVscqyR6KPnwAoornzH6dRnZaIA=",
           "startAt": "2026-10-30T18:39:06.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Nami"
         },
         "ta1XN8oiMOJKhEql2btdmLX_zO9XPGSMVRkpGlm8D6M=": {
           "id": "ta1XN8oiMOJKhEql2btdmLX_zO9XPGSMVRkpGlm8D6M=",
           "startAt": "2026-10-30T18:03:45.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOJ8wtuengrPPdcyeRKdsfZJLjH2rfYY01s=": {
           "id": "ta1XN8oiMOJ8wtuengrPPdcyeRKdsfZJLjH2rfYY01s=",
           "startAt": "2026-10-29T18:26:44.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOJaQsErsTUl4ZWdALuzXoOvEJ-XW2swW28=": {
           "id": "ta1XN8oiMOJaQsErsTUl4ZWdALuzXoOvEJ-XW2swW28=",
           "startAt": "2026-10-24T08:56:25.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOLDWLdG4mEwAMHGJsYm0lMeH9uSvD6o9Bo=": {
           "id": "ta1XN8oiMOLDWLdG4mEwAMHGJsYm0lMeH9uSvD6o9Bo=",
           "startAt": "2026-10-24T05:13:43.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOKlfcmymVJbx1D2xvmGJsRC0ZyjMCkstKo=": {
           "id": "ta1XN8oiMOKlfcmymVJbx1D2xvmGJsRC0ZyjMCkstKo=",
           "startAt": "2026-10-24T04:32:06.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Nami"
         },
         "ta1XN8oiMOJXO5zQuq434AfmTuK6vLhRBhodv3YYJCE=": {
           "id": "ta1XN8oiMOJXO5zQuq434AfmTuK6vLhRBhodv3YYJCE=",
           "startAt": "2026-10-23T19:55:30.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOLb9-lG0gH-ABZakWEa1WrOBppuwCSErmM=": {
           "id": "ta1XN8oiMOLb9-lG0gH-ABZakWEa1WrOBppuwCSErmM=",
           "startAt": "2026-10-23T14:48:40.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Thresh"
         },
         "ta1XN8oiMOLFjdM__MD22Yt5YIBDdrY3uhSa3GMqjMg=": {
           "id": "ta1XN8oiMOLFjdM__MD22Yt5YIBDdrY3uhSa3GMqjMg=",
           "startAt": "2026-10-23T14:15:48.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Milio"
         },
         "ta1XN8oiMOIWJvwTMkX0UdvUbBaJEwwyJeKVlfjSZCo=": {
           "id": "ta1XN8oiMOIWJvwTMkX0UdvUbBaJEwwyJeKVlfjSZCo=",
           "startAt": "2026-10-22T20:04:34.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Thresh"
         }
       },
       "matchCoverageWindows": [
@@ -350,7 +396,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T08:09:54+09:00",
-      "latestMatchAt": "2026-10-30T18:39:06.000Z"
+      "latestMatchAt": "2026-10-30T18:39:06.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-05": {
       "lastSeasonWins": 257,
@@ -371,61 +419,71 @@
           "id": "ta1XN8oiMOIcVjw-gZp1aw9NHgV8YWtFsfUhJ3U126w=",
           "startAt": "2026-10-28T19:37:33.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Sivir"
         },
         "ta1XN8oiMOLymx3zElPneNpIGSPedNQ_rI7oZ1FK_JI=": {
           "id": "ta1XN8oiMOLymx3zElPneNpIGSPedNQ_rI7oZ1FK_JI=",
           "startAt": "2026-10-28T19:02:35.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "DrMundo"
         },
         "ta1XN8oiMOJJXo8IWq9zQLnuWHuykx8cAdogxGzU04o=": {
           "id": "ta1XN8oiMOJJXo8IWq9zQLnuWHuykx8cAdogxGzU04o=",
           "startAt": "2026-10-28T18:27:41.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Twitch"
         },
         "ta1XN8oiMOJ4gIgwDPvVDmwwCKkpgA1TKC-ltlAwaZI=": {
           "id": "ta1XN8oiMOJ4gIgwDPvVDmwwCKkpgA1TKC-ltlAwaZI=",
           "startAt": "2026-10-28T17:02:12.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Twitch"
         },
         "ta1XN8oiMOJ_FbxdnIdZGinzhNMGMN48IKgMop2pIvY=": {
           "id": "ta1XN8oiMOJ_FbxdnIdZGinzhNMGMN48IKgMop2pIvY=",
           "startAt": "2026-10-27T19:27:17.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "XinZhao"
         },
         "ta1XN8oiMOIHKqHDLjGSPB2Snv4eWrndopd2o4edAgM=": {
           "id": "ta1XN8oiMOIHKqHDLjGSPB2Snv4eWrndopd2o4edAgM=",
           "startAt": "2026-10-26T22:31:10.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Yasuo"
         },
         "ta1XN8oiMOIxdlEUgEH1Fin9X0-FfkMg03a8_0-W9Fs=": {
           "id": "ta1XN8oiMOIxdlEUgEH1Fin9X0-FfkMg03a8_0-W9Fs=",
           "startAt": "2026-10-26T21:51:59.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Naafiri"
         },
         "ta1XN8oiMOKqEUpogk9PXA269S5UWE-B25U7PSyhdEE=": {
           "id": "ta1XN8oiMOKqEUpogk9PXA269S5UWE-B25U7PSyhdEE=",
           "startAt": "2026-10-26T21:08:37.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Qiyana"
         },
         "ta1XN8oiMOLDs-JImQHfPFlp6wwRiNd6Rd9r2LkCo8g=": {
           "id": "ta1XN8oiMOLDs-JImQHfPFlp6wwRiNd6Rd9r2LkCo8g=",
           "startAt": "2026-10-25T14:16:43.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Yasuo"
         },
         "ta1XN8oiMOJySnljpexuZtfkY6bvHss3iCKAZ735T30=": {
           "id": "ta1XN8oiMOJySnljpexuZtfkY6bvHss3iCKAZ735T30=",
           "startAt": "2026-10-24T22:38:53.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Vayne"
         }
       },
       "matchCoverageWindows": [
@@ -438,7 +496,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T07:41:03+09:00",
-      "latestMatchAt": "2026-10-28T19:37:33.000Z"
+      "latestMatchAt": "2026-10-28T19:37:33.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-06": {
       "lastSeasonWins": 406,
@@ -459,61 +519,71 @@
           "id": "ta1XN8oiMOJruzSUL9AwXmxmCHiYCGYcMrp2FrZiOjI=",
           "startAt": "2026-10-30T21:59:36.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOIWMYcgR6VQKq_XBxraho1QsX_a2QdFvmQ=": {
           "id": "ta1XN8oiMOIWMYcgR6VQKq_XBxraho1QsX_a2QdFvmQ=",
           "startAt": "2026-10-30T21:19:52.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOK1f4cv3Qv3BnzDm8KOKsggxs86fek5xcI=": {
           "id": "ta1XN8oiMOK1f4cv3Qv3BnzDm8KOKsggxs86fek5xcI=",
           "startAt": "2026-10-30T20:49:57.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOI4wChx_bhEUy5Q41wVE6tmSFoYE9rhoEk=": {
           "id": "ta1XN8oiMOI4wChx_bhEUy5Q41wVE6tmSFoYE9rhoEk=",
           "startAt": "2026-10-30T19:05:42.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOIKUiCCuNAp_YRQCTlFQ-_UP8nZVKRffa4=": {
           "id": "ta1XN8oiMOIKUiCCuNAp_YRQCTlFQ-_UP8nZVKRffa4=",
           "startAt": "2026-10-30T17:19:32.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOL8xFpgy0JkKForK66bPK_k_pAH3gu4FvU=": {
           "id": "ta1XN8oiMOL8xFpgy0JkKForK66bPK_k_pAH3gu4FvU=",
           "startAt": "2026-10-30T16:41:49.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Xayah"
         },
         "ta1XN8oiMOI2pvLSqDemzqpYVUiz1bxTpADSP1Wibf0=": {
           "id": "ta1XN8oiMOI2pvLSqDemzqpYVUiz1bxTpADSP1Wibf0=",
           "startAt": "2026-10-29T18:56:18.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "MissFortune"
         },
         "ta1XN8oiMOI4H9lurp0HaHiaQu1GAD6N00kLO9VPR0Q=": {
           "id": "ta1XN8oiMOI4H9lurp0HaHiaQu1GAD6N00kLO9VPR0Q=",
           "startAt": "2026-10-29T18:07:42.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOI6Nzg_9Y9VRqW_S_DEETPsSm7NoafUAm4=": {
           "id": "ta1XN8oiMOI6Nzg_9Y9VRqW_S_DEETPsSm7NoafUAm4=",
           "startAt": "2026-10-29T17:16:56.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOLUy7cLKF0SSbsij3TZGknwmDkBzHk-XeY=": {
           "id": "ta1XN8oiMOLUy7cLKF0SSbsij3TZGknwmDkBzHk-XeY=",
           "startAt": "2026-10-28T16:58:44.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kaisa"
         }
       },
       "matchCoverageWindows": [
@@ -526,7 +596,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T08:10:03+09:00",
-      "latestMatchAt": "2026-10-30T21:59:36.000Z"
+      "latestMatchAt": "2026-10-30T21:59:36.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-07": {
       "lastSeasonWins": 143,
@@ -547,61 +619,71 @@
           "id": "ta1XN8oiMOIq5kMYHeBxf1Fp4d6TYnN8EigKuD4iUMM=",
           "startAt": "2026-11-01T00:34:38.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Yasuo"
         },
         "ta1XN8oiMOKJA1mxT8ZLIKAtV40aZr_CfpPx6XvKmC4=": {
           "id": "ta1XN8oiMOKJA1mxT8ZLIKAtV40aZr_CfpPx6XvKmC4=",
           "startAt": "2026-10-31T23:57:58.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Gnar"
         },
         "ta1XN8oiMOIVODE7MYD3BKcafh6W5OTz7D2KtzBVWYk=": {
           "id": "ta1XN8oiMOIVODE7MYD3BKcafh6W5OTz7D2KtzBVWYk=",
           "startAt": "2026-10-31T12:58:50.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Veigar"
         },
         "ta1XN8oiMOIDcmOFDmN-mDcjKkaWpUF4kOQ_AdpuKAM=": {
           "id": "ta1XN8oiMOIDcmOFDmN-mDcjKkaWpUF4kOQ_AdpuKAM=",
           "startAt": "2026-10-31T03:07:32.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Yasuo"
         },
         "ta1XN8oiMOL7v2YbUGh8l_x2aACfIPY57ib9GUKbTSI=": {
           "id": "ta1XN8oiMOL7v2YbUGh8l_x2aACfIPY57ib9GUKbTSI=",
           "startAt": "2026-10-31T02:30:20.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Yasuo"
         },
         "ta1XN8oiMOLdSto7L7A4q2lAZwj8Kwi1EqLX8vz_qTA=": {
           "id": "ta1XN8oiMOLdSto7L7A4q2lAZwj8Kwi1EqLX8vz_qTA=",
           "startAt": "2026-10-29T23:25:29.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Yasuo"
         },
         "ta1XN8oiMOKxrpPHKnbVCX4dAK6NFmQXlE_stYcXdT0=": {
           "id": "ta1XN8oiMOKxrpPHKnbVCX4dAK6NFmQXlE_stYcXdT0=",
           "startAt": "2026-10-29T22:50:39.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Zed"
         },
         "ta1XN8oiMOIj8bLS7PToCXdxTCFRa9hK69lV5wl0i6U=": {
           "id": "ta1XN8oiMOIj8bLS7PToCXdxTCFRa9hK69lV5wl0i6U=",
           "startAt": "2026-10-29T19:56:06.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Zed"
         },
         "ta1XN8oiMOIm0DBjZM_DiDnNHTkOlnlmRz8RK5k2irM=": {
           "id": "ta1XN8oiMOIm0DBjZM_DiDnNHTkOlnlmRz8RK5k2irM=",
           "startAt": "2026-10-29T17:12:50.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Zed"
         },
         "ta1XN8oiMOLw1H1iJyLrrFIfatcNAgr5BREJUDaiLI4=": {
           "id": "ta1XN8oiMOLw1H1iJyLrrFIfatcNAgr5BREJUDaiLI4=",
           "startAt": "2026-10-29T16:39:03.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Zed"
         }
       },
       "matchCoverageWindows": [
@@ -614,7 +696,35 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T22:05:50+09:00",
-      "latestMatchAt": "2026-11-01T00:34:38.000Z"
+      "latestMatchAt": "2026-11-01T00:34:38.000Z",
+      "topChampions": [
+        {
+          "id": "Yasuo",
+          "name": "Yasuo",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yasuo.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-01T00:34:38.000Z"
+        },
+        {
+          "id": "Gnar",
+          "name": "Gnar",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Gnar.png",
+          "games": 1,
+          "lastPlayedAt": "2026-10-31T23:57:58.000Z"
+        }
+      ],
+      "recentForm": [
+        {
+          "result": "D",
+          "startAt": "2026-10-31T23:57:58.000Z",
+          "champion": "Gnar"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-01T00:34:38.000Z",
+          "champion": "Yasuo"
+        }
+      ]
     },
     "joueur-08": {
       "lastSeasonWins": 173,
@@ -635,61 +745,71 @@
           "id": "ta1XN8oiMOL9DUhyB-2Evk7jesiMaWB7nsEGoLUpzEM=",
           "startAt": "2026-10-31T21:41:17.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Viktor"
         },
         "ta1XN8oiMOIdLhavUtQMMSY7XCeFLPXN83UEiUpsZkQ=": {
           "id": "ta1XN8oiMOIdLhavUtQMMSY7XCeFLPXN83UEiUpsZkQ=",
           "startAt": "2026-10-31T20:59:31.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Ahri"
         },
         "ta1XN8oiMOKRLHK3DzJ3ujpQ8gSN3cqPIXDcKunQWoU=": {
           "id": "ta1XN8oiMOKRLHK3DzJ3ujpQ8gSN3cqPIXDcKunQWoU=",
           "startAt": "2026-10-31T17:07:01.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Viktor"
         },
         "ta1XN8oiMOLv2DfwEnhwzUcYPKLtHxpM6nzafM6s5t0=": {
           "id": "ta1XN8oiMOLv2DfwEnhwzUcYPKLtHxpM6nzafM6s5t0=",
           "startAt": "2026-10-31T16:34:12.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Naafiri"
         },
         "ta1XN8oiMOL7RZFP-COmlYS15xgoHmI46PPvg1t-uu0=": {
           "id": "ta1XN8oiMOL7RZFP-COmlYS15xgoHmI46PPvg1t-uu0=",
           "startAt": "2026-10-31T16:01:50.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kennen"
         },
         "ta1XN8oiMOLK2Rhi1EgvmTTpsAJYy2phtwrh-HH3ixg=": {
           "id": "ta1XN8oiMOLK2Rhi1EgvmTTpsAJYy2phtwrh-HH3ixg=",
           "startAt": "2026-10-24T16:21:27.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Viktor"
         },
         "ta1XN8oiMOLKiFOz66gZuVESfEWVg5OUfOS2iCWJVDo=": {
           "id": "ta1XN8oiMOLKiFOz66gZuVESfEWVg5OUfOS2iCWJVDo=",
           "startAt": "2026-10-24T15:44:10.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Vex"
         },
         "ta1XN8oiMOJGGDGrPLAufTbJql75HhK6R5Tlgu8v8yU=": {
           "id": "ta1XN8oiMOJGGDGrPLAufTbJql75HhK6R5Tlgu8v8yU=",
           "startAt": "2026-10-24T15:03:35.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kennen"
         },
         "ta1XN8oiMOL70emkmBmW7iOaDWv_jsLfDeZrnj5q7Xw=": {
           "id": "ta1XN8oiMOL70emkmBmW7iOaDWv_jsLfDeZrnj5q7Xw=",
           "startAt": "2026-10-23T14:33:05.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Lucian"
         },
         "ta1XN8oiMOJUWzEUvLIVZd-0b1D9KNKjQDFg4xoL4fg=": {
           "id": "ta1XN8oiMOJUWzEUvLIVZd-0b1D9KNKjQDFg4xoL4fg=",
           "startAt": "2026-10-23T13:42:45.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Vex"
         }
       },
       "matchCoverageWindows": [
@@ -702,7 +822,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T14:54:28+09:00",
-      "latestMatchAt": "2026-10-31T21:41:17.000Z"
+      "latestMatchAt": "2026-10-31T21:41:17.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-09": {
       "lastSeasonWins": 361,
@@ -723,61 +845,71 @@
           "id": "ta1XN8oiMOIexW4gJf_w_o0EDCb0phl-sFpi-4Bc9DY=",
           "startAt": "2026-10-25T22:55:33.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Gwen"
         },
         "ta1XN8oiMOKFFeCAITL3S2VuYxEX48HreqSwZiWy6_o=": {
           "id": "ta1XN8oiMOKFFeCAITL3S2VuYxEX48HreqSwZiWy6_o=",
           "startAt": "2026-10-25T22:16:29.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Gwen"
         },
         "ta1XN8oiMOJRQ5Kq69ZWmPfIE164q4EOmIssqKuS_o0=": {
           "id": "ta1XN8oiMOJRQ5Kq69ZWmPfIE164q4EOmIssqKuS_o0=",
           "startAt": "2026-10-25T21:39:22.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Fiora"
         },
         "ta1XN8oiMOKELL15shyWA_IaehGqMsSLxcfaLXWP7Lk=": {
           "id": "ta1XN8oiMOKELL15shyWA_IaehGqMsSLxcfaLXWP7Lk=",
           "startAt": "2026-10-25T21:04:23.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Fiora"
         },
         "ta1XN8oiMOJ40SZJdUAe47iRdKYUcdVIoYlTjJhKza8=": {
           "id": "ta1XN8oiMOJ40SZJdUAe47iRdKYUcdVIoYlTjJhKza8=",
           "startAt": "2026-10-25T19:12:22.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Gwen"
         },
         "ta1XN8oiMOI5ToDw5Ni-xZ5Q2ia3ubiQ6NWfe1Ki0mc=": {
           "id": "ta1XN8oiMOI5ToDw5Ni-xZ5Q2ia3ubiQ6NWfe1Ki0mc=",
           "startAt": "2026-10-24T03:12:57.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Renekton"
         },
         "ta1XN8oiMOJVCBAav6i_DOw3EE2GZxEm6ATxHDneIHk=": {
           "id": "ta1XN8oiMOJVCBAav6i_DOw3EE2GZxEm6ATxHDneIHk=",
           "startAt": "2026-10-24T02:32:01.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Gwen"
         },
         "ta1XN8oiMOJom1jueOteGRnEBSvtI4tQu2c385w9HFw=": {
           "id": "ta1XN8oiMOJom1jueOteGRnEBSvtI4tQu2c385w9HFw=",
           "startAt": "2026-10-24T01:55:32.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Gwen"
         },
         "ta1XN8oiMOL3RfPXE0lo8I_Qp5dG3aQVhjsENlgtlOk=": {
           "id": "ta1XN8oiMOL3RfPXE0lo8I_Qp5dG3aQVhjsENlgtlOk=",
           "startAt": "2026-10-24T01:25:01.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Fiora"
         },
         "ta1XN8oiMOJvybMaq8tDBUClR9ZFRpudLvDCNWtfqZ0=": {
           "id": "ta1XN8oiMOJvybMaq8tDBUClR9ZFRpudLvDCNWtfqZ0=",
           "startAt": "2026-10-24T00:42:36.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Gwen"
         }
       },
       "matchCoverageWindows": [
@@ -790,7 +922,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T20:24:56+09:00",
-      "latestMatchAt": "2026-10-25T22:55:33.000Z"
+      "latestMatchAt": "2026-10-25T22:55:33.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-10": {
       "lastSeasonWins": 13,
@@ -811,61 +945,71 @@
           "id": "ta1XN8oiMOKeXEYoSNmOiGB5N7Zo8eBQGbOxceTUUWA=",
           "startAt": "2026-10-30T01:17:09.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Yorick"
         },
         "ta1XN8oiMOI0zxWQhvJR_xsAyKUEhpxeMQG4tGGfqTA=": {
           "id": "ta1XN8oiMOI0zxWQhvJR_xsAyKUEhpxeMQG4tGGfqTA=",
           "startAt": "2026-10-30T00:42:47.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Darius"
         },
         "ta1XN8oiMOKIqnY8Q91eh4wbfZkmMe4cYq0_SDZC_18=": {
           "id": "ta1XN8oiMOKIqnY8Q91eh4wbfZkmMe4cYq0_SDZC_18=",
           "startAt": "2026-10-30T00:08:50.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Sett"
         },
         "ta1XN8oiMOITwNdx2F_qegr2VoTF_dPcjeyO2AzTM6E=": {
           "id": "ta1XN8oiMOITwNdx2F_qegr2VoTF_dPcjeyO2AzTM6E=",
           "startAt": "2026-10-26T22:52:05.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Nunu"
         },
         "ta1XN8oiMOJtIfgXU5VPhSDpYjq7oNXVwPbgZPaiZ7Y=": {
           "id": "ta1XN8oiMOJtIfgXU5VPhSDpYjq7oNXVwPbgZPaiZ7Y=",
           "startAt": "2026-10-26T22:22:23.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Sett"
         },
         "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=": {
           "id": "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=",
           "startAt": "2026-10-26T21:53:23.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Blitzcrank"
         },
         "ta1XN8oiMOLIOFe2CU6fpthhz7bqEwEMSVxK-422Lco=": {
           "id": "ta1XN8oiMOLIOFe2CU6fpthhz7bqEwEMSVxK-422Lco=",
           "startAt": "2026-10-19T03:24:44.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Leona"
         },
         "ta1XN8oiMOJSSLnLk-UsjD4p3DMItxUAlYQNLbv7_4A=": {
           "id": "ta1XN8oiMOJSSLnLk-UsjD4p3DMItxUAlYQNLbv7_4A=",
           "startAt": "2026-10-19T02:37:58.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Rell"
         },
         "ta1XN8oiMOKpdM_77ygTrzrYNZBE27GIfr9XTBQMSHc=": {
           "id": "ta1XN8oiMOKpdM_77ygTrzrYNZBE27GIfr9XTBQMSHc=",
           "startAt": "2026-10-19T01:58:47.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Braum"
         },
         "ta1XN8oiMOKdwZ26wbeqNb5ntKi0g1o0v6xwVnevs84=": {
           "id": "ta1XN8oiMOKdwZ26wbeqNb5ntKi0g1o0v6xwVnevs84=",
           "startAt": "2026-10-19T01:36:37.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Nautilus"
         }
       },
       "matchCoverageWindows": [
@@ -878,7 +1022,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T07:35:30+09:00",
-      "latestMatchAt": "2026-10-30T01:17:09.000Z"
+      "latestMatchAt": "2026-10-30T01:17:09.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-11": {
       "lastSeasonWins": 58,
@@ -899,61 +1045,71 @@
           "id": "ta1XN8oiMOKU_Ghm6W3Zpn5EHIrCKPs4BJFsNws-dd4=",
           "startAt": "2026-11-01T11:54:29.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Jhin"
         },
         "ta1XN8oiMOJP6Jf--ba_DDzG7hqmzc1are46B5VkRF8=": {
           "id": "ta1XN8oiMOJP6Jf--ba_DDzG7hqmzc1are46B5VkRF8=",
           "startAt": "2026-11-01T11:17:04.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Yunara"
         },
         "ta1XN8oiMOLqCQSnLCJD3HrzhcyLw6DwHm-fgUiC0io=": {
           "id": "ta1XN8oiMOLqCQSnLCJD3HrzhcyLw6DwHm-fgUiC0io=",
           "startAt": "2026-11-01T10:40:29.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "DrMundo"
         },
         "ta1XN8oiMOK-4S8T1K_XSdA4SqmvPS0pRSqjnSubFw0=": {
           "id": "ta1XN8oiMOK-4S8T1K_XSdA4SqmvPS0pRSqjnSubFw0=",
           "startAt": "2026-10-31T21:37:30.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Caitlyn"
         },
         "ta1XN8oiMOKs6zlPC-VkfgVBar1Sm47ABkuq7xCDEf4=": {
           "id": "ta1XN8oiMOKs6zlPC-VkfgVBar1Sm47ABkuq7xCDEf4=",
           "startAt": "2026-10-31T20:16:46.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Jhin"
         },
         "ta1XN8oiMOLkdtY-1_TSbYjRCytIw6ysteKNk8tMF2g=": {
           "id": "ta1XN8oiMOLkdtY-1_TSbYjRCytIw6ysteKNk8tMF2g=",
           "startAt": "2026-10-31T19:28:36.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Caitlyn"
         },
         "ta1XN8oiMOIAaeLk3U8oOTppvyHV7rJkiSe8EMvmcrg=": {
           "id": "ta1XN8oiMOIAaeLk3U8oOTppvyHV7rJkiSe8EMvmcrg=",
           "startAt": "2026-10-31T15:27:08.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Jinx"
         },
         "ta1XN8oiMOJI5atp-Wpu6VtEJXgyoncuG3GqTg5Stsw=": {
           "id": "ta1XN8oiMOJI5atp-Wpu6VtEJXgyoncuG3GqTg5Stsw=",
           "startAt": "2026-10-31T14:49:10.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Mel"
         },
         "ta1XN8oiMOLCeA5iABPL21HlYbVePfnMBp_O3MBwtZQ=": {
           "id": "ta1XN8oiMOLCeA5iABPL21HlYbVePfnMBp_O3MBwtZQ=",
           "startAt": "2026-10-31T14:12:13.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "DrMundo"
         },
         "ta1XN8oiMOKav9W_zXG_JGv8hR97JpYGfq6vcwZy7zU=": {
           "id": "ta1XN8oiMOKav9W_zXG_JGv8hR97JpYGfq6vcwZy7zU=",
           "startAt": "2026-10-31T13:39:03.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Jhin"
         }
       },
       "matchCoverageWindows": [
@@ -966,7 +1122,47 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T22:41:14+09:00",
-      "latestMatchAt": "2026-11-01T11:54:29.000Z"
+      "latestMatchAt": "2026-11-01T11:54:29.000Z",
+      "topChampions": [
+        {
+          "id": "Jhin",
+          "name": "Jhin",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Jhin.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-01T11:54:29.000Z"
+        },
+        {
+          "id": "Yunara",
+          "name": "Yunara",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yunara.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-01T11:17:04.000Z"
+        },
+        {
+          "id": "DrMundo",
+          "name": "Dr. Mundo",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/DrMundo.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-01T10:40:29.000Z"
+        }
+      ],
+      "recentForm": [
+        {
+          "result": "V",
+          "startAt": "2026-11-01T10:40:29.000Z",
+          "champion": "DrMundo"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-01T11:17:04.000Z",
+          "champion": "Yunara"
+        },
+        {
+          "result": "D",
+          "startAt": "2026-11-01T11:54:29.000Z",
+          "champion": "Jhin"
+        }
+      ]
     },
     "joueur-12": {
       "lastSeasonWins": 57,
@@ -987,61 +1183,71 @@
           "id": "ta1XN8oiMOIzNu5Jay53YBriiiOSq5RBOHh-i3Qvb6w=",
           "startAt": "2026-10-28T01:17:24.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Gangplank"
         },
         "ta1XN8oiMOITwNdx2F_qegr2VoTF_dPcjeyO2AzTM6E=": {
           "id": "ta1XN8oiMOITwNdx2F_qegr2VoTF_dPcjeyO2AzTM6E=",
           "startAt": "2026-10-26T22:52:05.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Gangplank"
         },
         "ta1XN8oiMOJtIfgXU5VPhSDpYjq7oNXVwPbgZPaiZ7Y=": {
           "id": "ta1XN8oiMOJtIfgXU5VPhSDpYjq7oNXVwPbgZPaiZ7Y=",
           "startAt": "2026-10-26T22:22:23.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kayn"
         },
         "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=": {
           "id": "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=",
           "startAt": "2026-10-26T21:53:23.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Ornn"
         },
         "ta1XN8oiMOKrppTJU6LPzCERY4ZfunnkMyReS8YGaxg=": {
           "id": "ta1XN8oiMOKrppTJU6LPzCERY4ZfunnkMyReS8YGaxg=",
           "startAt": "2026-10-20T15:32:23.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Gangplank"
         },
         "ta1XN8oiMOLiHfkfw5na2xpep43GvV-y5TH-bxHZJAY=": {
           "id": "ta1XN8oiMOLiHfkfw5na2xpep43GvV-y5TH-bxHZJAY=",
           "startAt": "2026-10-20T14:43:10.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Gangplank"
         },
         "ta1XN8oiMOLLF9BaY7yKbrKjvyAe5G9sOC8zyGp_oIA=": {
           "id": "ta1XN8oiMOLLF9BaY7yKbrKjvyAe5G9sOC8zyGp_oIA=",
           "startAt": "2026-10-20T05:26:57.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Gangplank"
         },
         "ta1XN8oiMOKnhzvCaxVyBOLmPxaSuoSWeOSuBJfMIpM=": {
           "id": "ta1XN8oiMOKnhzvCaxVyBOLmPxaSuoSWeOSuBJfMIpM=",
           "startAt": "2026-10-20T01:35:47.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kayn"
         },
         "ta1XN8oiMOIXlLexUUYPiIZZ4C5l0Eb3VZaYgE1N_N0=": {
           "id": "ta1XN8oiMOIXlLexUUYPiIZZ4C5l0Eb3VZaYgE1N_N0=",
           "startAt": "2026-10-19T20:46:12.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Kayn"
         },
         "ta1XN8oiMOIPbIro5KDg3JjMole6qSzL9ON6Um-NBuA=": {
           "id": "ta1XN8oiMOIPbIro5KDg3JjMole6qSzL9ON6Um-NBuA=",
           "startAt": "2026-10-19T20:12:37.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Gangplank"
         }
       },
       "matchCoverageWindows": [
@@ -1054,7 +1260,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T07:27:59+09:00",
-      "latestMatchAt": "2026-10-28T01:17:24.000Z"
+      "latestMatchAt": "2026-10-28T01:17:24.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-13": {
       "lastSeasonWins": 39,
@@ -1075,61 +1283,71 @@
           "id": "ta1XN8oiMOLXea6ZOgtip78LY37FM9e8WsjOzyzfVTI=",
           "startAt": "2026-10-31T22:34:24.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Zaahen"
         },
         "ta1XN8oiMOK2ahZWuZCqt0OxkScG2-sbAcjG1XqFSao=": {
           "id": "ta1XN8oiMOK2ahZWuZCqt0OxkScG2-sbAcjG1XqFSao=",
           "startAt": "2026-10-31T22:06:39.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Aatrox"
         },
         "ta1XN8oiMOLnFKvyw1pwth5GHaXYhpHZBScqYE4uKRg=": {
           "id": "ta1XN8oiMOLnFKvyw1pwth5GHaXYhpHZBScqYE4uKRg=",
           "startAt": "2026-10-31T20:26:18.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Zaahen"
         },
         "ta1XN8oiMOJlULaGZfEIz7z1m1_Yrcct7f-dnKX7_wc=": {
           "id": "ta1XN8oiMOJlULaGZfEIz7z1m1_Yrcct7f-dnKX7_wc=",
           "startAt": "2026-10-31T02:40:56.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Jax"
         },
         "ta1XN8oiMOIQYO-7OhTvnE8ixqk27MrH_gmKQrWHvrI=": {
           "id": "ta1XN8oiMOIQYO-7OhTvnE8ixqk27MrH_gmKQrWHvrI=",
           "startAt": "2026-10-26T19:54:59.000Z",
           "queue": "ARENA",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Aatrox"
         },
         "ta1XN8oiMOKZzE7UVRJ5DECrRrkNjxErAzjgo3P4pT4=": {
           "id": "ta1XN8oiMOKZzE7UVRJ5DECrRrkNjxErAzjgo3P4pT4=",
           "startAt": "2026-10-26T19:28:06.000Z",
           "queue": "ARENA",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "XinZhao"
         },
         "ta1XN8oiMOJnTGv4SrPdTBAS-G7zgjswsxzZSGfJxTY=": {
           "id": "ta1XN8oiMOJnTGv4SrPdTBAS-G7zgjswsxzZSGfJxTY=",
           "startAt": "2026-10-25T22:34:04.000Z",
           "queue": "ARENA",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Sett"
         },
         "ta1XN8oiMOIoFrw6D9ay9NpaXPfV2DVsiIOa3FL3nWg=": {
           "id": "ta1XN8oiMOIoFrw6D9ay9NpaXPfV2DVsiIOa3FL3nWg=",
           "startAt": "2026-10-25T19:57:30.000Z",
           "queue": "ARENA",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Trundle"
         },
         "ta1XN8oiMOKaH6KX9O3FDnKtWND5FoqmxtFNp15Ju54=": {
           "id": "ta1XN8oiMOKaH6KX9O3FDnKtWND5FoqmxtFNp15Ju54=",
           "startAt": "2026-10-25T18:22:04.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Gwen"
         },
         "ta1XN8oiMOKnh1cZ_KuFGG6du796RH2WShBn7ai088Q=": {
           "id": "ta1XN8oiMOKnh1cZ_KuFGG6du796RH2WShBn7ai088Q=",
           "startAt": "2026-10-21T22:17:41.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Aatrox"
         }
       },
       "matchCoverageWindows": [
@@ -1142,7 +1360,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T14:54:51+09:00",
-      "latestMatchAt": "2026-10-31T22:34:24.000Z"
+      "latestMatchAt": "2026-10-31T22:34:24.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-14": {
       "lastSeasonWins": 217,
@@ -1163,61 +1383,71 @@
           "id": "ta1XN8oiMOI60SZ2zsv-PhDgWitrQA9vHQzB602p58Q=",
           "startAt": "2026-10-31T20:22:59.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Jayce"
         },
         "ta1XN8oiMOKd6li4WaDoph5ml8mo2tXrXuSFj4PxtdA=": {
           "id": "ta1XN8oiMOKd6li4WaDoph5ml8mo2tXrXuSFj4PxtdA=",
           "startAt": "2026-10-31T19:50:21.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Viktor"
         },
         "ta1XN8oiMOITZN6pVBbm-R8y-QfztBbykD3PTEQmvYY=": {
           "id": "ta1XN8oiMOITZN6pVBbm-R8y-QfztBbykD3PTEQmvYY=",
           "startAt": "2026-10-31T19:16:56.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Viktor"
         },
         "ta1XN8oiMOK4smnWv_5VeWZldshHVf-3MaFZFcXUogA=": {
           "id": "ta1XN8oiMOK4smnWv_5VeWZldshHVf-3MaFZFcXUogA=",
           "startAt": "2026-10-31T18:05:45.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Hwei"
         },
         "ta1XN8oiMOLs1kD9sUXK_2zcR3muvfS2dqjevpq5TLw=": {
           "id": "ta1XN8oiMOLs1kD9sUXK_2zcR3muvfS2dqjevpq5TLw=",
           "startAt": "2026-10-31T17:28:59.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Viktor"
         },
         "ta1XN8oiMOKUop6oDCnDmHYMBaiN55KMKIZMl7Iha38=": {
           "id": "ta1XN8oiMOKUop6oDCnDmHYMBaiN55KMKIZMl7Iha38=",
           "startAt": "2026-10-31T16:47:35.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Viktor"
         },
         "ta1XN8oiMOJYUrKu2eOCezXW4GLmlL05G6OVdpA0U6I=": {
           "id": "ta1XN8oiMOJYUrKu2eOCezXW4GLmlL05G6OVdpA0U6I=",
           "startAt": "2026-10-31T15:50:31.000Z",
           "queue": "ARENA",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "LeeSin"
         },
         "ta1XN8oiMOL3XyWyxXMXojuR4REzZRzAmtvhUcMrpZI=": {
           "id": "ta1XN8oiMOL3XyWyxXMXojuR4REzZRzAmtvhUcMrpZI=",
           "startAt": "2026-10-31T15:25:36.000Z",
           "queue": "ARENA",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kaisa"
         },
         "ta1XN8oiMOIBWpsVB2VsPf4NLL7YVzLSP8blzuP772k=": {
           "id": "ta1XN8oiMOIBWpsVB2VsPf4NLL7YVzLSP8blzuP772k=",
           "startAt": "2026-10-31T15:05:15.000Z",
           "queue": "ARENA",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Vayne"
         },
         "ta1XN8oiMOK5tYnT0mHlgabdmh45b0xkTiikMakvhYk=": {
           "id": "ta1XN8oiMOK5tYnT0mHlgabdmh45b0xkTiikMakvhYk=",
           "startAt": "2026-10-31T14:36:26.000Z",
           "queue": "ARENA",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Lillia"
         }
       },
       "matchCoverageWindows": [
@@ -1230,7 +1460,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T14:54:55+09:00",
-      "latestMatchAt": "2026-10-31T20:22:59.000Z"
+      "latestMatchAt": "2026-10-31T20:22:59.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-15": {
       "lastSeasonWins": 342,
@@ -1251,61 +1483,71 @@
           "id": "ta1XN8oiMOJ6dZP9lPvphAmrHvRyrJHc3_h_7dlZ7Xg=",
           "startAt": "2026-10-31T16:43:08.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Nami"
         },
         "ta1XN8oiMOIgFi7iyG3-hFsG8CDctzkRRmiXPskcWYg=": {
           "id": "ta1XN8oiMOIgFi7iyG3-hFsG8CDctzkRRmiXPskcWYg=",
           "startAt": "2026-10-31T13:54:30.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Morgana"
         },
         "ta1XN8oiMOIDKpM2lIbK45Z9OrYmOR30N_w1daLgxzM=": {
           "id": "ta1XN8oiMOIDKpM2lIbK45Z9OrYmOR30N_w1daLgxzM=",
           "startAt": "2026-10-31T13:16:47.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Seraphine"
         },
         "ta1XN8oiMOIF3WsGj4aUibvk6y5dHN2zqPGbPYWdtf4=": {
           "id": "ta1XN8oiMOIF3WsGj4aUibvk6y5dHN2zqPGbPYWdtf4=",
           "startAt": "2026-10-31T12:45:24.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "MissFortune"
         },
         "ta1XN8oiMOLYSyCBl7GU66tAmIeTWd-wGH_JfvbkbGw=": {
           "id": "ta1XN8oiMOLYSyCBl7GU66tAmIeTWd-wGH_JfvbkbGw=",
           "startAt": "2026-10-31T01:24:48.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "MissFortune"
         },
         "ta1XN8oiMOKHSDtl-oX-FF7gnYKD4gHicdR_cIO1UwE=": {
           "id": "ta1XN8oiMOKHSDtl-oX-FF7gnYKD4gHicdR_cIO1UwE=",
           "startAt": "2026-10-31T00:37:05.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "MissFortune"
         },
         "ta1XN8oiMOJr9lg__WnnG_XBfvBRMshM1V0kSC2mNoE=": {
           "id": "ta1XN8oiMOJr9lg__WnnG_XBfvBRMshM1V0kSC2mNoE=",
           "startAt": "2026-10-30T23:47:27.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "MissFortune"
         },
         "ta1XN8oiMOLJj8PFnuKrxklvBnvyFJv50iPxQYUA4zs=": {
           "id": "ta1XN8oiMOLJj8PFnuKrxklvBnvyFJv50iPxQYUA4zs=",
           "startAt": "2026-10-30T23:21:01.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "MissFortune"
         },
         "ta1XN8oiMOIwH6_vpqrWs0kJAzoJBpoFYaOFyAAnJeE=": {
           "id": "ta1XN8oiMOIwH6_vpqrWs0kJAzoJBpoFYaOFyAAnJeE=",
           "startAt": "2026-10-30T22:44:54.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Seraphine"
         },
         "ta1XN8oiMOLXaSJT4ndpAM69ZLXQc6Buz6lAMmLI_zY=": {
           "id": "ta1XN8oiMOLXaSJT4ndpAM69ZLXQc6Buz6lAMmLI_zY=",
           "startAt": "2026-10-30T22:06:11.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "MissFortune"
         }
       },
       "matchCoverageWindows": [
@@ -1318,7 +1560,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-11-01T08:25:12+09:00",
-      "latestMatchAt": "2026-10-31T16:43:08.000Z"
+      "latestMatchAt": "2026-10-31T16:43:08.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-16": {
       "lastSeasonWins": 142,
@@ -1339,61 +1583,71 @@
           "id": "ta1XN8oiMOILwZBMQLMCsTdtRUrcQfchIcWPzisZ8QM=",
           "startAt": "2026-10-29T16:37:58.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Aurora"
         },
         "ta1XN8oiMOKuAeb8gX4AAvd-XPWrPfD_hCVC2SgoWNw=": {
           "id": "ta1XN8oiMOKuAeb8gX4AAvd-XPWrPfD_hCVC2SgoWNw=",
           "startAt": "2026-10-29T14:49:57.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Aurora"
         },
         "ta1XN8oiMOJ_qSrcM47V4fEjcJa8bpw7SnwQ_lhMnK8=": {
           "id": "ta1XN8oiMOJ_qSrcM47V4fEjcJa8bpw7SnwQ_lhMnK8=",
           "startAt": "2026-10-25T12:28:28.000Z",
           "queue": "ARENA",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Xayah"
         },
         "ta1XN8oiMOL0pGkxQyeNQk1mKqOItlgfl8pG3ohpftg=": {
           "id": "ta1XN8oiMOL0pGkxQyeNQk1mKqOItlgfl8pG3ohpftg=",
           "startAt": "2026-10-23T16:04:22.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Aurora"
         },
         "ta1XN8oiMOL5wxD8wF9QwNip6962Nuxlri8N41AqpyU=": {
           "id": "ta1XN8oiMOL5wxD8wF9QwNip6962Nuxlri8N41AqpyU=",
           "startAt": "2026-10-20T21:04:59.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Sion"
         },
         "ta1XN8oiMOKOtJ-PQ6g399sofm_ZrcMSoAIpVGSKZtw=": {
           "id": "ta1XN8oiMOKOtJ-PQ6g399sofm_ZrcMSoAIpVGSKZtw=",
           "startAt": "2026-10-20T20:34:38.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Kennen"
         },
         "ta1XN8oiMOLbGiqI9_CYYVXgwFo2CKsLl3BdpuaxcU4=": {
           "id": "ta1XN8oiMOLbGiqI9_CYYVXgwFo2CKsLl3BdpuaxcU4=",
           "startAt": "2026-10-13T21:33:33.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Camille"
         },
         "ta1XN8oiMOLLlJjPUzygiXRPNZkrCeRoYWdtZPs6MI8=": {
           "id": "ta1XN8oiMOLLlJjPUzygiXRPNZkrCeRoYWdtZPs6MI8=",
           "startAt": "2026-10-05T21:02:15.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Sion"
         },
         "ta1XN8oiMOJ9h5pbWQ9iOl8cTNbQ-ZmeDTb90eOlR2g=": {
           "id": "ta1XN8oiMOJ9h5pbWQ9iOl8cTNbQ-ZmeDTb90eOlR2g=",
           "startAt": "2026-10-04T17:18:51.000Z",
           "queue": "SOLORANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Aurora"
         },
         "ta1XN8oiMOJRs8IjGhAD3ftVGDKS3a1ojqxPorJtMHs=": {
           "id": "ta1XN8oiMOJRs8IjGhAD3ftVGDKS3a1ojqxPorJtMHs=",
           "startAt": "2026-10-01T21:17:02.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "DrMundo"
         }
       },
       "matchCoverageWindows": [
@@ -1406,7 +1660,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-10-30T05:00:40+09:00",
-      "latestMatchAt": "2026-10-29T16:37:58.000Z"
+      "latestMatchAt": "2026-10-29T16:37:58.000Z",
+      "topChampions": [],
+      "recentForm": []
     },
     "joueur-17": {
       "lastSeasonWins": 122,
@@ -1427,61 +1683,71 @@
           "id": "ta1XN8oiMOJPunefeKSPdYJgwwIifpCz0UENYqJoMgc=",
           "startAt": "2026-10-24T11:09:47.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Ryze"
         },
         "ta1XN8oiMOKBCBnDoJZK6vum0bu-sYz_5KfUoQW1R6A=": {
           "id": "ta1XN8oiMOKBCBnDoJZK6vum0bu-sYz_5KfUoQW1R6A=",
           "startAt": "2026-10-21T21:12:13.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Cassiopeia"
         },
         "ta1XN8oiMOIErMmknVEhECTePK8SLurZ1-iU7dzBELg=": {
           "id": "ta1XN8oiMOIErMmknVEhECTePK8SLurZ1-iU7dzBELg=",
           "startAt": "2026-10-21T20:34:46.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Locke"
         },
         "ta1XN8oiMOJc85yIbFnktcj5C1K-TrMRmgQZVVM4yfA=": {
           "id": "ta1XN8oiMOJc85yIbFnktcj5C1K-TrMRmgQZVVM4yfA=",
           "startAt": "2026-10-21T20:04:26.000Z",
           "queue": "FLEXRANKED",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "AurelionSol"
         },
         "ta1XN8oiMOJo2J8fv0doXQjpx7xNWA-e50NHzqoSpN8=": {
           "id": "ta1XN8oiMOJo2J8fv0doXQjpx7xNWA-e50NHzqoSpN8=",
           "startAt": "2026-10-19T21:32:04.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Veigar"
         },
         "ta1XN8oiMOJ9628RWHNUnN39dYA42c-OEw4HDELd18w=": {
           "id": "ta1XN8oiMOJ9628RWHNUnN39dYA42c-OEw4HDELd18w=",
           "startAt": "2026-10-19T21:03:25.000Z",
           "queue": "FLEXRANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Veigar"
         },
         "ta1XN8oiMOItfgvuHxyx4INKmsjY7AGglbPuxnI4QCE=": {
           "id": "ta1XN8oiMOItfgvuHxyx4INKmsjY7AGglbPuxnI4QCE=",
           "startAt": "2026-10-19T20:17:41.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Cassiopeia"
         },
         "ta1XN8oiMOL4eawxm_CxkdWO9C-x9pDXfXdpCEdJIAA=": {
           "id": "ta1XN8oiMOL4eawxm_CxkdWO9C-x9pDXfXdpCEdJIAA=",
           "startAt": "2026-10-18T20:26:29.000Z",
           "queue": "NORMAL",
-          "result": "LOSE"
+          "result": "LOSE",
+          "champion": "Veigar"
         },
         "ta1XN8oiMOKynKp2I89vxvMR0rTORmkNWy82oYBOkCA=": {
           "id": "ta1XN8oiMOKynKp2I89vxvMR0rTORmkNWy82oYBOkCA=",
           "startAt": "2026-10-18T20:02:54.000Z",
           "queue": "NORMAL",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Cassiopeia"
         },
         "ta1XN8oiMOK6J1EuQbP3__Iuf7ou1ubNf7RA0Ud1zbQ=": {
           "id": "ta1XN8oiMOK6J1EuQbP3__Iuf7ou1ubNf7RA0Ud1zbQ=",
           "startAt": "2026-10-16T14:12:48.000Z",
           "queue": "SOLORANKED",
-          "result": "WIN"
+          "result": "WIN",
+          "champion": "Veigar"
         }
       },
       "matchCoverageWindows": [
@@ -1494,7 +1760,9 @@
       "matchHistoryStatus": "covered",
       "matchHistoryReadAt": "2026-11-01T13:41:54.138Z",
       "sourceUpdatedAt": "2026-10-27T10:03:35+09:00",
-      "latestMatchAt": "2026-10-24T11:09:47.000Z"
+      "latestMatchAt": "2026-10-24T11:09:47.000Z",
+      "topChampions": [],
+      "recentForm": []
     }
   },
   "lastRunAt": "2026-11-01T13:41:54.138Z"

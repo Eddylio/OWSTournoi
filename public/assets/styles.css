@@ -48,3 +48,5 @@ body{background:radial-gradient(ellipse at 82% 12%,#17201855,transparent 38%),#0
 .no-form{font-size:9px;color:var(--muted)}
 .match-note{color:var(--muted);font-size:10px;margin:8px 2px 13px;line-height:1.5}
 @media(max-width:650px){.podium-scene{height:401px}.podium-players{height:288px}.podium-item{gap:5px}.podium-champions .champion-icon{width:23px;height:23px}.player-champions .champion-icon{width:23px;height:23px}}
+.podium-progress{font:600 21px var(--display);color:#e7c47e}.podium-progress small{font:8px var(--font);letter-spacing:1px}.ows-podium .podium-scene{height:460px}.ows-podium .podium-players{height:380px}.player-cell .recent-form{margin-top:6px}.podium-footer{font-size:7px;letter-spacing:1px}
+@media(max-width:650px){.ows-podium .podium-scene{height:450px}.ows-podium .podium-players{height:370px}.podium-footer{font-size:6px;letter-spacing:.4px}}
