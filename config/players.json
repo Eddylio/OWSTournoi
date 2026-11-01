@@ -54,11 +54,12 @@
       "tagLine": "EUW",
       "baseline": {
         "tier": "EMERALD",
-        "division": "II",
-        "lp": 58,
+        "division": "I",
+        "lp": 28,
         "checked": true,
-        "note": "Fiche OP.GG — maj il y a 7 j · Un site tiers indique Émeraude I, 28 LP le 31/10 : conflit non tranché.",
-        "sourceType": "previous"
+        "note": "Rang au début du tournoi corrigé par l’organisateur le 01/11/2026.",
+        "sourceType": "user",
+        "sourceAt": "01/11/2026"
       },
       "indexedReport": {
         "tier": "DIAMOND",
@@ -97,13 +98,13 @@
       "gameName": "0nil0",
       "tagLine": "EUW",
       "baseline": {
-        "tier": "EMERALD",
-        "division": "I",
-        "lp": 65,
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 3,
         "checked": true,
-        "note": "Référence antérieure : Émeraude I, 65 LP. Une page de classement plus ancienne montrait 95 LP ; non vérifié à 23h17.",
-        "sourceUrl": "https://op.gg/da/lol/leaderboards/tier?region=euw&summoner=JESSE+PINKMAN-PSTAR&tier=all&type=ladder",
-        "sourceType": "previous"
+        "note": "Rang au début du tournoi corrigé par l’organisateur le 01/11/2026.",
+        "sourceType": "user",
+        "sourceAt": "01/11/2026"
       },
       "indexedReport": {
         "tier": "EMERALD",

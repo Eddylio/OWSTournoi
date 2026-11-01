@@ -5,7 +5,8 @@
 import {readFileSync,writeFileSync} from 'node:fs';
 import {setTimeout as delay} from 'node:timers/promises';
 import {BASE_START,makeBaseline,viewOf,scoreOf} from './lib.mjs';
-import {parseOpggHtml,updateCounter} from './opgg-parser.mjs';
+import {parseOpggHtml} from './opgg-parser.mjs';
+import {parseMatchHistory,updateMatches} from './opgg-matches.mjs';
 const read=(u,fallback)=>{try{return JSON.parse(readFileSync(u,'utf8'));}catch(e){if(e.code==='ENOENT')return fallback;throw e;}};
 const save=(u,o)=>writeFileSync(u,JSON.stringify(o,null,2)+'\n');
 const cfg=read(new URL('../config/players.json',import.meta.url),{});
@@ -32,7 +33,7 @@ for(const p of cfg.players){
     if(html.length>5_000_000)throw new Error('HTML trop volumineux');
     const parsed=parseOpggHtml(html);
     if(!parsed)throw new Error('SoloQ introuvable dans le HTML public (structure OP.GG potentiellement modifiée)');
-    const updated=updateCounter(previous,parsed,now);
+    const updated=updateMatches({...previous,rank:{tier:parsed.tier,division:parsed.division,lp:parsed.lp},lastSuccessAt:now},parseMatchHistory(html,id),now);
     state.players[p.id]=updated;
     players.push({...viewOf(p,updated,'ok'),lastSuccessAt:now,trackerStartsAt:updated.trackerStartsAt??null});
     successes++;
@@ -50,7 +51,7 @@ if(!successes){
   console.warn('Aucun profil OP.GG lisible : aucun état publié, anciennes données conservées.');
   process.exitCode=1;
 } else {
-  const latest={eventName:cfg.eventName,source:'opgg',updatedAt:now,startAt:BASE_START,players,collectionNote:'OP.GG, consultation des pages publiques seulement. Aucun rafraîchissement forcé. Parties décomptées uniquement depuis le premier relevé du compteur de saison.'};
+  const latest={eventName:cfg.eventName,source:'opgg',updatedAt:now,startAt:BASE_START,players,collectionNote:'OP.GG, consultation des pages publiques seulement. Aucun rafraîchissement forcé. Victoires et défaites SoloQ comptées par identifiant de partie depuis le 31/10/2026 à 23:17 Paris. Historique partiel signalé si les pages ne couvrent pas toute la période.'};
   state.lastRunAt=now;
   const playerIndex=new Map(cfg.players.map(p=>[p.id,p]));
   for(const snap of hist.snapshots){

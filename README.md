@@ -7,9 +7,9 @@ Classement SoloQ EUW de 17 joueurs, conçu pour GitHub Pages. Le site présente 
 ## À savoir AVANT de publier
 
 - **Aucune clé Riot n'est nécessaire.** L'Action planifiée effectue au plus 17 lectures de **pages publiques** OP.GG, une fois par jour (vers 05:17 UTC). Elle **n'appuie pas sur « En mise à jour »** et ne contourne ni CAPTCHA, ni 403/429, ni protection antibot. Le site affiche l'heure du dernier relevé et conserve les dernières valeurs lisibles quand l'accès échoue.
-- **Collecte expérimentale non validée sur le site réel** : l'environnement de préparation ne pouvait pas accéder aux fiches OP.GG. Le code et les tests fonctionnent sur des exemples de HTML, mais la structure actuelle d'OP.GG peut être différente ou ne pas exposer les données côté serveur. **Les mises à jour automatiques ne sont pas garanties.** Si 0/17 page est lisible, le workflow échoue sur la collecte tout en déployant les données précédentes.
+- **Collecte publique vérifiée** : lecture des 17 profils validée le 01/11/2026. La structure et la disponibilité d’OP.GG peuvent évoluer. Les anciennes valeurs sont conservées si la lecture échoue.
 - **Conditions OP.GG contradictoires** : le centre d'aide (31/12/2025) dit tolérer généralement le crawling avec attribution et faible charge (<https://help.op.gg/hc/en-us/articles/31091405109401-Can-I-use-OP-GG-data>), mais les conditions du 14/09/2026 interdisent le scraping et les scripts automatisés (<https://op.gg/fr/lol/policies/agreement>). Il incombe au propriétaire de vérifier l'autorisation d'OP.GG avant d'activer la collecte. Une demande d'autorisation à OP.GG est recommandée.
-- **Les parties depuis le 31/10/2026 ne sont PAS récupérables rétrospectivement de manière exacte** uniquement à partir de la fiche publique : le collecteur prend comme référence les victoires/défaites saisonnières à la **première synchronisation réussie** puis additionne les différences des relevés ultérieurs. Les parties entre le 31 octobre 23:17 et cette première collecte ne sont donc pas prises en compte. Si un relevé ne contient pas les compteurs saisonniers, le suivi des parties n'est pas initialisé. Lors d'un reset de saison, une vérification manuelle est nécessaire.
+- **Parties depuis le départ** : le collecteur lit les parties datées du JSON-LD public OP.GG et conserve leurs identifiants. Il compte uniquement les résultats WIN/LOSE en SOLORANKED dont le début est au moins le 31/10/2026 à 23h17 Paris. Les remakes et les autres modes sont exclus. Les collectes successives sont dédupliquées. Les pages peuvent ne montrer que les dix derniers matchs : les périodes couvertes sont suivies, et un trou d’historique est signalé comme partiel. Une fiche ancienne peut omettre des matchs récents ; la dernière partie disponible est affichée. Aucun total exhaustif n’est garanti au-delà de ce qu’OP.GG publie.
 - **LP nets** : différence de rang/LP actuel par rapport au rang/LP de référence, après conversion (100 LP/division). Ce n'est pas un historique des LP gagnés/perdus après chaque match. Un reset de saison peut fausser cette mesure.
 
 ## Publier sur GitHub Pages
@@ -56,7 +56,7 @@ Site : <http://localhost:8000>.
 - `config/players.json` : 17 comptes, lien OP.GG, rang et LP au départ
 - `scripts/opgg-parser.mjs` : parseur prudent des données SoloQ (ne devine pas les LP)
 - `scripts/sync-opgg.mjs` : lecteur public best-effort, fréquence faible, pas de clé
-- `state/opgg-state.json` : compteurs cumulés depuis premier relevé et dernières valeurs
+- `state/opgg-state.json` : registre des parties, périodes couvertes et derniers rangs
 - `.github/workflows/actualisation.yml` : une collecte quotidienne et déploiement Pages
 
 ### Limites connues
