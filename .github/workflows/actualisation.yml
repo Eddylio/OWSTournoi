@@ -33,9 +33,11 @@ jobs:
         # Un échec ne doit pas empêcher l'affichage des dernières données connues.
         continue-on-error: true
         run: node scripts/sync-opgg.mjs
+      - name: Mettre à jour la forme et les champions depuis les matchs vérifiés
+        run: node scripts/export-opgg-matches.mjs
       - name: Enregistrer les données réellement mises à jour
         run: |
-          git add public/data/latest.json public/data/history.json state/opgg-state.json
+          git add public/data/latest.json public/data/history.json state/opgg-state.json public/data/matches.json
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
