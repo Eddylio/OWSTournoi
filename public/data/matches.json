@@ -326,6 +326,24 @@
       "result": "V",
       "champion": "MissFortune",
       "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOI7_gS4dwRU3MWHLZrN1xekBJ66jX0qwHA=",
+      "playedAt": "2026-11-02T15:14:24.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOJGA5uxous8H9r6j4ry_IGvp_d9_4rYbKo=",
+      "playedAt": "2026-11-02T17:19:06.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lucian",
+      "source": "opgg-structured-history"
     }
   ]
 }
