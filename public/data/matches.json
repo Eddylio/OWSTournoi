@@ -436,6 +436,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOKLesb0fP1X5ihzmTw0bBq1Zimrhg86u-k=",
+      "playedAt": "2026-11-02T21:27:37.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Lulu",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-15",
       "id": "ta1XN8oiMOIr72kiJaYQNJ3yIVlrR2wDb4aEzCvSKWE=",
       "playedAt": "2026-11-02T21:58:34.000Z",
@@ -505,6 +514,15 @@
       "queueId": 420,
       "result": "D",
       "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOKbm-HDKVWIB6JXwZNHi55PRTPtj-sWVOE=",
+      "playedAt": "2026-11-03T01:25:11.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Gwen",
       "source": "opgg-structured-history"
     },
     {
