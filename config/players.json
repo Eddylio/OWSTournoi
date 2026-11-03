@@ -166,11 +166,12 @@
       "tagLine": "may",
       "baseline": {
         "tier": "EMERALD",
-        "division": "II",
-        "lp": 40,
+        "division": "III",
+        "lp": 98,
         "checked": true,
-        "note": "Fiche OP.GG — maj il y a 7 j",
-        "sourceType": "previous"
+        "note": "Référence corrigée le 03/11/2026 à la demande de l’organisateur : Émeraude III, 98 LP. Ancienne fiche (Émeraude II, 40 LP) périmée ; deux défaites SoloQ commencées le 31/10 à 21:59 et 22:41 Paris, avant le départ à 23:17. Aucune partie ultérieure dans l’historique public consulté. Référence reconstituée depuis OP.GG, et non relevé direct au départ.",
+        "sourceType": "reconstructed",
+        "sourceAt": "03/11/2026"
       },
       "indexedReport": {
         "tier": "EMERALD",
