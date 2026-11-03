@@ -364,6 +364,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOIlq_Pbr41EvhRJN__dC9cldXRjUrEScv4=",
+      "playedAt": "2026-11-02T19:08:45.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Garen",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-13",
       "id": "ta1XN8oiMOJpMCGi8HVr88DqREwp9n8jTl1iBk7bgnA=",
       "playedAt": "2026-11-02T19:15:21.000Z",
@@ -613,6 +622,69 @@
       "queueId": 420,
       "result": "D",
       "champion": "Kennen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKRoJyzQrRrQzaAlJpOrXuE-GLEomhTAYk=",
+      "playedAt": "2026-11-03T14:23:15.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKNo1j5dYQb1qbbo93oG5F7mM4Yh0RccBk=",
+      "playedAt": "2026-11-03T15:32:43.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOIlMMu59eke9is88kGxpGYSAf1Q-Uj5YzE=",
+      "playedAt": "2026-11-03T16:53:41.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOIL9nxLUnsMAFXjQ1sdz6KQRLmAJkuouno=",
+      "playedAt": "2026-11-03T17:40:53.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Yasuo",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKYShXoaIAAVQMBj0UxBEp98p1WBMck5HQ=",
+      "playedAt": "2026-11-03T17:45:21.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOLP2DUD2sglbM_gpOL-ToTIgC4APCtj_OY=",
+      "playedAt": "2026-11-03T18:28:19.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKZ7002jLFrUxIDINJP1gAMMWZlp7-FZOo=",
+      "playedAt": "2026-11-03T18:57:57.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
       "source": "opgg-structured-history"
     }
   ]
