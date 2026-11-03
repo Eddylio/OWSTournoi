@@ -490,6 +490,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOJXi6oSk6hmt2grlBCB2q3gI-xvSeUbzPc=",
+      "playedAt": "2026-11-03T00:49:47.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-15",
       "id": "ta1XN8oiMOK0FWE5jlgVwu5dhK3DdyeW-P4POKdTjhY=",
       "playedAt": "2026-11-03T00:59:34.000Z",
