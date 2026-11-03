@@ -91,3 +91,19 @@ Les nouvelles entrées sont visibles après le prochain déploiement GitHub Page
 ### Automatisation de la forme (sans clé)
 
 À chaque exécution de GitHub Actions, `scripts/export-opgg-matches.mjs` fusionne les résultats de matchs datés et identifiés issus de `state/opgg-state.json` avec les ajouts vérifiés dans `public/data/matches.json`. Les noms de champions non attestés restent absents. Les résultats anciens ne sont pas supprimés en cas d'échec du relevé.
+
+
+## Prévisualisation privée via clé Riot personnelle
+
+**Ne jamais utiliser une clé personnelle Riot pour alimenter le site GitHub Pages public.** Riot réserve la clé personnelle aux usages privés, groupes restreints et tests. Le site public conserve sa collecte OP.GG en attendant une clé de production.
+
+Le script `scripts/riot-private-preview.mjs` permet de tester en local l'API Riot pour les 17 joueurs : rang/LP SoloQ, parties classées SoloQ depuis le 31/10/2026 à 23:17 (Paris), winrate, derniers V/D et champions joués. Il n'écrit qu'un fichier `.private/riot-preview.json` ignoré par Git ; aucune donnée issue de la clé personnelle n'est envoyée sur GitHub Pages. La requête limite volontairement à 100 matchs par joueur : si la limite est atteinte, `historyMayBeIncomplete` vaut `true` et les compteurs doivent être considérés comme partiels. Il exclut les remakes courts. Les taux de requêtes sont limités et le serveur peut renvoyer 429.
+
+### Utilisation uniquement sur ton ordinateur (Node.js 22+)
+
+1. En cas de clé copiée dans une conversation, **révoquer et régénérer la clé** dans le portail Riot.
+2. Cloner ce dépôt, et créer dans son dossier racine un fichier `.env` (ignoré par Git) qui contient `RIOT_API_KEY=TA_NOUVELLE_CLE` sans les guillemets.
+3. Lancer `node --env-file=.env scripts/riot-private-preview.mjs` depuis un terminal.
+4. Ouvrir `.private/riot-preview.json` localement pour consulter les données. Ne pas commiter ce fichier et ne pas le placer dans `public/`.
+
+Pour la version publique, demander une clé **Production** à Riot, puis configurer les secrets du serveur ou de GitHub Actions selon la politique de Riot. Ne jamais placer la clé dans le navigateur, dans un commit ou dans le chat.
