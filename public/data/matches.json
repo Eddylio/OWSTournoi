@@ -581,6 +581,15 @@
     },
     {
       "playerId": "joueur-08",
+      "id": "ta1XN8oiMOKtGCzlE2ON0LOgZ5A1wvgq-aCBLp136pE=",
+      "playedAt": "2026-11-03T08:20:03.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Yone",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-08",
       "id": "ta1XN8oiMOJK_HWDIbeCnK_KrpqY9z5h8oWr9GFSS4E=",
       "playedAt": "2026-11-03T08:58:09.000Z",
       "queueId": 420,
@@ -595,6 +604,15 @@
       "queueId": 420,
       "result": "V",
       "champion": "Yone",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-08",
+      "id": "ta1XN8oiMOL88xvruuzs7a52QPKK6mn7ZRBuzio52Lw=",
+      "playedAt": "2026-11-03T10:15:50.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Kennen",
       "source": "opgg-structured-history"
     }
   ]
