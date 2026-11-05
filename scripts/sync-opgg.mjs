@@ -6,6 +6,7 @@ import {readFileSync,writeFileSync} from 'node:fs';
 import {setTimeout as delay} from 'node:timers/promises';
 import {BASE_START,makeBaseline,viewOf,scoreOf} from './lib.mjs';
 import {parseOpggHtml} from './opgg-parser.mjs';
+import {rankChartDate} from './opgg-rank-date.mjs';
 import {parseMatchHistory,updateMatches} from './opgg-matches.mjs';
 const read=(u,fallback)=>{try{return JSON.parse(readFileSync(u,'utf8'));}catch(e){if(e.code==='ENOENT')return fallback;throw e;}};
 const save=(u,o)=>writeFileSync(u,JSON.stringify(o,null,2)+'\n');
@@ -34,6 +35,8 @@ for(const p of cfg.players){
     const parsed=parseOpggHtml(html);
     if(!parsed)throw new Error('SoloQ introuvable dans le HTML public (structure OP.GG potentiellement modifiée)');
     const updated=updateMatches({...previous,rank:{tier:parsed.tier,division:parsed.division,lp:parsed.lp},lastSuccessAt:now},parseMatchHistory(html,id),now);
+    const sameRank = previous.rank?.tier === parsed.tier && previous.rank?.division === parsed.division && previous.rank?.lp === parsed.lp;
+    updated.rankChartAt = rankChartDate(html, parsed) || (sameRank ? previous.rankChartAt : null) || null;
     state.players[p.id]=updated;
     players.push({...viewOf(p,updated,'ok'),lastSuccessAt:now,trackerStartsAt:updated.trackerStartsAt??null});
     successes++;
@@ -60,12 +63,12 @@ if(!successes){
       const b=playerIndex.get(item.id)?.baseline;
       if(!b)continue;
       const score=scoreOf(item.tier,item.division,item.lp),base=scoreOf(b.tier,b.division,b.lp);
-      item.lpDelta=score!==null&&base!==null?score-base:null;
+      item.lpDelta=!item.lpPending&&score!==null&&base!==null?score-base:null;
     }
   }
   const week=Math.floor((Date.parse(now)-Date.parse(BASE_START))/(7*24*3600*1000));
   if(week>=1&&!hist.snapshots.some(x=>x.week===week)){
-    hist.snapshots.push({week,capturedAt:now,players:players.map(p=>({id:p.id,lpDelta:p.lpDelta,games:p.games,winrate:p.winrate,tier:p.tier,division:p.division,lp:p.lp}))});
+    hist.snapshots.push({week,capturedAt:now,players:players.map(p=>({id:p.id,lpDelta:p.lpDelta,lpPending:p.lpPending,games:p.games,winrate:p.winrate,tier:p.tier,division:p.division,lp:p.lp}))});
     hist.snapshots.sort((a,b)=>a.week-b.week);
   }
   save(stateURL,state);save(latestURL,latest);save(historyURL,hist);

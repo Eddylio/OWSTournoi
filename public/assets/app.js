@@ -78,7 +78,7 @@
 
   function competitionLeaders() {
     const active = ['riot','opgg'].includes(data.source);
-    return [...(data.players || [])].filter(p => Number.isFinite(playerScore(p))).sort((a,b) => {
+    return [...(data.players || [])].filter(p => Number.isFinite(playerScore(p)) && (!active || Number.isFinite(p.lpDelta))).sort((a,b) => {
       const aDelta = active && Number.isFinite(a.lpDelta) ? a.lpDelta : (active ? -Infinity : playerScore(a));
       const bDelta = active && Number.isFinite(b.lpDelta) ? b.lpDelta : (active ? -Infinity : playerScore(b));
       return bDelta - aDelta || playerScore(b) - playerScore(a) || riotId(a).localeCompare(riotId(b),'fr');
@@ -174,13 +174,13 @@
     $('players-body').innerHTML = players.map(p => {
       const index = pos.get(p.id), initials = p.gameName.trim().slice(0,1).toUpperCase();
       const isMissing = !p.baselineKnown;
-      const sourceLabel = p.rankPending ? 'Rang actuel à confirmer' : data.source==='opgg' && p.status==='ok' ? 'OP.GG consulté' : data.source==='opgg' && p.status==='stale' ? 'OP.GG indisponible' : data.source==='riot' && p.status==='ok' ? 'API Riot' : (p.baselineSource==='user' ? 'Confirmé par toi' : 'Relevé provisoire');
+      const sourceLabel = p.lpPending ? 'LP à confirmer' : p.rankPending ? 'Rang actuel à confirmer' : data.source==='opgg' && p.status==='ok' ? 'OP.GG consulté' : data.source==='opgg' && p.status==='stale' ? 'OP.GG indisponible' : data.source==='riot' && p.status==='ok' ? 'API Riot' : (p.baselineSource==='user' ? 'Confirmé par toi' : 'Relevé provisoire');
       const report=p.indexedReport;
       const indexedLabel=report ? `${rankName(report)} · ${fmt(report.lp)} LP` : 'Introuvable';
       const collected = data.source==='opgg' ? (p.lastSuccessAt ? `OP.GG : ${new Date(p.lastSuccessAt).toLocaleString('fr-FR',{timeZone:'Europe/Paris',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}` : 'Pas de collecte réussie') : null;
-      const sourceDetails = `Départ : ${rankName({tier:p.baselineTier,division:p.baselineDivision})} · ${fmt(p.baselineLp)} LP. ${p.baselineNote || ''}`;
-      const lpText = !['riot','opgg'].includes(data.source) ? '0' : isMissing ? '—' : relative(p.lpDelta);
-      const tone = !['riot','opgg'].includes(data.source) || isMissing ? 'neutral' : p.lpDelta > 0 ? 'positive' : p.lpDelta < 0 ? 'negative' : 'neutral';
+      const sourceDetails = `Départ : ${rankName({tier:p.baselineTier,division:p.baselineDivision})} · ${fmt(p.baselineLp)} LP. ${p.baselineNote || ''}${p.lpPending ? ' Une SoloQ est plus récente que le dernier rang vérifiable.' : ''}`;
+      const lpText = !['riot','opgg'].includes(data.source) ? '0' : p.lpPending ? 'En attente' : isMissing ? '—' : relative(p.lpDelta);
+      const tone = !['riot','opgg'].includes(data.source) || isMissing || p.lpPending ? 'neutral' : p.lpDelta > 0 ? 'positive' : p.lpDelta < 0 ? 'negative' : 'neutral';
       const wr = p.games ? `${p.winrate.toFixed(1).replace('.',',')}%` : 'None';
       const tier = tierClasses[p.tier] || '';
       return `<tr><td><span class="rank-number ${index===1?'first':''}">${String(index).padStart(2,'0')}</span></td>

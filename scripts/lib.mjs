@@ -19,6 +19,12 @@ export function viewOf(p, saved, status='baseline') {
   const games= status==='baseline' ? 0 : (saved?.wins||0)+(saved?.losses||0);
   const wins=status==='baseline'?0:(saved?.wins||0);
   const losses=status==='baseline'?0:(saved?.losses||0);
+  const lastSolo = Object.values(saved?.matchLedger ?? {}).filter(match =>
+    match.queue === 'SOLORANKED' && ['WIN','LOSE'].includes(match.result) &&
+    Date.parse(match.startAt) >= Date.parse(BASE_START)
+  ).reduce((latest, match) => Math.max(latest, Date.parse(match.startAt)), 0);
+  const rankDate = saved?.rankChartAt || saved?.sourceUpdatedAt;
+  const lpPending = lastSolo > 0 && (!Number.isFinite(Date.parse(rankDate)) || Date.parse(rankDate) < lastSolo);
   const rankKnown=!!current.tier;
   return {
     id:p.id,gameName:p.gameName,tagLine:p.tagLine,
@@ -26,7 +32,8 @@ export function viewOf(p, saved, status='baseline') {
     division:rankKnown ? current.division : null,
     lp:rankKnown ? current.lp : null,
     score,baselineScore,baselineKnown:baselineScore!==null,
-    lpDelta: rankPending||status==='baseline' ? 0 : baselineScore!==null&&score!==null ? score-baselineScore : null,
+    lpPending, rankObservedAt:rankDate ?? null,
+    lpDelta: lpPending ? null : rankPending||status==='baseline' ? 0 : baselineScore!==null&&score!==null ? score-baselineScore : null,
     games,wins,losses,winrate: games ? Math.round(wins/games*1000)/10 : null,
     topChampions:saved?.topChampions??[],recentForm:saved?.recentForm??[],
     matchHistoryStatus:saved?.matchHistoryStatus??'unavailable',sourceUpdatedAt:saved?.sourceUpdatedAt??null,latestMatchAt:saved?.latestMatchAt??null,trackerStartsAt:saved?.trackerStartsAt??null,
