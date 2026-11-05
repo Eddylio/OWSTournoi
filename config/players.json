@@ -11,10 +11,11 @@
       "baseline": {
         "tier": "PLATINUM",
         "division": "III",
-        "lp": 64,
+        "lp": 9,
         "checked": true,
-        "note": "Fiche OP.GG — maj il y a 5 j",
-        "sourceType": "previous"
+        "note": "Référence corrigée à la demande de l’organisateur le 05/11/2026 : Platine III, 9 LP observés le 04/11 à 06:09 UTC, avant la première partie du tournoi (victoire du 04/11 à 14:56 UTC). Les -55 LP existaient avec zéro partie et provenaient de l’ancienne référence Platine III, 64 LP. La victoire est conservée.",
+        "sourceType": "user",
+        "sourceAt": "05/11/2026"
       },
       "indexedReport": {
         "tier": "PLATINUM",
