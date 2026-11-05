@@ -34,7 +34,7 @@ test('Départ à zéro et None, LP de départ inconnu',()=>{
   assert.equal(b.players.find(p=>p.gameName==='TheBerserker226').lp,7);
 });
 test('Victoires, défaites, winrate et LP nets calculés',()=>{
-  const p=config.players.find(p=>p.gameName==='taudinico');
+  const p={id:'test-player',gameName:'Test',tagLine:'EUW',baseline:{tier:'PLATINUM',division:'III',lp:64}};
   const v=viewOf(p,{wins:3,losses:1,rank:{tier:'PLATINUM',division:'II',lp:31}},'ok');
   assert.equal(v.games,4);assert.equal(v.winrate,75);
   assert.equal(v.lpDelta,(1800+31)-(1700+64));
