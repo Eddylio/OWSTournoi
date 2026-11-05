@@ -1084,6 +1084,33 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOIjo8MyzOA_XXi5HqAddYrbcdGtlqgJBYw=",
+      "playedAt": "2026-11-04T15:14:35.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-01",
+      "id": "ta1XN8oiMOKJpHtZ94AsWdxD2dc08XsDao44twqJiAI=",
+      "playedAt": "2026-11-04T15:47:47.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lulu",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOKJpHtZ94AsWdxD2dc08XsDao44twqJiAI=",
+      "playedAt": "2026-11-04T15:47:47.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Yunara",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-07",
       "id": "ta1XN8oiMOL-xZsovbc8uSA8fz6hM3swwNeChKKbcBY=",
       "playedAt": "2026-11-04T15:52:45.000Z",
@@ -1156,6 +1183,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-17",
+      "id": "ta1XN8oiMOLLddQjjdYItCz93jmV_emeopIiZ6sfvZY=",
+      "playedAt": "2026-11-04T20:22:01.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Xerath",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-08",
       "id": "ta1XN8oiMOLg7r3ng_Sy0zLpUfqQdCogCnuKiY1N_1w=",
       "playedAt": "2026-11-04T20:35:40.000Z",
@@ -1201,12 +1237,48 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOKdu2Hxyjz-pAEaPWBwRovOs556LEFveS4=",
+      "playedAt": "2026-11-04T23:38:31.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Yasuo",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-15",
       "id": "ta1XN8oiMOJc97FPcM4C19b7RXRGil_RzQCeAEodrr8=",
       "playedAt": "2026-11-05T00:29:04.000Z",
       "queueId": 420,
       "result": "D",
       "champion": "Seraphine",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOIbI9qvH3uALbYF3mmaWHXrocNvxIPuRqs=",
+      "playedAt": "2026-11-05T01:16:17.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOIJjNMr7xLw662RrRnZ7-WjIePRcZZIeyc=",
+      "playedAt": "2026-11-05T01:20:30.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOLIYA39AJgrsa9ok4UA4Zf45_53VJRr5Vo=",
+      "playedAt": "2026-11-05T01:56:47.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
       "source": "opgg-structured-history"
     },
     {
@@ -1228,12 +1300,66 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOLyvQFdqXuo415Uf34nVBXZB4oTScgccx8=",
+      "playedAt": "2026-11-05T02:58:01.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Twitch",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-09",
       "id": "ta1XN8oiMOIBYWAE8h8MztGl29VBx9HFquz9nq6smBY=",
       "playedAt": "2026-11-05T03:06:56.000Z",
       "queueId": 420,
       "result": "V",
       "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-08",
+      "id": "ta1XN8oiMOLPdjA36V841svcHw-Q1Is6DTJhWgVt49s=",
+      "playedAt": "2026-11-05T09:14:30.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Yone",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-08",
+      "id": "ta1XN8oiMOLE_dV7d9GsUT54bPmC4rMDhvvlMQRBODw=",
+      "playedAt": "2026-11-05T10:07:16.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Yone",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-08",
+      "id": "ta1XN8oiMOJcvw-DwQqMMAnK_LoDLXX7YE0pz8A7BMM=",
+      "playedAt": "2026-11-05T10:43:21.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Viktor",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOLHByOKy4Qs6k_OePpreG8-B2fYRqaK_Ew=",
+      "playedAt": "2026-11-05T12:25:49.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-08",
+      "id": "ta1XN8oiMOLkkCfIgGMP61cxHSQ_NRj3fNDDX1CPqAI=",
+      "playedAt": "2026-11-05T12:50:50.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Viktor",
       "source": "opgg-structured-history"
     }
   ]
