@@ -1237,6 +1237,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOLGdeErIS0nOqcCHkh1VDVOzjO3Y4CxyTk=",
+      "playedAt": "2026-11-04T23:08:16.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-07",
       "id": "ta1XN8oiMOKdu2Hxyjz-pAEaPWBwRovOs556LEFveS4=",
       "playedAt": "2026-11-04T23:38:31.000Z",
@@ -1246,12 +1255,39 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOImf4faQQn2pwIbOmvGRiqanN-En-7bGb8=",
+      "playedAt": "2026-11-04T23:45:31.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOI_AC3GqyOBBSA9R3vf8iV_Gs5XsDu-83A=",
+      "playedAt": "2026-11-05T00:17:13.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-15",
       "id": "ta1XN8oiMOJc97FPcM4C19b7RXRGil_RzQCeAEodrr8=",
       "playedAt": "2026-11-05T00:29:04.000Z",
       "queueId": 420,
       "result": "D",
       "champion": "Seraphine",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOLMGEXwDQZ_xMx7JoMrSQxishZDZDIEAVk=",
+      "playedAt": "2026-11-05T00:44:40.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
       "source": "opgg-structured-history"
     },
     {
