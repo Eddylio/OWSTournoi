@@ -13,7 +13,7 @@
         "division": "III",
         "lp": 9
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOJAURNu5_LWK_zVkdeUlfM-V2_yEhO3f1Q=": {
           "id": "ta1XN8oiMOJAURNu5_LWK_zVkdeUlfM-V2_yEhO3f1Q=",
@@ -115,7 +115,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-04T03:41:41+09:00",
       "latestMatchAt": "2026-11-04T15:47:47.000Z",
       "topChampions": [
@@ -154,7 +154,7 @@
         "division": "IV",
         "lp": 0
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=": {
           "id": "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=",
@@ -242,8 +242,8 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
-      "sourceUpdatedAt": "2026-11-02T11:08:34+09:00",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
+      "sourceUpdatedAt": "2026-11-05T23:51:23+09:00",
       "latestMatchAt": "2026-11-01T18:31:12.000Z",
       "topChampions": [],
       "recentForm": [],
@@ -262,7 +262,7 @@
         "division": "IV",
         "lp": 43
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOK2CGiHvrPRxEv7yzRF7hmFakDQ2qRmzQA=": {
           "id": "ta1XN8oiMOK2CGiHvrPRxEv7yzRF7hmFakDQ2qRmzQA=",
@@ -434,8 +434,8 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
-      "sourceUpdatedAt": "2026-11-05T15:11:19+09:00",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
+      "sourceUpdatedAt": "2026-11-05T23:51:27+09:00",
       "latestMatchAt": "2026-11-05T12:25:49.000Z",
       "topChampions": [
         {
@@ -502,7 +502,7 @@
         "division": "III",
         "lp": 69
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOIJYLyiAVscqyR6KPnwAoornzH6dRnZaIA=": {
           "id": "ta1XN8oiMOIJYLyiAVscqyR6KPnwAoornzH6dRnZaIA=",
@@ -653,7 +653,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-04T15:09:30+09:00",
       "latestMatchAt": "2026-11-03T19:13:33.000Z",
       "topChampions": [
@@ -721,7 +721,7 @@
         "division": "IV",
         "lp": 23
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOIcVjw-gZp1aw9NHgV8YWtFsfUhJ3U126w=": {
           "id": "ta1XN8oiMOIcVjw-gZp1aw9NHgV8YWtFsfUhJ3U126w=",
@@ -865,7 +865,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-04T04:51:42+09:00",
       "latestMatchAt": "2026-11-04T22:54:51.000Z",
       "topChampions": [
@@ -930,10 +930,10 @@
       "losses": 6,
       "rank": {
         "tier": "PLATINUM",
-        "division": "III",
-        "lp": 68
+        "division": "IV",
+        "lp": 0
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOJruzSUL9AwXmxmCHiYCGYcMrp2FrZiOjI=": {
           "id": "ta1XN8oiMOJruzSUL9AwXmxmCHiYCGYcMrp2FrZiOjI=",
@@ -1088,19 +1088,26 @@
           "queue": "SOLORANKED",
           "result": "LOSE",
           "champion": "Yunara"
+        },
+        "ta1XN8oiMOKwQPd39jjG6fYSNdye0DeFJbzVFv_8UP4=": {
+          "id": "ta1XN8oiMOKwQPd39jjG6fYSNdye0DeFJbzVFv_8UP4=",
+          "startAt": "2026-11-04T21:40:44.000Z",
+          "queue": "FLEXRANKED",
+          "result": "LOSE",
+          "champion": "Kaisa"
         }
       },
       "matchCoverageWindows": [
         [
           1793206724000,
-          1793825945000
+          1793828444000
         ]
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
-      "sourceUpdatedAt": "2026-11-05T15:11:33+09:00",
-      "latestMatchAt": "2026-11-04T20:59:05.000Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
+      "sourceUpdatedAt": "2026-11-05T23:56:20+09:00",
+      "latestMatchAt": "2026-11-04T21:40:44.000Z",
       "topChampions": [
         {
           "id": "Yunara",
@@ -1151,7 +1158,7 @@
           "champion": "Yunara"
         }
       ],
-      "rankChartAt": "2026-10-27T08:31:36+09:00"
+      "rankChartAt": "2026-11-05T23:56:20+09:00"
     },
     "joueur-07": {
       "lastSeasonWins": 143,
@@ -1166,7 +1173,7 @@
         "division": "IV",
         "lp": 76
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOIq5kMYHeBxf1Fp4d6TYnN8EigKuD4iUMM=": {
           "id": "ta1XN8oiMOIq5kMYHeBxf1Fp4d6TYnN8EigKuD4iUMM=",
@@ -1338,7 +1345,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-05T16:15:33+09:00",
       "latestMatchAt": "2026-11-04T23:38:31.000Z",
       "topChampions": [
@@ -1406,7 +1413,7 @@
         "division": "IV",
         "lp": 5
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOL9DUhyB-2Evk7jesiMaWB7nsEGoLUpzEM=": {
           "id": "ta1XN8oiMOL9DUhyB-2Evk7jesiMaWB7nsEGoLUpzEM=",
@@ -1592,8 +1599,8 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
-      "sourceUpdatedAt": "2026-11-05T22:13:04+09:00",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
+      "sourceUpdatedAt": "2026-11-05T23:51:51+09:00",
       "latestMatchAt": "2026-11-05T12:50:50.000Z",
       "topChampions": [
         {
@@ -1660,7 +1667,7 @@
         "division": "III",
         "lp": 39
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOIexW4gJf_w_o0EDCb0phl-sFpi-4Bc9DY=": {
           "id": "ta1XN8oiMOIexW4gJf_w_o0EDCb0phl-sFpi-4Bc9DY=",
@@ -1885,6 +1892,13 @@
           "queue": "FLEXRANKED",
           "result": "WIN",
           "champion": "Trundle"
+        },
+        "ta1XN8oiMOKwQPd39jjG6fYSNdye0DeFJbzVFv_8UP4=": {
+          "id": "ta1XN8oiMOKwQPd39jjG6fYSNdye0DeFJbzVFv_8UP4=",
+          "startAt": "2026-11-04T21:40:44.000Z",
+          "queue": "FLEXRANKED",
+          "result": "LOSE",
+          "champion": "Renekton"
         }
       },
       "matchCoverageWindows": [
@@ -1895,8 +1909,8 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
-      "sourceUpdatedAt": "2026-11-05T15:11:46+09:00",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
+      "sourceUpdatedAt": "2026-11-05T23:51:55+09:00",
       "latestMatchAt": "2026-11-05T03:06:56.000Z",
       "topChampions": [
         {
@@ -1963,7 +1977,7 @@
         "division": "IV",
         "lp": 7
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOKeXEYoSNmOiGB5N7Zo8eBQGbOxceTUUWA=": {
           "id": "ta1XN8oiMOKeXEYoSNmOiGB5N7Zo8eBQGbOxceTUUWA=",
@@ -2044,7 +2058,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-01T07:35:30+09:00",
       "latestMatchAt": "2026-10-30T01:17:09.000Z",
       "topChampions": [],
@@ -2064,7 +2078,7 @@
         "division": "II",
         "lp": 2
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOKU_Ghm6W3Zpn5EHIrCKPs4BJFsNws-dd4=": {
           "id": "ta1XN8oiMOKU_Ghm6W3Zpn5EHIrCKPs4BJFsNws-dd4=",
@@ -2180,7 +2194,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-05T15:11:56+09:00",
       "latestMatchAt": "2026-11-04T21:22:48.000Z",
       "topChampions": [
@@ -2248,7 +2262,7 @@
         "division": "III",
         "lp": 14
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOIzNu5Jay53YBriiiOSq5RBOHh-i3Qvb6w=": {
           "id": "ta1XN8oiMOIzNu5Jay53YBriiiOSq5RBOHh-i3Qvb6w=",
@@ -2343,7 +2357,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-04T07:04:58+09:00",
       "latestMatchAt": "2026-11-03T00:25:18.000Z",
       "topChampions": [],
@@ -2363,7 +2377,7 @@
         "division": "III",
         "lp": 47
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOLXea6ZOgtip78LY37FM9e8WsjOzyzfVTI=": {
           "id": "ta1XN8oiMOLXea6ZOgtip78LY37FM9e8WsjOzyzfVTI=",
@@ -2563,7 +2577,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-05T10:28:55+09:00",
       "latestMatchAt": "2026-11-04T18:52:48.000Z",
       "topChampions": [
@@ -2624,7 +2638,7 @@
         "division": "III",
         "lp": 74
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOI60SZ2zsv-PhDgWitrQA9vHQzB602p58Q=": {
           "id": "ta1XN8oiMOI60SZ2zsv-PhDgWitrQA9vHQzB602p58Q=",
@@ -2810,7 +2824,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-04T15:10:14+09:00",
       "latestMatchAt": "2026-11-03T19:37:13.000Z",
       "topChampions": [],
@@ -2830,7 +2844,7 @@
         "division": "I",
         "lp": 34
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOJ6dZP9lPvphAmrHvRyrJHc3_h_7dlZ7Xg=": {
           "id": "ta1XN8oiMOJ6dZP9lPvphAmrHvRyrJHc3_h_7dlZ7Xg=",
@@ -3272,7 +3286,7 @@
       ],
       "matchHistoryComplete": false,
       "matchHistoryStatus": "partial",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-05T23:22:39+09:00",
       "latestMatchAt": "2026-11-05T02:58:01.000Z",
       "topChampions": [
@@ -3340,7 +3354,7 @@
         "division": null,
         "lp": 57
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOILwZBMQLMCsTdtRUrcQfchIcWPzisZ8QM=": {
           "id": "ta1XN8oiMOILwZBMQLMCsTdtRUrcQfchIcWPzisZ8QM=",
@@ -3463,7 +3477,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
       "sourceUpdatedAt": "2026-11-02T08:15:58+09:00",
       "latestMatchAt": "2026-11-01T22:25:12.000Z",
       "topChampions": [
@@ -3505,9 +3519,9 @@
       "rank": {
         "tier": "EMERALD",
         "division": "III",
-        "lp": 1
+        "lp": 41
       },
-      "lastSuccessAt": "2026-11-05T14:51:19.097Z",
+      "lastSuccessAt": "2026-11-05T14:55:59.916Z",
       "matchLedger": {
         "ta1XN8oiMOJPunefeKSPdYJgwwIifpCz0UENYqJoMgc=": {
           "id": "ta1XN8oiMOJPunefeKSPdYJgwwIifpCz0UENYqJoMgc=",
@@ -3599,19 +3613,47 @@
           "queue": "SOLORANKED",
           "result": "WIN",
           "champion": "Xerath"
+        },
+        "ta1XN8oiMOLy6LEKWswxSOmY_C-XT-mXczgRvzWklf8=": {
+          "id": "ta1XN8oiMOLy6LEKWswxSOmY_C-XT-mXczgRvzWklf8=",
+          "startAt": "2026-11-05T14:40:06.000Z",
+          "queue": "NORMAL",
+          "result": "LOSE",
+          "champion": "Ryze"
+        },
+        "ta1XN8oiMOJQ0zPGcyZpVa_SYfzjyJgUAdUUUv7Z9yI=": {
+          "id": "ta1XN8oiMOJQ0zPGcyZpVa_SYfzjyJgUAdUUUv7Z9yI=",
+          "startAt": "2026-11-05T13:52:36.000Z",
+          "queue": "NORMAL",
+          "result": "WIN",
+          "champion": "Ryze"
+        },
+        "ta1XN8oiMOL4s1uzob1JrUQokWptcXR860LHFTVyLbU=": {
+          "id": "ta1XN8oiMOL4s1uzob1JrUQokWptcXR860LHFTVyLbU=",
+          "startAt": "2026-11-05T13:20:38.000Z",
+          "queue": "NORMAL",
+          "result": "WIN",
+          "champion": "Cassiopeia"
+        },
+        "ta1XN8oiMOKwQPd39jjG6fYSNdye0DeFJbzVFv_8UP4=": {
+          "id": "ta1XN8oiMOKwQPd39jjG6fYSNdye0DeFJbzVFv_8UP4=",
+          "startAt": "2026-11-04T21:40:44.000Z",
+          "queue": "FLEXRANKED",
+          "result": "LOSE",
+          "champion": "Cassiopeia"
         }
       },
       "matchCoverageWindows": [
         [
           1792159968000,
-          1793825945000
+          1793889606000
         ]
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-05T14:51:19.097Z",
-      "sourceUpdatedAt": "2026-11-04T20:11:08+09:00",
-      "latestMatchAt": "2026-11-04T20:59:05.000Z",
+      "matchHistoryReadAt": "2026-11-05T14:55:59.916Z",
+      "sourceUpdatedAt": "2026-11-05T23:56:44+09:00",
+      "latestMatchAt": "2026-11-05T14:40:06.000Z",
       "topChampions": [
         {
           "id": "Xerath",
@@ -3640,8 +3682,8 @@
           "champion": "Xerath"
         }
       ],
-      "rankChartAt": null
+      "rankChartAt": "2026-11-05T23:56:44+09:00"
     }
   },
-  "lastRunAt": "2026-11-05T14:51:19.097Z"
+  "lastRunAt": "2026-11-05T14:55:59.916Z"
 }
