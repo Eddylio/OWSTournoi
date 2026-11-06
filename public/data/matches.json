@@ -1435,6 +1435,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOI7an5j-nzDR_QjRm0Zx7IOXAMUKsE3RsI=",
+      "playedAt": "2026-11-05T15:32:39.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lucian",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-06",
       "id": "ta1XN8oiMOKqNQyumLHAo-EPLEHyYScydU_7xFxz4TE=",
       "playedAt": "2026-11-05T16:01:11.000Z",
@@ -1477,6 +1486,15 @@
       "queueId": 420,
       "result": "V",
       "champion": "Yunara",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOISpoOfjv7hnE3qhzfweDgzJs9TzhyDbIU=",
+      "playedAt": "2026-11-05T16:51:30.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Yorick",
       "source": "opgg-structured-history"
     },
     {
@@ -1543,6 +1561,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOJfuaGkrWXPidfylo9CnjrLIEFMtQdNbPM=",
+      "playedAt": "2026-11-05T22:24:09.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Ashe",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-14",
       "id": "ta1XN8oiMOLKzAar42XSHz7YzUOvIt2pSmgu3A-N9Hs=",
       "playedAt": "2026-11-05T22:28:09.000Z",
@@ -1561,6 +1588,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOIgEb7xHVwds_yBueye3WJ3ikHyYZnUEqU=",
+      "playedAt": "2026-11-05T23:17:13.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Ashe",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-01",
       "id": "ta1XN8oiMOLeOVVZemjDZnzq53gV1Y42MDUivQXXL8s=",
       "playedAt": "2026-11-05T23:59:43.000Z",
@@ -1576,6 +1612,15 @@
       "queueId": 420,
       "result": "V",
       "champion": "Yasuo",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-01",
+      "id": "ta1XN8oiMOKOZPRqsdj--1paWZymdLxvyg8LiMhFnaA=",
+      "playedAt": "2026-11-06T00:33:43.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Seraphine",
       "source": "opgg-structured-history"
     },
     {
