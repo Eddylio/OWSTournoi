@@ -123,11 +123,12 @@
       "tagLine": "EUW",
       "baseline": {
         "tier": "PLATINUM",
-        "division": "III",
-        "lp": 68,
+        "division": "IV",
+        "lp": 64,
         "checked": true,
-        "note": "Fiche OP.GG — maj il y a 1 j",
-        "sourceType": "previous"
+        "note": "Rang de départ confirmé par l’organisateur le 06/11/2026 : Platine IV, 64 LP.",
+        "sourceType": "user",
+        "sourceAt": "06/11/2026"
       },
       "indexedReport": {
         "tier": "EMERALD",
