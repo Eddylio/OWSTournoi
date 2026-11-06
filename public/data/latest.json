@@ -1,7 +1,7 @@
 {
   "eventName": "SOLOQ SPRINT",
   "source": "opgg",
-  "updatedAt": "2026-11-05T14:57:51.194Z",
+  "updatedAt": "2026-11-06T00:50:13.395Z",
   "startAt": "2026-10-31T22:17:00.000Z",
   "players": [
     {
@@ -14,13 +14,13 @@
       "score": 1707,
       "baselineScore": 1709,
       "baselineKnown": true,
-      "lpPending": false,
+      "lpPending": true,
       "rankObservedAt": "2026-11-05T23:56:52+09:00",
-      "lpDelta": -2,
-      "games": 2,
+      "lpDelta": null,
+      "games": 3,
       "wins": 1,
-      "losses": 1,
-      "winrate": 50,
+      "losses": 2,
+      "winrate": 33.3,
       "topChampions": [
         {
           "id": "Lulu",
@@ -28,6 +28,13 @@
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Lulu.png",
           "games": 2,
           "lastPlayedAt": "2026-11-04T15:47:47.000Z"
+        },
+        {
+          "id": "Thresh",
+          "name": "Thresh",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Thresh.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-05T23:59:43.000Z"
         }
       ],
       "recentForm": [
@@ -40,11 +47,16 @@
           "result": "D",
           "startAt": "2026-11-04T15:47:47.000Z",
           "champion": "Lulu"
+        },
+        {
+          "result": "D",
+          "startAt": "2026-11-05T23:59:43.000Z",
+          "champion": "Thresh"
         }
       ],
       "matchHistoryStatus": "covered",
       "sourceUpdatedAt": "2026-11-05T23:56:52+09:00",
-      "latestMatchAt": "2026-11-04T15:47:47.000Z",
+      "latestMatchAt": "2026-11-05T23:59:43.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -63,7 +75,7 @@
         "sourceUrl": "https://op.gg/nl/lol/summoners/euw/taudinico-EUW",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-02",
@@ -75,18 +87,56 @@
       "score": 2000,
       "baselineScore": 2000,
       "baselineKnown": true,
-      "lpPending": false,
+      "lpPending": true,
       "rankObservedAt": "2026-10-30T02:07:47+09:00",
-      "lpDelta": 0,
-      "games": 0,
+      "lpDelta": null,
+      "games": 3,
       "wins": 0,
-      "losses": 0,
-      "winrate": null,
-      "topChampions": [],
-      "recentForm": [],
+      "losses": 3,
+      "winrate": 0,
+      "topChampions": [
+        {
+          "id": "Urgot",
+          "name": "Urgot",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Urgot.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-05T17:29:21.000Z"
+        },
+        {
+          "id": "Kennen",
+          "name": "Kennen",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Kennen.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-05T14:03:42.000Z"
+        },
+        {
+          "id": "KSante",
+          "name": "K'Santé",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/KSante.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-05T13:22:17.000Z"
+        }
+      ],
+      "recentForm": [
+        {
+          "result": "D",
+          "startAt": "2026-11-05T13:22:17.000Z",
+          "champion": "KSante"
+        },
+        {
+          "result": "D",
+          "startAt": "2026-11-05T14:03:42.000Z",
+          "champion": "Kennen"
+        },
+        {
+          "result": "D",
+          "startAt": "2026-11-05T17:29:21.000Z",
+          "champion": "Urgot"
+        }
+      ],
       "matchHistoryStatus": "covered",
       "sourceUpdatedAt": "2026-11-05T23:51:23+09:00",
-      "latestMatchAt": "2026-11-01T18:31:12.000Z",
+      "latestMatchAt": "2026-11-05T17:29:21.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -105,7 +155,7 @@
         "sourceUrl": "https://op.gg/ro/lol/leaderboards/tier?region=euw&summoner=Mr+Mitcow-COW&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-03",
@@ -195,7 +245,7 @@
         "sourceUrl": "https://op.gg/ru/lol/summoners/euw/Ciron-EUW",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-04",
@@ -285,7 +335,7 @@
         "sourceUrl": "https://op.gg/tr/lol/summoners/EUW/RespectezVosSupp-EUWFR",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-05",
@@ -297,13 +347,13 @@
       "score": 2403,
       "baselineScore": 2403,
       "baselineKnown": true,
-      "lpPending": false,
+      "lpPending": true,
       "rankObservedAt": "2026-11-05T23:56:38+09:00",
-      "lpDelta": 0,
-      "games": 8,
-      "wins": 4,
+      "lpDelta": null,
+      "games": 9,
+      "wins": 5,
       "losses": 4,
-      "winrate": 50,
+      "winrate": 55.6,
       "topChampions": [
         {
           "id": "Naafiri",
@@ -313,26 +363,21 @@
           "lastPlayedAt": "2026-11-01T21:59:45.000Z"
         },
         {
+          "id": "Twitch",
+          "name": "Twitch",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Twitch.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-05T22:58:59.000Z"
+        },
+        {
           "id": "Malphite",
           "name": "Malphite",
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Malphite.png",
           "games": 1,
           "lastPlayedAt": "2026-11-04T22:54:51.000Z"
-        },
-        {
-          "id": "Ambessa",
-          "name": "Ambessa",
-          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ambessa.png",
-          "games": 1,
-          "lastPlayedAt": "2026-11-04T22:20:01.000Z"
         }
       ],
       "recentForm": [
-        {
-          "result": "D",
-          "startAt": "2026-11-01T21:59:45.000Z",
-          "champion": "Naafiri"
-        },
         {
           "result": "V",
           "startAt": "2026-11-03T09:48:25.000Z",
@@ -352,11 +397,16 @@
           "result": "D",
           "startAt": "2026-11-04T22:54:51.000Z",
           "champion": "Malphite"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-05T22:58:59.000Z",
+          "champion": "Twitch"
         }
       ],
       "matchHistoryStatus": "covered",
       "sourceUpdatedAt": "2026-11-05T23:56:38+09:00",
-      "latestMatchAt": "2026-11-04T22:54:51.000Z",
+      "latestMatchAt": "2026-11-05T22:58:59.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -375,7 +425,7 @@
         "sourceUrl": "https://op.gg/ro/lol/leaderboards/tier?region=euw&summoner=tomat0carryu-carry&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-06",
@@ -385,22 +435,22 @@
       "division": "IV",
       "lp": 0,
       "score": 1600,
-      "baselineScore": 1768,
+      "baselineScore": 1664,
       "baselineKnown": true,
-      "lpPending": false,
+      "lpPending": true,
       "rankObservedAt": "2026-11-05T23:56:20+09:00",
-      "lpDelta": -168,
-      "games": 10,
-      "wins": 4,
-      "losses": 6,
-      "winrate": 40,
+      "lpDelta": null,
+      "games": 15,
+      "wins": 8,
+      "losses": 7,
+      "winrate": 53.3,
       "topChampions": [
         {
           "id": "Yunara",
           "name": "Yunara",
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yunara.png",
-          "games": 7,
-          "lastPlayedAt": "2026-11-04T15:47:47.000Z"
+          "games": 12,
+          "lastPlayedAt": "2026-11-05T17:49:06.000Z"
         },
         {
           "id": "Kaisa",
@@ -420,42 +470,42 @@
       "recentForm": [
         {
           "result": "D",
-          "startAt": "2026-11-04T12:26:05.000Z",
+          "startAt": "2026-11-05T15:28:12.000Z",
           "champion": "Yunara"
         },
         {
           "result": "V",
-          "startAt": "2026-11-04T13:17:49.000Z",
+          "startAt": "2026-11-05T16:01:11.000Z",
           "champion": "Yunara"
         },
         {
           "result": "V",
-          "startAt": "2026-11-04T14:07:46.000Z",
-          "champion": "Kaisa"
-        },
-        {
-          "result": "V",
-          "startAt": "2026-11-04T14:56:51.000Z",
+          "startAt": "2026-11-05T16:40:11.000Z",
           "champion": "Yunara"
         },
         {
-          "result": "D",
-          "startAt": "2026-11-04T15:47:47.000Z",
+          "result": "V",
+          "startAt": "2026-11-05T17:12:01.000Z",
+          "champion": "Yunara"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-05T17:49:06.000Z",
           "champion": "Yunara"
         }
       ],
       "matchHistoryStatus": "covered",
-      "sourceUpdatedAt": "2026-11-05T23:56:20+09:00",
-      "latestMatchAt": "2026-11-04T21:40:44.000Z",
+      "sourceUpdatedAt": "2026-11-06T06:06:40+09:00",
+      "latestMatchAt": "2026-11-05T22:09:05.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
-      "baselineNote": "Fiche OP.GG — maj il y a 1 j",
-      "baselineSource": "previous",
-      "baselineSourceAt": null,
+      "baselineNote": "Rang de départ confirmé par l’organisateur le 06/11/2026 : Platine IV, 64 LP.",
+      "baselineSource": "user",
+      "baselineSourceAt": "06/11/2026",
       "baselineTier": "PLATINUM",
-      "baselineDivision": "III",
-      "baselineLp": 68,
+      "baselineDivision": "IV",
+      "baselineLp": 64,
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/kc%20fufuu-EUW",
       "indexedReport": {
         "tier": "EMERALD",
@@ -465,7 +515,7 @@
         "sourceUrl": "https://op.gg/fr/lol/summoners/euw/KC%20FuFuu-EUW",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-07",
@@ -477,20 +527,20 @@
       "score": 1676,
       "baselineScore": 1619,
       "baselineKnown": true,
-      "lpPending": false,
+      "lpPending": true,
       "rankObservedAt": "2026-11-05T16:15:33+09:00",
-      "lpDelta": 57,
-      "games": 10,
-      "wins": 6,
+      "lpDelta": null,
+      "games": 11,
+      "wins": 7,
       "losses": 4,
-      "winrate": 60,
+      "winrate": 63.6,
       "topChampions": [
         {
           "id": "Yasuo",
           "name": "Yasuo",
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yasuo.png",
-          "games": 6,
-          "lastPlayedAt": "2026-11-04T23:38:31.000Z"
+          "games": 7,
+          "lastPlayedAt": "2026-11-06T00:33:01.000Z"
         },
         {
           "id": "Lulu",
@@ -508,11 +558,6 @@
         }
       ],
       "recentForm": [
-        {
-          "result": "D",
-          "startAt": "2026-11-03T20:56:43.000Z",
-          "champion": "Pyke"
-        },
         {
           "result": "V",
           "startAt": "2026-11-03T21:39:41.000Z",
@@ -532,11 +577,16 @@
           "result": "V",
           "startAt": "2026-11-04T23:38:31.000Z",
           "champion": "Yasuo"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-06T00:33:01.000Z",
+          "champion": "Yasuo"
         }
       ],
       "matchHistoryStatus": "covered",
       "sourceUpdatedAt": "2026-11-05T16:15:33+09:00",
-      "latestMatchAt": "2026-11-04T23:38:31.000Z",
+      "latestMatchAt": "2026-11-06T00:33:01.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -555,7 +605,7 @@
         "sourceUrl": "https://op.gg/da/lol/summoners/euw/sofino-EUW",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-08",
@@ -568,7 +618,7 @@
       "baselineScore": 2198,
       "baselineKnown": true,
       "lpPending": false,
-      "rankObservedAt": "2026-11-05T23:51:51+09:00",
+      "rankObservedAt": "2026-11-06T02:23:30+09:00",
       "lpDelta": 207,
       "games": 13,
       "wins": 11,
@@ -625,8 +675,8 @@
         }
       ],
       "matchHistoryStatus": "covered",
-      "sourceUpdatedAt": "2026-11-05T23:51:51+09:00",
-      "latestMatchAt": "2026-11-05T12:50:50.000Z",
+      "sourceUpdatedAt": "2026-11-06T02:23:30+09:00",
+      "latestMatchAt": "2026-11-05T17:25:43.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -645,7 +695,7 @@
         "sourceUrl": "https://op.gg/zh-cn/lol/summoners/euw/Youps-May",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-09",
@@ -716,7 +766,7 @@
       ],
       "matchHistoryStatus": "covered",
       "sourceUpdatedAt": "2026-11-05T23:56:42+09:00",
-      "latestMatchAt": "2026-11-05T03:06:56.000Z",
+      "latestMatchAt": "2026-11-05T22:09:05.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -735,7 +785,7 @@
         "sourceUrl": "https://op.gg/es/lol/summoners/euw/Exterminateur-OTP",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-10",
@@ -770,7 +820,7 @@
       "baselineLp": 7,
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/TheBerserker226-EUW",
       "indexedReport": null,
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-11",
@@ -860,7 +910,7 @@
         "sourceUrl": "https://op.gg/ja/lol/leaderboards/tier?page=9444&region=euw&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-12",
@@ -902,32 +952,32 @@
         "sourceUrl": "https://op.gg/zh-cn/lol/leaderboards/tier?page=18653&region=euw&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-13",
       "gameName": "bb f4lo",
       "tagLine": "euw",
       "tier": "DIAMOND",
-      "division": "III",
-      "lp": 47,
-      "score": 2547,
+      "division": "II",
+      "lp": 12,
+      "score": 2612,
       "baselineScore": 2505,
       "baselineKnown": true,
       "lpPending": false,
-      "rankObservedAt": "2026-11-05T10:28:55+09:00",
-      "lpDelta": 42,
-      "games": 13,
-      "wins": 7,
-      "losses": 6,
-      "winrate": 53.8,
+      "rankObservedAt": "2026-11-06T07:53:23+09:00",
+      "lpDelta": 107,
+      "games": 18,
+      "wins": 11,
+      "losses": 7,
+      "winrate": 61.1,
       "topChampions": [
         {
           "id": "RekSai",
           "name": "Rek'Sai",
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/RekSai.png",
-          "games": 12,
-          "lastPlayedAt": "2026-11-04T18:52:48.000Z"
+          "games": 17,
+          "lastPlayedAt": "2026-11-05T18:20:02.000Z"
         },
         {
           "id": "Gwen",
@@ -940,33 +990,33 @@
       "recentForm": [
         {
           "result": "V",
-          "startAt": "2026-11-04T02:00:19.000Z",
+          "startAt": "2026-11-05T16:08:15.000Z",
           "champion": "RekSai"
         },
         {
           "result": "V",
-          "startAt": "2026-11-04T17:22:50.000Z",
+          "startAt": "2026-11-05T16:39:25.000Z",
+          "champion": "RekSai"
+        },
+        {
+          "result": "D",
+          "startAt": "2026-11-05T17:18:22.000Z",
           "champion": "RekSai"
         },
         {
           "result": "V",
-          "startAt": "2026-11-04T17:51:24.000Z",
+          "startAt": "2026-11-05T17:47:01.000Z",
           "champion": "RekSai"
         },
         {
           "result": "V",
-          "startAt": "2026-11-04T18:19:11.000Z",
-          "champion": "RekSai"
-        },
-        {
-          "result": "V",
-          "startAt": "2026-11-04T18:52:48.000Z",
+          "startAt": "2026-11-05T18:20:02.000Z",
           "champion": "RekSai"
         }
       ],
       "matchHistoryStatus": "covered",
-      "sourceUpdatedAt": "2026-11-05T10:28:55+09:00",
-      "latestMatchAt": "2026-11-04T18:52:48.000Z",
+      "sourceUpdatedAt": "2026-11-06T07:53:23+09:00",
+      "latestMatchAt": "2026-11-05T18:20:02.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -985,7 +1035,7 @@
         "sourceUrl": "https://op.gg/lol/leaderboards/tier?region=euw&summoner=Rio404-EUW&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-14",
@@ -997,18 +1047,32 @@
       "score": 2574,
       "baselineScore": 2574,
       "baselineKnown": true,
-      "lpPending": false,
+      "lpPending": true,
       "rankObservedAt": "2026-11-02T02:40:32+09:00",
-      "lpDelta": 0,
-      "games": 0,
-      "wins": 0,
+      "lpDelta": null,
+      "games": 1,
+      "wins": 1,
       "losses": 0,
-      "winrate": null,
-      "topChampions": [],
-      "recentForm": [],
+      "winrate": 100,
+      "topChampions": [
+        {
+          "id": "Ahri",
+          "name": "Ahri",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Ahri.png",
+          "games": 1,
+          "lastPlayedAt": "2026-11-05T22:28:09.000Z"
+        }
+      ],
+      "recentForm": [
+        {
+          "result": "V",
+          "startAt": "2026-11-05T22:28:09.000Z",
+          "champion": "Ahri"
+        }
+      ],
       "matchHistoryStatus": "covered",
       "sourceUpdatedAt": "2026-11-04T15:10:14+09:00",
-      "latestMatchAt": "2026-11-03T19:37:13.000Z",
+      "latestMatchAt": "2026-11-05T22:28:09.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -1027,7 +1091,7 @@
         "sourceUrl": "https://op.gg/lol/leaderboards/tier?region=euw&summoner=Rio404-EUW&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-15",
@@ -1039,20 +1103,20 @@
       "score": 1534,
       "baselineScore": 1224,
       "baselineKnown": true,
-      "lpPending": false,
+      "lpPending": true,
       "rankObservedAt": "2026-11-05T23:22:39+09:00",
-      "lpDelta": 310,
-      "games": 46,
-      "wins": 27,
-      "losses": 19,
-      "winrate": 58.7,
+      "lpDelta": null,
+      "games": 50,
+      "wins": 29,
+      "losses": 21,
+      "winrate": 58,
       "topChampions": [
         {
           "id": "MissFortune",
           "name": "Miss Fortune",
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/MissFortune.png",
-          "games": 37,
-          "lastPlayedAt": "2026-11-05T02:26:03.000Z"
+          "games": 39,
+          "lastPlayedAt": "2026-11-06T00:39:30.000Z"
         },
         {
           "id": "Caitlyn",
@@ -1072,33 +1136,33 @@
       "recentForm": [
         {
           "result": "D",
-          "startAt": "2026-11-04T15:14:35.000Z",
-          "champion": "MissFortune"
+          "startAt": "2026-11-05T02:58:01.000Z",
+          "champion": "Twitch"
         },
         {
           "result": "D",
-          "startAt": "2026-11-05T00:29:04.000Z",
-          "champion": "Seraphine"
+          "startAt": "2026-11-05T14:31:24.000Z",
+          "champion": "MissFortune"
         },
         {
           "result": "V",
-          "startAt": "2026-11-05T01:16:17.000Z",
-          "champion": "MissFortune"
+          "startAt": "2026-11-05T16:17:26.000Z",
+          "champion": "Lucian"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-05T17:23:39.000Z",
+          "champion": "Ashe"
         },
         {
           "result": "D",
-          "startAt": "2026-11-05T02:26:03.000Z",
+          "startAt": "2026-11-06T00:39:30.000Z",
           "champion": "MissFortune"
-        },
-        {
-          "result": "D",
-          "startAt": "2026-11-05T02:58:01.000Z",
-          "champion": "Twitch"
         }
       ],
       "matchHistoryStatus": "partial",
       "sourceUpdatedAt": "2026-11-05T23:22:39+09:00",
-      "latestMatchAt": "2026-11-05T02:58:01.000Z",
+      "latestMatchAt": "2026-11-06T00:39:30.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -1110,7 +1174,7 @@
       "baselineLp": 24,
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/ShadowPhen-1005",
       "indexedReport": null,
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-16",
@@ -1176,7 +1240,7 @@
         "sourceUrl": "https://op.gg/de/lol/leaderboards/tier?page=361&region=euw&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     },
     {
       "id": "joueur-17",
@@ -1225,7 +1289,7 @@
       ],
       "matchHistoryStatus": "covered",
       "sourceUpdatedAt": "2026-11-05T23:56:44+09:00",
-      "latestMatchAt": "2026-11-05T14:40:06.000Z",
+      "latestMatchAt": "2026-11-05T22:09:05.000Z",
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
       "rankPending": false,
       "status": "ok",
@@ -1244,7 +1308,7 @@
         "sourceUrl": "https://op.gg/ru/lol/leaderboards/tier?page=4761&region=euw&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "lastSuccessAt": "2026-11-05T14:57:51.194Z"
+      "lastSuccessAt": "2026-11-06T00:50:13.395Z"
     }
   ],
   "collectionNote": "OP.GG, consultation des pages publiques seulement. Aucun rafraîchissement forcé. Victoires et défaites SoloQ comptées par identifiant de partie depuis le 31/10/2026 à 23:17 Paris. Historique partiel signalé si les pages ne couvrent pas toute la période."
