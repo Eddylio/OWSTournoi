@@ -1597,6 +1597,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOIW6V4s0foV8d5yLgKZPMBhcFfuas_JK38=",
+      "playedAt": "2026-11-05T23:33:28.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-01",
       "id": "ta1XN8oiMOLeOVVZemjDZnzq53gV1Y42MDUivQXXL8s=",
       "playedAt": "2026-11-05T23:59:43.000Z",
@@ -1630,6 +1639,24 @@
       "queueId": 420,
       "result": "D",
       "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOJCbmtqFl1ubitAQ_kQ-rBaiGi56dN0Q9Q=",
+      "playedAt": "2026-11-06T01:05:29.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Yasuo",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOJk16V-q6zoA8zZ-97rLmELci3nWA8LglE=",
+      "playedAt": "2026-11-06T01:46:48.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Rakan",
       "source": "opgg-structured-history"
     }
   ]
