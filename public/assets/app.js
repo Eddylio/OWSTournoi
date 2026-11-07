@@ -174,7 +174,7 @@
     $('players-body').innerHTML = players.map(p => {
       const index = pos.get(p.id), initials = p.gameName.trim().slice(0,1).toUpperCase();
       const isMissing = !p.baselineKnown;
-      const sourceLabel = p.lpPending ? 'LP à confirmer' : p.rankPending ? 'Rang actuel à confirmer' : data.source==='opgg' && p.status==='ok' ? 'OP.GG consulté' : data.source==='opgg' && p.status==='stale' ? 'OP.GG indisponible' : data.source==='riot' && p.status==='ok' ? 'API Riot' : (p.baselineSource==='user' ? 'Confirmé par toi' : 'Relevé provisoire');
+      const sourceLabel = p.verifiedRankSource ? 'Rang vérifié · ' + p.verifiedRankSource : p.lpPending ? 'LP à confirmer' : p.rankPending ? 'Rang actuel à confirmer' : data.source==='opgg' && p.status==='ok' ? 'OP.GG consulté' : data.source==='opgg' && p.status==='stale' ? 'OP.GG indisponible' : data.source==='riot' && p.status==='ok' ? 'API Riot' : (p.baselineSource==='user' ? 'Confirmé par toi' : 'Relevé provisoire');
       const report=p.indexedReport;
       const indexedLabel=report ? `${rankName(report)} · ${fmt(report.lp)} LP` : 'Introuvable';
       const collected = data.source==='opgg' ? (p.lastSuccessAt ? `OP.GG : ${new Date(p.lastSuccessAt).toLocaleString('fr-FR',{timeZone:'Europe/Paris',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}` : 'Pas de collecte réussie') : null;

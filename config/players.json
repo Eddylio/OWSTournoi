@@ -47,7 +47,16 @@
         "sourceUrl": "https://op.gg/ro/lol/leaderboards/tier?region=euw&summoner=Mr+Mitcow-COW&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/elpoupone-8534"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/elpoupone-8534",
+      "verifiedSoloRank": {
+        "tier": "PLATINUM",
+        "division": "I",
+        "lp": 10,
+        "throughMatchAt": "2026-11-06T18:18:38.000Z",
+        "observedAt": "2026-11-07T12:42:42Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/elpoupone-8534/overview"
+      }
     },
     {
       "id": "joueur-03",
