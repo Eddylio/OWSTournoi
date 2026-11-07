@@ -1804,6 +1804,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOIUiCIlIzOkbS-ohx239z3hVQe4sw-x0sM=",
+      "playedAt": "2026-11-06T17:28:03.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Kaisa",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-07",
       "id": "ta1XN8oiMOJYtIYkvpj3VFBfK3eek9odWJ-av0_LeXY=",
       "playedAt": "2026-11-06T17:36:56.000Z",
