@@ -51,9 +51,9 @@
       "verifiedSoloRank": {
         "tier": "PLATINUM",
         "division": "I",
-        "lp": 10,
-        "throughMatchAt": "2026-11-06T18:18:38.000Z",
-        "observedAt": "2026-11-07T12:42:42Z",
+        "lp": 61,
+        "throughMatchAt": "2026-11-08T17:42:20.000Z",
+        "observedAt": "2026-11-08T23:15:52.758Z",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/elpoupone-8534/overview"
       }
@@ -101,7 +101,16 @@
         "sourceUrl": "https://op.gg/tr/lol/summoners/EUW/RespectezVosSupp-EUWFR",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/respectezvossupp-EUWFR"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/respectezvossupp-EUWFR",
+      "verifiedSoloRank": {
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 33,
+        "throughMatchAt": "2026-11-08T15:24:05.000Z",
+        "observedAt": "2026-11-08T23:15:52.758Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/respectezvossupp-euwfr/overview"
+      }
     },
     {
       "id": "joueur-05",
@@ -124,7 +133,16 @@
         "sourceUrl": "https://op.gg/ro/lol/leaderboards/tier?region=euw&summoner=tomat0carryu-carry&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/0nil0-EUW"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/0nil0-EUW",
+      "verifiedSoloRank": {
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 55,
+        "throughMatchAt": "2026-11-08T15:28:13.000Z",
+        "observedAt": "2026-11-08T23:15:52.758Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview"
+      }
     },
     {
       "id": "joueur-06",
@@ -214,7 +232,16 @@
         "sourceUrl": "https://op.gg/es/lol/summoners/euw/Exterminateur-OTP",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/exterminateur-otp"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/exterminateur-otp",
+      "verifiedSoloRank": {
+        "tier": "EMERALD",
+        "division": "II",
+        "lp": 80,
+        "throughMatchAt": "2026-11-08T17:25:09.000Z",
+        "observedAt": "2026-11-08T23:15:52.758Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview"
+      }
     },
     {
       "id": "joueur-10",
@@ -252,7 +279,16 @@
         "sourceUrl": "https://op.gg/ja/lol/leaderboards/tier?page=9444&region=euw&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/lastchance-zayko"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/lastchance-zayko",
+      "verifiedSoloRank": {
+        "tier": "PLATINUM",
+        "division": "II",
+        "lp": 28,
+        "throughMatchAt": "2026-11-08T15:15:46.000Z",
+        "observedAt": "2026-11-08T23:15:52.758Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/lastchance-zayko/overview"
+      }
     },
     {
       "id": "joueur-12",
