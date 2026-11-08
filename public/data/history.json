@@ -74,6 +74,182 @@
           "lpDelta": 0
         }
       ]
+    },
+    {
+      "week": 1,
+      "capturedAt": "2026-11-08T05:57:13.523Z",
+      "players": [
+        {
+          "id": "joueur-01",
+          "lpDelta": -45,
+          "lpPending": false,
+          "games": 4,
+          "winrate": 25,
+          "tier": "PLATINUM",
+          "division": "IV",
+          "lp": 64
+        },
+        {
+          "id": "joueur-02",
+          "lpDelta": -90,
+          "lpPending": false,
+          "games": 6,
+          "winrate": 0,
+          "tier": "PLATINUM",
+          "division": "I",
+          "lp": 10
+        },
+        {
+          "id": "joueur-03",
+          "lpDelta": null,
+          "lpPending": true,
+          "games": 13,
+          "winrate": 84.6,
+          "tier": "DIAMOND",
+          "division": "IV",
+          "lp": 83
+        },
+        {
+          "id": "joueur-04",
+          "lpDelta": 46,
+          "lpPending": false,
+          "games": 19,
+          "winrate": 57.9,
+          "tier": "EMERALD",
+          "division": "III",
+          "lp": 57
+        },
+        {
+          "id": "joueur-05",
+          "lpDelta": null,
+          "lpPending": true,
+          "games": 18,
+          "winrate": 50,
+          "tier": "DIAMOND",
+          "division": "IV",
+          "lp": 19
+        },
+        {
+          "id": "joueur-06",
+          "lpDelta": null,
+          "lpPending": true,
+          "games": 21,
+          "winrate": 47.6,
+          "tier": "PLATINUM",
+          "division": "IV",
+          "lp": 73
+        },
+        {
+          "id": "joueur-07",
+          "lpDelta": null,
+          "lpPending": true,
+          "games": 21,
+          "winrate": 57.1,
+          "tier": "PLATINUM",
+          "division": "III",
+          "lp": 28
+        },
+        {
+          "id": "joueur-08",
+          "lpDelta": 207,
+          "lpPending": false,
+          "games": 13,
+          "winrate": 84.6,
+          "tier": "DIAMOND",
+          "division": "IV",
+          "lp": 5
+        },
+        {
+          "id": "joueur-09",
+          "lpDelta": 133,
+          "lpPending": false,
+          "games": 38,
+          "winrate": 60.5,
+          "tier": "EMERALD",
+          "division": "II",
+          "lp": 41
+        },
+        {
+          "id": "joueur-10",
+          "lpDelta": 0,
+          "lpPending": false,
+          "games": 0,
+          "winrate": null,
+          "tier": "SILVER",
+          "division": "IV",
+          "lp": 7
+        },
+        {
+          "id": "joueur-11",
+          "lpDelta": null,
+          "lpPending": true,
+          "games": 19,
+          "winrate": 52.6,
+          "tier": "PLATINUM",
+          "division": "II",
+          "lp": 47
+        },
+        {
+          "id": "joueur-12",
+          "lpDelta": 0,
+          "lpPending": false,
+          "games": 0,
+          "winrate": null,
+          "tier": "GOLD",
+          "division": "III",
+          "lp": 14
+        },
+        {
+          "id": "joueur-13",
+          "lpDelta": 147,
+          "lpPending": false,
+          "games": 35,
+          "winrate": 57.1,
+          "tier": "DIAMOND",
+          "division": "II",
+          "lp": 52
+        },
+        {
+          "id": "joueur-14",
+          "lpDelta": null,
+          "lpPending": true,
+          "games": 15,
+          "winrate": 53.3,
+          "tier": "DIAMOND",
+          "division": "III",
+          "lp": 85
+        },
+        {
+          "id": "joueur-15",
+          "lpDelta": 288,
+          "lpPending": false,
+          "games": 60,
+          "winrate": 55,
+          "tier": "GOLD",
+          "division": "I",
+          "lp": 12
+        },
+        {
+          "id": "joueur-16",
+          "lpDelta": 3,
+          "lpPending": false,
+          "games": 3,
+          "winrate": 33.3,
+          "tier": "MASTER",
+          "division": null,
+          "lp": 57
+        },
+        {
+          "id": "joueur-17",
+          "lpDelta": 61,
+          "lpPending": false,
+          "games": 4,
+          "winrate": 75,
+          "tier": "EMERALD",
+          "division": "III",
+          "lp": 62
+        }
+      ]
     }
   ]
 }
