@@ -2767,6 +2767,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOKfJ0hmisZDsPJorFZKm9EOPi7DvrdWttw=",
+      "playedAt": "2026-11-08T13:49:20.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Milio",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-14",
       "id": "ta1XN8oiMOLlTnXqUIw3Qimx1M56Djv98Ozd-ZSjqCQ=",
       "playedAt": "2026-11-08T14:10:21.000Z",
@@ -2929,12 +2938,30 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOIwKv9fxFceViGad5hfSKfHx0vcu8FSLxg=",
+      "playedAt": "2026-11-08T16:43:56.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-03",
       "id": "ta1XN8oiMOKWyFm0Hk83Q3oZrksu_d-BRZOKMVDj1BQ=",
       "playedAt": "2026-11-08T16:44:59.000Z",
       "queueId": 420,
       "result": "V",
       "champion": "Zeri",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOI4viatPoHmmfln8zQtCAO73vP-6amVQ0k=",
+      "playedAt": "2026-11-08T17:08:24.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Urgot",
       "source": "opgg-structured-history"
     },
     {
@@ -2953,6 +2980,24 @@
       "queueId": 420,
       "result": "D",
       "champion": "Urgot",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOIBd1lQxaFDtiCSxSGEyfRqxKB-uAOEvo4=",
+      "playedAt": "2026-11-08T18:09:40.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOKujpfAAjkyNbZOWoIlDZlh3sp3zmuxDD4=",
+      "playedAt": "2026-11-08T18:34:51.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Gwen",
       "source": "opgg-structured-history"
     },
     {
