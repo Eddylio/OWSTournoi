@@ -165,7 +165,16 @@
         "sourceUrl": "https://op.gg/fr/lol/summoners/euw/KC%20FuFuu-EUW",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/kc%20fufuu-EUW"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/kc%20fufuu-EUW",
+      "verifiedSoloRank": {
+        "tier": "PLATINUM",
+        "division": "IV",
+        "lp": 81,
+        "throughMatchAt": "2026-11-09T15:55:32.000Z",
+        "observedAt": "2026-11-09T18:47:51.308Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/kc%20fufuu-euw/overview"
+      }
     },
     {
       "id": "joueur-07",
@@ -210,7 +219,16 @@
         "sourceUrl": "https://op.gg/zh-cn/lol/summoners/euw/Youps-May",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/youps-may"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/youps-may",
+      "verifiedSoloRank": {
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 19,
+        "throughMatchAt": "2026-11-09T13:51:43.000Z",
+        "observedAt": "2026-11-09T18:47:51.308Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/youps-may/overview"
+      }
     },
     {
       "id": "joueur-09",
