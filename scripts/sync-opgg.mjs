@@ -34,7 +34,7 @@ for(const p of cfg.players){
     if(html.length>5_000_000)throw new Error('HTML trop volumineux');
     const parsed=parseOpggHtml(html);
     if(!parsed)throw new Error('SoloQ introuvable dans le HTML public (structure OP.GG potentiellement modifiée)');
-    const updated=updateMatches({...previous,rank:{tier:parsed.tier,division:parsed.division,lp:parsed.lp},lastSuccessAt:now},parseMatchHistory(html,id),now);
+    const updated=updateMatches({...previous,rank:{tier:parsed.tier,division:parsed.division,lp:parsed.lp,seasonWins:parsed.wins,seasonLosses:parsed.losses},lastSuccessAt:now},parseMatchHistory(html,id),now);
     const sameRank = previous.rank?.tier === parsed.tier && previous.rank?.division === parsed.division && previous.rank?.lp === parsed.lp;
     updated.rankChartAt = rankChartDate(html, parsed) || (sameRank ? previous.rankChartAt : null) || null;
     state.players[p.id]=updated;

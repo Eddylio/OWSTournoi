@@ -23,7 +23,11 @@ export function viewOf(p, saved, status='baseline') {
   const rankDate = saved?.rankChartAt || saved?.sourceUpdatedAt;
   const opggBehind = lastSolo > 0 && (!Number.isFinite(Date.parse(rankDate)) || Date.parse(rankDate) < lastSolo);
   const verified = p.verifiedSoloRank;
-  const useVerified = status !== 'baseline' && !rankPending && opggBehind && verified &&
+  const rank = saved?.rank;
+  const countersBehind = Number.isInteger(rank?.seasonWins) && Number.isInteger(rank?.seasonLosses) &&
+    rank.seasonWins <= verified?.seasonWins && rank.seasonLosses <= verified?.seasonLosses &&
+    (rank.seasonWins < verified.seasonWins || rank.seasonLosses < verified.seasonLosses);
+  const useVerified = status !== 'baseline' && !rankPending && (opggBehind || countersBehind) && verified &&
     lastSolo === Date.parse(verified.throughMatchAt) &&
     Date.parse(verified.observedAt) >= lastSolo &&
     scoreOf(verified.tier, verified.division, verified.lp) !== null;

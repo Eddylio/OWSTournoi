@@ -173,7 +173,9 @@
         "throughMatchAt": "2026-11-09T15:55:32.000Z",
         "observedAt": "2026-11-09T18:47:51.308Z",
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/kc%20fufuu-euw/overview"
+        "url": "https://u.gg/lol/profile/euw1/kc%20fufuu-euw/overview",
+        "seasonWins": 423,
+        "seasonLosses": 433
       }
     },
     {
@@ -227,7 +229,9 @@
         "throughMatchAt": "2026-11-09T13:51:43.000Z",
         "observedAt": "2026-11-09T18:47:51.308Z",
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/youps-may/overview"
+        "url": "https://u.gg/lol/profile/euw1/youps-may/overview",
+        "seasonWins": 186,
+        "seasonLosses": 154
       }
     },
     {
