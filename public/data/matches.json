@@ -3236,6 +3236,24 @@
     },
     {
       "playerId": "joueur-01",
+      "id": "ta1XN8oiMOKetuVxzJDzgQmvgkkVOZ_ysEyLVR3HhUg=",
+      "playedAt": "2026-11-10T00:28:59.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lucian",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOKetuVxzJDzgQmvgkkVOZ_ysEyLVR3HhUg=",
+      "playedAt": "2026-11-10T00:28:59.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Pyke",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-01",
       "id": "ta1XN8oiMOILPaLDCpREbyXSZr7H6PT3RIn2hXnsVgw=",
       "playedAt": "2026-11-10T01:05:53.000Z",
       "queueId": 420,
