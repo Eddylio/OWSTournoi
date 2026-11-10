@@ -25,7 +25,18 @@
         "sourceUrl": "https://op.gg/nl/lol/summoners/euw/taudinico-EUW",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/taudinico-EUW"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/taudinico-EUW",
+      "verifiedSoloRank": {
+        "tier": "PLATINUM",
+        "division": "IV",
+        "lp": 20,
+        "seasonWins": 177,
+        "seasonLosses": 178,
+        "throughMatchAt": "2026-11-10T01:05:53.000Z",
+        "observedAt": "2026-11-10T05:18:33.562Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/taudinico-euw/overview"
+      }
     },
     {
       "id": "joueur-02",
@@ -51,9 +62,11 @@
       "verifiedSoloRank": {
         "tier": "PLATINUM",
         "division": "I",
-        "lp": 61,
-        "throughMatchAt": "2026-11-08T17:42:20.000Z",
-        "observedAt": "2026-11-08T23:15:52.758Z",
+        "lp": 80,
+        "seasonWins": 50,
+        "seasonLosses": 57,
+        "throughMatchAt": "2026-11-09T18:15:13.000Z",
+        "observedAt": "2026-11-10T05:18:33.562Z",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/elpoupone-8534/overview"
       }
@@ -105,9 +118,11 @@
       "verifiedSoloRank": {
         "tier": "EMERALD",
         "division": "III",
-        "lp": 33,
-        "throughMatchAt": "2026-11-08T15:24:05.000Z",
-        "observedAt": "2026-11-08T23:15:52.758Z",
+        "lp": 10,
+        "seasonWins": 268,
+        "seasonLosses": 258,
+        "throughMatchAt": "2026-11-09T22:19:55.000Z",
+        "observedAt": "2026-11-10T05:18:33.562Z",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/respectezvossupp-euwfr/overview"
       }
@@ -137,9 +152,11 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "IV",
-        "lp": 55,
-        "throughMatchAt": "2026-11-08T15:28:13.000Z",
-        "observedAt": "2026-11-08T23:15:52.758Z",
+        "lp": 49,
+        "seasonWins": 269,
+        "seasonLosses": 258,
+        "throughMatchAt": "2026-11-09T23:09:43.000Z",
+        "observedAt": "2026-11-10T05:18:33.562Z",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview"
       }
@@ -198,7 +215,18 @@
         "sourceUrl": "https://op.gg/da/lol/summoners/euw/sofino-EUW",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/sofino-EUW"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/sofino-EUW",
+      "verifiedSoloRank": {
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 28,
+        "seasonWins": 162,
+        "seasonLosses": 167,
+        "throughMatchAt": "2026-11-10T01:56:20.000Z",
+        "observedAt": "2026-11-10T05:18:33.562Z",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview"
+      }
     },
     {
       "id": "joueur-08",
@@ -258,9 +286,11 @@
       "verifiedSoloRank": {
         "tier": "EMERALD",
         "division": "II",
-        "lp": 80,
-        "throughMatchAt": "2026-11-08T17:25:09.000Z",
-        "observedAt": "2026-11-08T23:15:52.758Z",
+        "lp": 70,
+        "seasonWins": 390,
+        "seasonLosses": 373,
+        "throughMatchAt": "2026-11-10T02:57:11.000Z",
+        "observedAt": "2026-11-10T05:18:33.562Z",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview"
       }
