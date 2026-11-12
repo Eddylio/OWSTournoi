@@ -162,12 +162,12 @@
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/0nil0-EUW",
       "verifiedSoloRank": {
         "tier": "DIAMOND",
-        "division": "IV",
+        "division": "III",
         "lp": 34,
-        "seasonWins": 275,
-        "seasonLosses": 265,
-        "throughMatchAt": "2026-11-11T22:09:41.000Z",
-        "observedAt": "2026-11-11T23:15:52.646913+00:00",
+        "seasonWins": 280,
+        "seasonLosses": 266,
+        "throughMatchAt": "2026-11-12T15:28:02.000Z",
+        "observedAt": "2026-11-12T16:49:30.701142+00:00",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview"
       }
@@ -230,11 +230,11 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 63,
-        "seasonWins": 165,
-        "seasonLosses": 168,
-        "throughMatchAt": "2026-11-10T14:51:50.000Z",
-        "observedAt": "2026-11-11T03:57:58.391Z",
+        "lp": 40,
+        "seasonWins": 166,
+        "seasonLosses": 170,
+        "throughMatchAt": "2026-11-11T14:25:43.000Z",
+        "observedAt": "2026-11-12T16:49:40.336298+00:00",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview"
       }
@@ -297,11 +297,11 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "IV",
-        "lp": 30,
-        "seasonWins": 400,
-        "seasonLosses": 375,
-        "throughMatchAt": "2026-11-11T04:05:10.000Z",
-        "observedAt": "2026-11-11T23:16:02.281418+00:00",
+        "lp": 11,
+        "seasonWins": 401,
+        "seasonLosses": 378,
+        "throughMatchAt": "2026-11-12T02:09:14.000Z",
+        "observedAt": "2026-11-12T16:49:40.398597+00:00",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview"
       }
@@ -349,8 +349,8 @@
         "lp": 28,
         "seasonWins": 72,
         "seasonLosses": 75,
-        "throughMatchAt": "2026-11-11T11:36:24.000Z",
-        "observedAt": "2026-11-11T23:16:11.127323+00:00",
+        "throughMatchAt": "2026-11-11T18:00:32.000Z",
+        "observedAt": "2026-11-12T16:49:50.141290+00:00",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/lastchance-zayko/overview"
       }
@@ -437,7 +437,18 @@
         "sourceType": "user",
         "sourceAt": "31/10/2026"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/ShadowPhen-1005"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/ShadowPhen-1005",
+      "verifiedSoloRank": {
+        "tier": "GOLD",
+        "division": "I",
+        "lp": 39,
+        "seasonWins": 379,
+        "seasonLosses": 371,
+        "throughMatchAt": "2026-11-12T14:33:02.000Z",
+        "observedAt": "2026-11-12T16:49:50.191279+00:00",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/shadowphen-1005/overview"
+      }
     },
     {
       "id": "joueur-16",
@@ -481,7 +492,18 @@
         "sourceUrl": "https://op.gg/ru/lol/leaderboards/tier?page=4761&region=euw&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/LamaOnSteroid-DOGO"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/LamaOnSteroid-DOGO",
+      "verifiedSoloRank": {
+        "tier": "EMERALD",
+        "division": "III",
+        "lp": 62,
+        "seasonWins": 127,
+        "seasonLosses": 115,
+        "throughMatchAt": "2026-11-12T13:17:45.000Z",
+        "observedAt": "2026-11-12T16:50:01.121410+00:00",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/lamaonsteroid-dogo/overview"
+      }
     }
   ]
 }
