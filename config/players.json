@@ -60,15 +60,15 @@
       },
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/elpoupone-8534",
       "verifiedSoloRank": {
-        "tier": "PLATINUM",
-        "division": "I",
-        "lp": 80,
-        "seasonWins": 50,
-        "seasonLosses": 57,
-        "throughMatchAt": "2026-11-09T18:15:13.000Z",
-        "observedAt": "2026-11-10T05:18:33.562Z",
+        "tier": "EMERALD",
+        "division": "IV",
+        "lp": 19,
+        "seasonWins": 52,
+        "seasonLosses": 58,
+        "observedAt": "2026-11-13T01:15:45.767072+00:00",
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/elpoupone-8534/overview"
+        "url": "https://u.gg/lol/profile/euw1/elpoupone-8534/overview",
+        "throughMatchAt": "2026-11-09T18:15:13.000Z"
       }
     },
     {
@@ -163,13 +163,13 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "III",
-        "lp": 34,
-        "seasonWins": 280,
-        "seasonLosses": 266,
-        "throughMatchAt": "2026-11-12T15:28:02.000Z",
-        "observedAt": "2026-11-12T16:49:30.701142+00:00",
+        "lp": 98,
+        "seasonWins": 285,
+        "seasonLosses": 267,
+        "observedAt": "2026-11-13T01:15:45.786218+00:00",
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview"
+        "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview",
+        "throughMatchAt": "2026-11-12T22:43:10.000Z"
       }
     },
     {
@@ -230,13 +230,13 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 40,
-        "seasonWins": 166,
+        "lp": 59,
+        "seasonWins": 167,
         "seasonLosses": 170,
-        "throughMatchAt": "2026-11-11T14:25:43.000Z",
-        "observedAt": "2026-11-12T16:49:40.336298+00:00",
+        "observedAt": "2026-11-13T01:15:57.678293+00:00",
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview"
+        "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview",
+        "throughMatchAt": "2026-11-11T14:25:43.000Z"
       }
     },
     {
@@ -264,13 +264,13 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "IV",
-        "lp": 19,
-        "throughMatchAt": "2026-11-09T13:51:43.000Z",
-        "observedAt": "2026-11-09T18:47:51.308Z",
+        "lp": 0,
+        "seasonWins": 186,
+        "seasonLosses": 155,
+        "observedAt": "2026-11-13T01:15:57.584182+00:00",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/youps-may/overview",
-        "seasonWins": 186,
-        "seasonLosses": 154
+        "throughMatchAt": "2026-11-12T17:14:08.000Z"
       }
     },
     {
@@ -297,13 +297,13 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "IV",
-        "lp": 11,
-        "seasonWins": 401,
-        "seasonLosses": 378,
-        "throughMatchAt": "2026-11-12T02:09:14.000Z",
-        "observedAt": "2026-11-12T16:49:40.398597+00:00",
+        "lp": 0,
+        "seasonWins": 403,
+        "seasonLosses": 381,
+        "observedAt": "2026-11-13T01:15:57.629569+00:00",
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview"
+        "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview",
+        "throughMatchAt": "2026-11-12T22:08:01.000Z"
       }
     },
     {
@@ -347,12 +347,12 @@
         "tier": "PLATINUM",
         "division": "II",
         "lp": 28,
-        "seasonWins": 72,
-        "seasonLosses": 75,
-        "throughMatchAt": "2026-11-11T18:00:32.000Z",
-        "observedAt": "2026-11-12T16:49:50.141290+00:00",
+        "seasonWins": 73,
+        "seasonLosses": 76,
+        "observedAt": "2026-11-13T01:16:09.874181+00:00",
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/lastchance-zayko/overview"
+        "url": "https://u.gg/lol/profile/euw1/lastchance-zayko/overview",
+        "throughMatchAt": "2026-11-12T17:28:56.000Z"
       }
     },
     {
@@ -470,7 +470,18 @@
         "sourceUrl": "https://op.gg/de/lol/leaderboards/tier?page=361&region=euw&tier=all&type=ladder",
         "method": "Moteur de recherche, sans rafraîchissement forcé de la fiche"
       },
-      "opggUrl": "https://op.gg/fr/lol/summoners/euw/Own%20by%20Fakir-EASY"
+      "opggUrl": "https://op.gg/fr/lol/summoners/euw/Own%20by%20Fakir-EASY",
+      "verifiedSoloRank": {
+        "tier": "MASTER",
+        "division": null,
+        "lp": 88,
+        "seasonWins": 144,
+        "seasonLosses": 121,
+        "source": "OP.GG",
+        "url": "https://op.gg/fr/lol/summoners/euw/Own%20by%20Fakir-EASY",
+        "observedAt": "2026-11-13T01:18:13.310Z",
+        "throughMatchAt": "2026-11-12T19:12:55.000Z"
+      }
     },
     {
       "id": "joueur-17",
