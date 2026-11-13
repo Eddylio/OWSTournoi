@@ -4252,6 +4252,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-05",
+      "id": "ta1XN8oiMOITxl7oLHGQc4GL39IUMJET1OtQ8flsM7Q=",
+      "playedAt": "2026-11-12T23:28:15.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Vayne",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-13",
       "id": "ta1XN8oiMOJKx2Eo_o8rB0JYKP2Nt2V8nvO72NGm_NY=",
       "playedAt": "2026-11-12T23:43:23.000Z",
