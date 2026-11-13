@@ -65,10 +65,10 @@
         "lp": 19,
         "seasonWins": 52,
         "seasonLosses": 58,
-        "observedAt": "2026-11-13T01:15:45.767072+00:00",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/elpoupone-8534/overview",
-        "throughMatchAt": "2026-11-09T18:15:13.000Z"
+        "throughMatchAt": "2026-11-12T19:03:16.000Z",
+        "observedAt": "2026-11-13T15:31:33.286017+00:00"
       }
     },
     {
@@ -163,13 +163,13 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "III",
-        "lp": 98,
+        "lp": 54,
         "seasonWins": 285,
-        "seasonLosses": 267,
-        "observedAt": "2026-11-13T01:15:45.786218+00:00",
-        "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview",
-        "throughMatchAt": "2026-11-12T22:43:10.000Z"
+        "seasonLosses": 269,
+        "source": "League of Graphs",
+        "url": "https://www.leagueofgraphs.com/summoner/euw/0nil0-EUW",
+        "throughMatchAt": "2026-11-13T14:34:16.000Z",
+        "observedAt": "2026-11-13T15:31:33.211250+00:00"
       }
     },
     {
@@ -230,13 +230,13 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 59,
-        "seasonWins": 167,
+        "lp": 78,
+        "seasonWins": 168,
         "seasonLosses": 170,
-        "observedAt": "2026-11-13T01:15:57.678293+00:00",
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview",
-        "throughMatchAt": "2026-11-11T14:25:43.000Z"
+        "throughMatchAt": "2026-11-12T23:04:40.000Z",
+        "observedAt": "2026-11-13T15:31:45.819844+00:00"
       }
     },
     {
@@ -262,15 +262,15 @@
       },
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/youps-may",
       "verifiedSoloRank": {
-        "tier": "DIAMOND",
-        "division": "IV",
-        "lp": 0,
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 53,
         "seasonWins": 186,
-        "seasonLosses": 155,
-        "observedAt": "2026-11-13T01:15:57.584182+00:00",
+        "seasonLosses": 157,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/youps-may/overview",
-        "throughMatchAt": "2026-11-12T17:14:08.000Z"
+        "throughMatchAt": "2026-11-13T14:52:43.000Z",
+        "observedAt": "2026-11-13T15:31:45.828413+00:00"
       }
     },
     {
@@ -441,13 +441,13 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 39,
+        "lp": 20,
         "seasonWins": 379,
-        "seasonLosses": 371,
-        "throughMatchAt": "2026-11-12T14:33:02.000Z",
-        "observedAt": "2026-11-12T16:49:50.191279+00:00",
+        "seasonLosses": 372,
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/shadowphen-1005/overview"
+        "url": "https://u.gg/lol/profile/euw1/shadowphen-1005/overview",
+        "throughMatchAt": "2026-11-12T14:33:02.000Z",
+        "observedAt": "2026-11-13T15:31:57.871678+00:00"
       }
     },
     {
