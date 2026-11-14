@@ -4577,11 +4577,92 @@
     },
     {
       "playerId": "joueur-04",
+      "id": "ta1XN8oiMOIbMLXu1F2_uR9PVZi102H0YGjBCQU8erg=",
+      "playedAt": "2026-11-13T22:23:07.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Nami",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOJrCB4yAYxuuhCMlfHvmYjWkl3L8GoAxcY=",
+      "playedAt": "2026-11-13T23:39:11.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Nami",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOLkR0-JvS5wz9tkQZ6DJcBql2Dt3HAARls=",
+      "playedAt": "2026-11-14T00:20:05.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Braum",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
       "id": "ta1XN8oiMOI0FayfTRQYKxWXV-GOCnikEL8HdkIAFAw=",
       "playedAt": "2026-11-14T00:59:27.000Z",
       "queueId": 420,
       "result": "V",
       "champion": "Thresh",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOJ7euC6tAWygtnRMQZKFC5NyYskhQQ2Z_4=",
+      "playedAt": "2026-11-14T02:30:59.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOLC6mZriPy4-06o1yIStMP9rv3jArv-dOc=",
+      "playedAt": "2026-11-14T03:05:42.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOJ7q5IpLE4zi4n90BIKp-8ZFpEHQRNXtr0=",
+      "playedAt": "2026-11-14T03:20:27.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Thresh",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOKV7UgDRY4vStOfp-XsYZpODuZib07cjEQ=",
+      "playedAt": "2026-11-14T03:44:04.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOLhpsd7R8Ymb0XNvj-W0kuf44-WDce82Ys=",
+      "playedAt": "2026-11-14T03:45:07.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Nami",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKTONRE9b9xppW32pxih4sKrt6lVs69_24=",
+      "playedAt": "2026-11-14T04:30:01.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "MissFortune",
       "source": "opgg-structured-history"
     }
   ]
