@@ -129,13 +129,13 @@
       "verifiedSoloRank": {
         "tier": "EMERALD",
         "division": "III",
-        "lp": 47,
-        "seasonWins": 275,
-        "seasonLosses": 263,
+        "lp": 19,
+        "seasonWins": 279,
+        "seasonLosses": 270,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/respectezvossupp-euwfr/overview",
-        "throughMatchAt": "2026-11-14T00:59:27.000Z",
-        "observedAt": "2026-11-14T01:43:39.248195+00:00"
+        "throughMatchAt": "2026-11-15T00:42:18.000Z",
+        "observedAt": "2026-11-15T02:15:12.860368+00:00"
       }
     },
     {
@@ -163,13 +163,13 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "III",
-        "lp": 54,
-        "seasonWins": 285,
-        "seasonLosses": 269,
-        "source": "League of Graphs",
-        "url": "https://www.leagueofgraphs.com/summoner/euw/0nil0-EUW",
-        "throughMatchAt": "2026-11-13T14:34:16.000Z",
-        "observedAt": "2026-11-13T15:31:33.211250+00:00"
+        "lp": 2,
+        "seasonWins": 295,
+        "seasonLosses": 281,
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview",
+        "throughMatchAt": "2026-11-14T23:56:42.000Z",
+        "observedAt": "2026-11-15T02:15:12.895839+00:00"
       }
     },
     {
@@ -230,13 +230,13 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 97,
+        "lp": 77,
         "seasonWins": 169,
-        "seasonLosses": 170,
+        "seasonLosses": 172,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview",
-        "throughMatchAt": "2026-11-13T14:52:08.000Z",
-        "observedAt": "2026-11-14T01:43:51.232714+00:00"
+        "throughMatchAt": "2026-11-14T21:23:03.000Z",
+        "observedAt": "2026-11-15T02:15:21.284066+00:00"
       }
     },
     {
@@ -295,15 +295,15 @@
       },
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/exterminateur-otp",
       "verifiedSoloRank": {
-        "tier": "DIAMOND",
-        "division": "IV",
-        "lp": 0,
-        "seasonWins": 403,
-        "seasonLosses": 382,
+        "tier": "EMERALD",
+        "division": "I",
+        "lp": 75,
+        "seasonWins": 405,
+        "seasonLosses": 385,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview",
-        "throughMatchAt": "2026-11-12T22:56:01.000Z",
-        "observedAt": "2026-11-14T01:43:51.292162+00:00"
+        "throughMatchAt": "2026-11-14T21:17:22.000Z",
+        "observedAt": "2026-11-15T02:15:21.297303+00:00"
       }
     },
     {
@@ -346,13 +346,13 @@
       "verifiedSoloRank": {
         "tier": "PLATINUM",
         "division": "II",
-        "lp": 28,
-        "seasonWins": 73,
-        "seasonLosses": 76,
+        "lp": 8,
+        "seasonWins": 75,
+        "seasonLosses": 79,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/lastchance-zayko/overview",
-        "throughMatchAt": "2026-11-12T18:00:49.000Z",
-        "observedAt": "2026-11-14T01:44:03.147630+00:00"
+        "throughMatchAt": "2026-11-14T14:12:07.000Z",
+        "observedAt": "2026-11-15T02:15:29.458594+00:00"
       }
     },
     {
@@ -441,13 +441,13 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 20,
-        "seasonWins": 379,
-        "seasonLosses": 372,
+        "lp": 2,
+        "seasonWins": 383,
+        "seasonLosses": 377,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/shadowphen-1005/overview",
-        "throughMatchAt": "2026-11-13T13:44:07.000Z",
-        "observedAt": "2026-11-14T01:44:03.167318+00:00"
+        "throughMatchAt": "2026-11-14T16:08:35.000Z",
+        "observedAt": "2026-11-15T02:15:29.265558+00:00"
       }
     },
     {
