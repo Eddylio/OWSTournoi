@@ -62,13 +62,13 @@
       "verifiedSoloRank": {
         "tier": "EMERALD",
         "division": "IV",
-        "lp": 19,
-        "seasonWins": 52,
-        "seasonLosses": 58,
+        "lp": 34,
+        "seasonWins": 55,
+        "seasonLosses": 60,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/elpoupone-8534/overview",
-        "throughMatchAt": "2026-11-12T19:03:16.000Z",
-        "observedAt": "2026-11-13T15:31:33.286017+00:00"
+        "throughMatchAt": "2026-11-15T17:08:52.000Z",
+        "observedAt": "2026-11-15T23:15:47.181711+00:00"
       }
     },
     {
@@ -96,13 +96,13 @@
       "verifiedSoloRank": {
         "tier": "DIAMOND",
         "division": "III",
-        "lp": 63,
-        "seasonWins": 287,
-        "seasonLosses": 263,
+        "lp": 72,
+        "seasonWins": 296,
+        "seasonLosses": 272,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/ciron-euw/overview",
-        "throughMatchAt": "2026-11-13T21:35:30.000Z",
-        "observedAt": "2026-11-14T01:43:39.210742+00:00"
+        "throughMatchAt": "2026-11-15T18:33:51.000Z",
+        "observedAt": "2026-11-15T23:15:47.212529+00:00"
       }
     },
     {
@@ -168,8 +168,8 @@
         "seasonLosses": 281,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview",
-        "throughMatchAt": "2026-11-14T23:56:42.000Z",
-        "observedAt": "2026-11-15T02:15:12.895839+00:00"
+        "throughMatchAt": "2026-11-15T00:54:16.000Z",
+        "observedAt": "2026-11-15T23:15:47.202405+00:00"
       }
     },
     {
@@ -230,13 +230,13 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 77,
+        "lp": 55,
         "seasonWins": 169,
-        "seasonLosses": 172,
-        "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview",
+        "seasonLosses": 173,
+        "source": "League of Graphs",
+        "url": "https://www.leagueofgraphs.com/summoner/euw/sofino-EUW",
         "throughMatchAt": "2026-11-14T21:23:03.000Z",
-        "observedAt": "2026-11-15T02:15:21.284066+00:00"
+        "observedAt": "2026-11-15T23:15:55.792695+00:00"
       }
     },
     {
@@ -295,15 +295,15 @@
       },
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/exterminateur-otp",
       "verifiedSoloRank": {
-        "tier": "EMERALD",
-        "division": "I",
-        "lp": 75,
-        "seasonWins": 405,
-        "seasonLosses": 385,
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 9,
+        "seasonWins": 408,
+        "seasonLosses": 386,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview",
-        "throughMatchAt": "2026-11-14T21:17:22.000Z",
-        "observedAt": "2026-11-15T02:15:21.297303+00:00"
+        "throughMatchAt": "2026-11-15T19:54:42.000Z",
+        "observedAt": "2026-11-15T23:15:55.757363+00:00"
       }
     },
     {
@@ -346,13 +346,13 @@
       "verifiedSoloRank": {
         "tier": "PLATINUM",
         "division": "II",
-        "lp": 8,
-        "seasonWins": 75,
-        "seasonLosses": 79,
+        "lp": 6,
+        "seasonWins": 79,
+        "seasonLosses": 84,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/lastchance-zayko/overview",
-        "throughMatchAt": "2026-11-14T14:12:07.000Z",
-        "observedAt": "2026-11-15T02:15:29.458594+00:00"
+        "throughMatchAt": "2026-11-15T20:07:17.000Z",
+        "observedAt": "2026-11-15T23:16:04.412645+00:00"
       }
     },
     {
@@ -507,13 +507,13 @@
       "verifiedSoloRank": {
         "tier": "EMERALD",
         "division": "III",
-        "lp": 62,
+        "lp": 42,
         "seasonWins": 127,
-        "seasonLosses": 115,
-        "throughMatchAt": "2026-11-12T13:17:45.000Z",
-        "observedAt": "2026-11-12T16:50:01.121410+00:00",
+        "seasonLosses": 116,
         "source": "U.GG",
-        "url": "https://u.gg/lol/profile/euw1/lamaonsteroid-dogo/overview"
+        "url": "https://u.gg/lol/profile/euw1/lamaonsteroid-dogo/overview",
+        "throughMatchAt": "2026-11-12T13:17:45.000Z",
+        "observedAt": "2026-11-15T23:16:14.639789+00:00"
       }
     }
   ]
