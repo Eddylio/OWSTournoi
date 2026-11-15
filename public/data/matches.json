@@ -5105,6 +5105,15 @@
       "result": "V",
       "champion": "Senna",
       "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOKJzZXdLFrvKVBvg7Mc223nd6qcep8Ofrk=",
+      "playedAt": "2026-11-15T01:47:54.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lux",
+      "source": "opgg-structured-history"
     }
   ]
 }
