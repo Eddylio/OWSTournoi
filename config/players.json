@@ -101,8 +101,8 @@
         "seasonLosses": 272,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/ciron-euw/overview",
-        "throughMatchAt": "2026-11-15T18:33:51.000Z",
-        "observedAt": "2026-11-15T23:15:47.212529+00:00"
+        "throughMatchAt": "2026-11-15T19:50:52.000Z",
+        "observedAt": "2026-11-16T16:47:18.740748+00:00"
       }
     },
     {
@@ -230,13 +230,13 @@
       "verifiedSoloRank": {
         "tier": "GOLD",
         "division": "I",
-        "lp": 55,
-        "seasonWins": 169,
+        "lp": 73,
+        "seasonWins": 170,
         "seasonLosses": 173,
-        "source": "League of Graphs",
-        "url": "https://www.leagueofgraphs.com/summoner/euw/sofino-EUW",
+        "source": "U.GG",
+        "url": "https://u.gg/lol/profile/euw1/sofino-euw/overview",
         "throughMatchAt": "2026-11-14T21:23:03.000Z",
-        "observedAt": "2026-11-15T23:15:55.792695+00:00"
+        "observedAt": "2026-11-16T16:47:29.215544+00:00"
       }
     },
     {
@@ -351,8 +351,8 @@
         "seasonLosses": 84,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/lastchance-zayko/overview",
-        "throughMatchAt": "2026-11-15T20:07:17.000Z",
-        "observedAt": "2026-11-15T23:16:04.412645+00:00"
+        "throughMatchAt": "2026-11-15T20:40:02.000Z",
+        "observedAt": "2026-11-16T16:47:39.744999+00:00"
       }
     },
     {
@@ -440,14 +440,14 @@
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/ShadowPhen-1005",
       "verifiedSoloRank": {
         "tier": "GOLD",
-        "division": "I",
-        "lp": 2,
+        "division": "II",
+        "lp": 83,
         "seasonWins": 383,
-        "seasonLosses": 377,
+        "seasonLosses": 378,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/shadowphen-1005/overview",
         "throughMatchAt": "2026-11-14T16:08:35.000Z",
-        "observedAt": "2026-11-15T02:15:29.265558+00:00"
+        "observedAt": "2026-11-16T16:47:39.759687+00:00"
       }
     },
     {
