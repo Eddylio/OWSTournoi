@@ -5375,6 +5375,24 @@
       "result": "D",
       "champion": "Jinx",
       "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKSFQKLYnrP9mtIEdcdgxB-kbxP-ClE680=",
+      "playedAt": "2026-11-16T14:52:23.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Kalista",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOKpFF4yAP--Gti4DvcNZPeUm1BrmymrLzk=",
+      "playedAt": "2026-11-16T16:51:59.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Caitlyn",
+      "source": "opgg-structured-history"
     }
   ]
 }
