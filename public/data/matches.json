@@ -5224,6 +5224,24 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOKtqAj3FUtdiOy15sDAYWCB9BVYn8NDZMs=",
+      "playedAt": "2026-11-15T15:39:35.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Urgot",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOImAsPm5FVhhgrtxqmSLfifxXw6jQmJvrM=",
+      "playedAt": "2026-11-15T16:11:46.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Urgot",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-03",
       "id": "ta1XN8oiMOKw6AMt4p3ko2_XmK4wU4A96HRkSGzHbcA=",
       "playedAt": "2026-11-15T16:23:57.000Z",
@@ -5320,6 +5338,15 @@
       "queueId": 420,
       "result": "V",
       "champion": "DrMundo",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-11",
+      "id": "ta1XN8oiMOIyCL-sslbCqf4dnERVM7NhQd5YlMUtVgU=",
+      "playedAt": "2026-11-15T20:40:02.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Jinx",
       "source": "opgg-structured-history"
     }
   ]
