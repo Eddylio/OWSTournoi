@@ -15,7 +15,7 @@
         "seasonWins": 177,
         "seasonLosses": 178
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOJAURNu5_LWK_zVkdeUlfM-V2_yEhO3f1Q=": {
           "id": "ta1XN8oiMOJAURNu5_LWK_zVkdeUlfM-V2_yEhO3f1Q=",
@@ -187,7 +187,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-10T14:22:20+09:00",
       "latestMatchAt": "2026-11-10T01:05:53.000Z",
       "topChampions": [
@@ -257,7 +257,7 @@
         "seasonWins": 52,
         "seasonLosses": 58
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=": {
           "id": "ta1XN8oiMOIQsayPk4LcNsIUWqP12VfOnawKfdFAIZY=",
@@ -562,8 +562,8 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
-      "sourceUpdatedAt": "2026-11-16T08:15:34+09:00",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
+      "sourceUpdatedAt": "2026-11-16T15:34:24+09:00",
       "latestMatchAt": "2026-11-15T17:08:52.000Z",
       "topChampions": [
         {
@@ -620,11 +620,11 @@
     "joueur-03": {
       "lastSeasonWins": 268,
       "lastSeasonLosses": 255,
-      "trackedWins": 26,
-      "trackedLosses": 16,
+      "trackedWins": 27,
+      "trackedLosses": 17,
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
-      "wins": 26,
-      "losses": 16,
+      "wins": 27,
+      "losses": 17,
       "rank": {
         "tier": "DIAMOND",
         "division": "III",
@@ -632,7 +632,7 @@
         "seasonWins": 293,
         "seasonLosses": 268
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOK2CGiHvrPRxEv7yzRF7hmFakDQ2qRmzQA=": {
           "id": "ta1XN8oiMOK2CGiHvrPRxEv7yzRF7hmFakDQ2qRmzQA=",
@@ -1039,6 +1039,20 @@
           "queue": "SOLORANKED",
           "result": "LOSE",
           "champion": "Viktor"
+        },
+        "ta1XN8oiMOKbSTpyIovJCKkeFE18NNAyDjDrA7JGG9M=": {
+          "id": "ta1XN8oiMOKbSTpyIovJCKkeFE18NNAyDjDrA7JGG9M=",
+          "startAt": "2026-11-15T19:50:52.000Z",
+          "queue": "SOLORANKED",
+          "result": "WIN",
+          "champion": "Caitlyn"
+        },
+        "ta1XN8oiMOJ6kwd1talcslMDP42VyXgy4wiakivWO-s=": {
+          "id": "ta1XN8oiMOJ6kwd1talcslMDP42VyXgy4wiakivWO-s=",
+          "startAt": "2026-11-15T17:01:43.000Z",
+          "queue": "SOLORANKED",
+          "result": "LOSE",
+          "champion": "MissFortune"
         }
       },
       "matchCoverageWindows": [
@@ -1048,14 +1062,14 @@
         ],
         [
           1794652482000,
-          1794767631000
+          1794772252000
         ]
       ],
       "matchHistoryComplete": false,
       "matchHistoryStatus": "partial",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
-      "sourceUpdatedAt": "2026-11-16T08:15:38+09:00",
-      "latestMatchAt": "2026-11-15T18:33:51.000Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
+      "sourceUpdatedAt": "2026-11-16T15:34:29+09:00",
+      "latestMatchAt": "2026-11-15T19:50:52.000Z",
       "topChampions": [
         {
           "id": "Zeri",
@@ -1075,20 +1089,15 @@
           "id": "MissFortune",
           "name": "Miss Fortune",
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/MissFortune.png",
-          "games": 5,
-          "lastPlayedAt": "2026-11-08T13:45:37.000Z"
+          "games": 6,
+          "lastPlayedAt": "2026-11-15T17:01:43.000Z"
         }
       ],
       "recentForm": [
         {
           "result": "D",
-          "startAt": "2026-11-15T09:04:42.000Z",
-          "champion": "Viktor"
-        },
-        {
-          "result": "D",
-          "startAt": "2026-11-15T16:23:57.000Z",
-          "champion": "Caitlyn"
+          "startAt": "2026-11-15T17:01:43.000Z",
+          "champion": "MissFortune"
         },
         {
           "result": "V",
@@ -1104,6 +1113,11 @@
           "result": "D",
           "startAt": "2026-11-15T18:33:51.000Z",
           "champion": "Xayah"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-15T19:50:52.000Z",
+          "champion": "Caitlyn"
         }
       ],
       "rankChartAt": null
@@ -1123,7 +1137,7 @@
         "seasonWins": 280,
         "seasonLosses": 270
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOIJYLyiAVscqyR6KPnwAoornzH6dRnZaIA=": {
           "id": "ta1XN8oiMOIJYLyiAVscqyR6KPnwAoornzH6dRnZaIA=",
@@ -1656,8 +1670,8 @@
       ],
       "matchHistoryComplete": false,
       "matchHistoryStatus": "partial",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
-      "sourceUpdatedAt": "2026-11-16T08:15:42+09:00",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
+      "sourceUpdatedAt": "2026-11-16T15:34:33+09:00",
       "latestMatchAt": "2026-11-15T16:06:36.000Z",
       "topChampions": [
         {
@@ -1726,7 +1740,7 @@
         "seasonWins": 290,
         "seasonLosses": 271
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOIcVjw-gZp1aw9NHgV8YWtFsfUhJ3U126w=": {
           "id": "ta1XN8oiMOIcVjw-gZp1aw9NHgV8YWtFsfUhJ3U126w=",
@@ -2403,7 +2417,7 @@
       ],
       "matchHistoryComplete": false,
       "matchHistoryStatus": "partial",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-14T09:26:43+09:00",
       "latestMatchAt": "2026-11-15T00:54:16.000Z",
       "topChampions": [
@@ -2473,7 +2487,7 @@
         "seasonWins": 425,
         "seasonLosses": 436
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOJruzSUL9AwXmxmCHiYCGYcMrp2FrZiOjI=": {
           "id": "ta1XN8oiMOJruzSUL9AwXmxmCHiYCGYcMrp2FrZiOjI=",
@@ -2848,7 +2862,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-11T15:11:02+09:00",
       "latestMatchAt": "2026-11-10T22:11:07.000Z",
       "topChampions": [
@@ -2918,7 +2932,7 @@
         "seasonWins": 169,
         "seasonLosses": 171
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOIq5kMYHeBxf1Fp4d6TYnN8EigKuD4iUMM=": {
           "id": "ta1XN8oiMOIq5kMYHeBxf1Fp4d6TYnN8EigKuD4iUMM=",
@@ -3398,7 +3412,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-15T01:50:56+09:00",
       "latestMatchAt": "2026-11-14T21:23:03.000Z",
       "topChampions": [
@@ -3468,7 +3482,7 @@
         "seasonWins": 185,
         "seasonLosses": 152
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOL9DUhyB-2Evk7jesiMaWB7nsEGoLUpzEM=": {
           "id": "ta1XN8oiMOL9DUhyB-2Evk7jesiMaWB7nsEGoLUpzEM=",
@@ -3833,19 +3847,40 @@
           "queue": "SOLORANKED",
           "result": "WIN",
           "champion": "Yone"
+        },
+        "ta1XN8oiMOJFWcEyyf323EkRL43eoQNq6UpXfSe4Ix4=": {
+          "id": "ta1XN8oiMOJFWcEyyf323EkRL43eoQNq6UpXfSe4Ix4=",
+          "startAt": "2026-11-15T21:15:48.000Z",
+          "queue": "NORMAL",
+          "result": "WIN",
+          "champion": "Yone"
+        },
+        "ta1XN8oiMOIUK96V2ktW5lzXhSCf9gl5KFRDyYXLhcQ=": {
+          "id": "ta1XN8oiMOIUK96V2ktW5lzXhSCf9gl5KFRDyYXLhcQ=",
+          "startAt": "2026-11-15T20:40:39.000Z",
+          "queue": "NORMAL",
+          "result": "WIN",
+          "champion": "Ziggs"
+        },
+        "ta1XN8oiMOKRjVT2i5Frc8ky78gv821waX5FTJHcsTk=": {
+          "id": "ta1XN8oiMOKRjVT2i5Frc8ky78gv821waX5FTJHcsTk=",
+          "startAt": "2026-11-15T20:05:15.000Z",
+          "queue": "NORMAL",
+          "result": "WIN",
+          "champion": "Kled"
         }
       },
       "matchCoverageWindows": [
         [
           1792762965000,
-          1794585917000
+          1794777348000
         ]
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
-      "sourceUpdatedAt": "2026-11-16T08:16:00+09:00",
-      "latestMatchAt": "2026-11-13T16:05:17.000Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
+      "sourceUpdatedAt": "2026-11-16T15:34:50+09:00",
+      "latestMatchAt": "2026-11-15T21:15:48.000Z",
       "topChampions": [
         {
           "id": "Yone",
@@ -3909,11 +3944,11 @@
       "rank": {
         "tier": "DIAMOND",
         "division": "IV",
-        "lp": 11,
-        "seasonWins": 401,
-        "seasonLosses": 378
+        "lp": 9,
+        "seasonWins": 408,
+        "seasonLosses": 386
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOIexW4gJf_w_o0EDCb0phl-sFpi-4Bc9DY=": {
           "id": "ta1XN8oiMOIexW4gJf_w_o0EDCb0phl-sFpi-4Bc9DY=",
@@ -4558,6 +4593,13 @@
           "queue": "SOLORANKED",
           "result": "WIN",
           "champion": "Gwen"
+        },
+        "ta1XN8oiMOLj3BL_lp0Hm7iSgpy_56zRB25KyCx0AnU=": {
+          "id": "ta1XN8oiMOLj3BL_lp0Hm7iSgpy_56zRB25KyCx0AnU=",
+          "startAt": "2026-11-15T04:19:41.000Z",
+          "queue": "FLEXRANKED",
+          "result": "LOSE",
+          "champion": "Garen"
         }
       },
       "matchCoverageWindows": [
@@ -4576,8 +4618,8 @@
       ],
       "matchHistoryComplete": false,
       "matchHistoryStatus": "partial",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
-      "sourceUpdatedAt": "2026-11-16T08:16:04+09:00",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
+      "sourceUpdatedAt": "2026-11-17T01:43:48+09:00",
       "latestMatchAt": "2026-11-15T19:54:42.000Z",
       "topChampions": [
         {
@@ -4629,7 +4671,7 @@
           "champion": "Gwen"
         }
       ],
-      "rankChartAt": "2026-11-13T02:10:22+09:00"
+      "rankChartAt": "2026-11-17T01:43:48+09:00"
     },
     "joueur-10": {
       "lastSeasonWins": 13,
@@ -4646,7 +4688,7 @@
         "seasonWins": 13,
         "seasonLosses": 7
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOKeXEYoSNmOiGB5N7Zo8eBQGbOxceTUUWA=": {
           "id": "ta1XN8oiMOKeXEYoSNmOiGB5N7Zo8eBQGbOxceTUUWA=",
@@ -4741,7 +4783,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-11T23:07:02+09:00",
       "latestMatchAt": "2026-11-15T13:38:05.000Z",
       "topChampions": [],
@@ -4751,10 +4793,10 @@
     "joueur-11": {
       "lastSeasonWins": 58,
       "lastSeasonLosses": 61,
-      "trackedWins": 22,
+      "trackedWins": 23,
       "trackedLosses": 23,
       "trackerStartsAt": "2026-10-31T22:17:00.000Z",
-      "wins": 22,
+      "wins": 23,
       "losses": 23,
       "rank": {
         "tier": "PLATINUM",
@@ -4763,7 +4805,7 @@
         "seasonWins": 68,
         "seasonLosses": 70
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOKU_Ghm6W3Zpn5EHIrCKPs4BJFsNws-dd4=": {
           "id": "ta1XN8oiMOKU_Ghm6W3Zpn5EHIrCKPs4BJFsNws-dd4=",
@@ -5142,6 +5184,13 @@
           "queue": "SOLORANKED",
           "result": "LOSE",
           "champion": "Jinx"
+        },
+        "ta1XN8oiMOJMPp96_qKkm0pfkY2HoOTLg3ReMCmode0=": {
+          "id": "ta1XN8oiMOJMPp96_qKkm0pfkY2HoOTLg3ReMCmode0=",
+          "startAt": "2026-11-15T14:25:48.000Z",
+          "queue": "SOLORANKED",
+          "result": "WIN",
+          "champion": "Yunara"
         }
       },
       "matchCoverageWindows": [
@@ -5152,23 +5201,23 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
-      "sourceUpdatedAt": "2026-11-16T08:16:13+09:00",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
+      "sourceUpdatedAt": "2026-11-16T15:35:03+09:00",
       "latestMatchAt": "2026-11-15T20:40:02.000Z",
       "topChampions": [
+        {
+          "id": "Yunara",
+          "name": "Yunara",
+          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yunara.png",
+          "games": 13,
+          "lastPlayedAt": "2026-11-15T14:25:48.000Z"
+        },
         {
           "id": "DrMundo",
           "name": "Dr. Mundo",
           "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/DrMundo.png",
           "games": 12,
           "lastPlayedAt": "2026-11-15T20:07:17.000Z"
-        },
-        {
-          "id": "Yunara",
-          "name": "Yunara",
-          "icon": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/champion/Yunara.png",
-          "games": 12,
-          "lastPlayedAt": "2026-11-15T10:58:31.000Z"
         },
         {
           "id": "Jinx",
@@ -5180,14 +5229,14 @@
       ],
       "recentForm": [
         {
-          "result": "V",
-          "startAt": "2026-11-15T12:53:12.000Z",
-          "champion": "DrMundo"
-        },
-        {
           "result": "D",
           "startAt": "2026-11-15T13:39:57.000Z",
           "champion": "Jinx"
+        },
+        {
+          "result": "V",
+          "startAt": "2026-11-15T14:25:48.000Z",
+          "champion": "Yunara"
         },
         {
           "result": "D",
@@ -5222,7 +5271,7 @@
         "seasonWins": 57,
         "seasonLosses": 47
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOIzNu5Jay53YBriiiOSq5RBOHh-i3Qvb6w=": {
           "id": "ta1XN8oiMOIzNu5Jay53YBriiiOSq5RBOHh-i3Qvb6w=",
@@ -5331,7 +5380,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-15T04:40:41+09:00",
       "latestMatchAt": "2026-11-06T02:35:05.000Z",
       "topChampions": [],
@@ -5353,7 +5402,7 @@
         "seasonWins": 80,
         "seasonLosses": 59
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOLXea6ZOgtip78LY37FM9e8WsjOzyzfVTI=": {
           "id": "ta1XN8oiMOLXea6ZOgtip78LY37FM9e8WsjOzyzfVTI=",
@@ -6089,8 +6138,8 @@
       ],
       "matchHistoryComplete": false,
       "matchHistoryStatus": "partial",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
-      "sourceUpdatedAt": "2026-11-16T08:16:21+09:00",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
+      "sourceUpdatedAt": "2026-11-16T15:35:11+09:00",
       "latestMatchAt": "2026-11-16T01:41:06.000Z",
       "topChampions": [
         {
@@ -6159,7 +6208,7 @@
         "seasonWins": 228,
         "seasonLosses": 222
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOI60SZ2zsv-PhDgWitrQA9vHQzB602p58Q=": {
           "id": "ta1XN8oiMOI60SZ2zsv-PhDgWitrQA9vHQzB602p58Q=",
@@ -6499,7 +6548,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-09T15:18:56+09:00",
       "latestMatchAt": "2026-11-08T19:52:59.000Z",
       "topChampions": [
@@ -6569,7 +6618,7 @@
         "seasonWins": 383,
         "seasonLosses": 377
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOJ6dZP9lPvphAmrHvRyrJHc3_h_7dlZ7Xg=": {
           "id": "ta1XN8oiMOJ6dZP9lPvphAmrHvRyrJHc3_h_7dlZ7Xg=",
@@ -7284,7 +7333,7 @@
       ],
       "matchHistoryComplete": false,
       "matchHistoryStatus": "partial",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-16T12:36:49+09:00",
       "latestMatchAt": "2026-11-14T20:48:24.000Z",
       "topChampions": [
@@ -7354,7 +7403,7 @@
         "seasonWins": 146,
         "seasonLosses": 121
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOILwZBMQLMCsTdtRUrcQfchIcWPzisZ8QM=": {
           "id": "ta1XN8oiMOILwZBMQLMCsTdtRUrcQfchIcWPzisZ8QM=",
@@ -7505,7 +7554,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-15T01:45:21+09:00",
       "latestMatchAt": "2026-11-15T15:52:02.000Z",
       "topChampions": [
@@ -7575,7 +7624,7 @@
         "seasonWins": 127,
         "seasonLosses": 113
       },
-      "lastSuccessAt": "2026-11-16T06:34:18.152Z",
+      "lastSuccessAt": "2026-11-16T16:47:05.281Z",
       "matchLedger": {
         "ta1XN8oiMOJPunefeKSPdYJgwwIifpCz0UENYqJoMgc=": {
           "id": "ta1XN8oiMOJPunefeKSPdYJgwwIifpCz0UENYqJoMgc=",
@@ -7894,7 +7943,7 @@
       ],
       "matchHistoryComplete": true,
       "matchHistoryStatus": "covered",
-      "matchHistoryReadAt": "2026-11-16T06:34:18.152Z",
+      "matchHistoryReadAt": "2026-11-16T16:47:05.281Z",
       "sourceUpdatedAt": "2026-11-10T05:19:51+09:00",
       "latestMatchAt": "2026-11-12T13:17:45.000Z",
       "topChampions": [
@@ -7950,5 +7999,5 @@
       "rankChartAt": "2026-11-09T04:14:34+09:00"
     }
   },
-  "lastRunAt": "2026-11-16T06:34:18.152Z"
+  "lastRunAt": "2026-11-16T16:47:05.281Z"
 }
