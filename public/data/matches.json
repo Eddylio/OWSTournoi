@@ -5458,6 +5458,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-08",
+      "id": "ta1XN8oiMOKoEPN-yGa_rAIw3UnmoOGn0m6dTnOAzz8=",
+      "playedAt": "2026-11-17T12:13:43.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Viktor",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-04",
       "id": "ta1XN8oiMOID-2QOH1VaYyy827aMtO5vKn9xd3WR3bg=",
       "playedAt": "2026-11-17T12:25:11.000Z",
