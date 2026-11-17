@@ -5242,6 +5242,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-17",
+      "id": "ta1XN8oiMOKfww3ONq3e9322ZaLbfUTmjId-sW3ipM8=",
+      "playedAt": "2026-11-15T15:45:42.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Cassiopeia",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-02",
       "id": "ta1XN8oiMOImAsPm5FVhhgrtxqmSLfifxXw6jQmJvrM=",
       "playedAt": "2026-11-15T16:11:46.000Z",
@@ -5377,6 +5386,24 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOJl6-WCkKSk7YerzLQJJmx30aEXPmPrLM0=",
+      "playedAt": "2026-11-15T22:57:28.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Pyke",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-07",
+      "id": "ta1XN8oiMOLvBxuab0phy2XjQC5rsHhgpa3F9U0zbbo=",
+      "playedAt": "2026-11-15T23:39:20.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Yasuo",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-15",
       "id": "ta1XN8oiMOKSFQKLYnrP9mtIEdcdgxB-kbxP-ClE680=",
       "playedAt": "2026-11-16T14:52:23.000Z",
@@ -5392,6 +5419,42 @@
       "queueId": 420,
       "result": "D",
       "champion": "Caitlyn",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOJaOobwljathge5KA5icm0YymfRDBIQKK8=",
+      "playedAt": "2026-11-16T18:39:11.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Kaisa",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOIIWDAHJZKcehNPoCaVPO1IALeiYJd9urk=",
+      "playedAt": "2026-11-16T19:14:39.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Rakan",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-11",
+      "id": "ta1XN8oiMOId1uff_kHfEo5ymYR06X1CuikHuap6sq8=",
+      "playedAt": "2026-11-16T19:25:26.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Caitlyn",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOItHw1jJBtP0mFkDmltxNbDa5qF4XEf2ZY=",
+      "playedAt": "2026-11-16T19:50:04.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lissandra",
       "source": "opgg-structured-history"
     }
   ]
