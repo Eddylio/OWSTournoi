@@ -6422,6 +6422,24 @@
     },
     {
       "playerId": "joueur-15",
+      "id": "ta1XN8oiMOJiY-PH_FSj0DsoYDru_JNHeKdrXay5yHk=",
+      "playedAt": "2026-11-21T21:08:31.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lulu",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOLfmGjcPYwCbADj7_Wf6QPwBvrUVXNFhlc=",
+      "playedAt": "2026-11-21T22:01:45.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "TahmKench",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
       "id": "ta1XN8oiMOKwg_pv0mRxrYiSlncJtdGNrcOnheOmSVQ=",
       "playedAt": "2026-11-21T23:25:23.000Z",
       "queueId": 420,
@@ -6436,6 +6454,33 @@
       "queueId": 420,
       "result": "D",
       "champion": "Trundle",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOLAdTRcP7g-0naGwgbA7nKfPuv1-Zmkk40=",
+      "playedAt": "2026-11-22T17:29:10.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Braum",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-13",
+      "id": "ta1XN8oiMOLdpUzRE50jmdcPxkQV3-62FKeqwVw3HoI=",
+      "playedAt": "2026-11-22T17:49:12.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "RekSai",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-13",
+      "id": "ta1XN8oiMOLDfed7QIJ88p_sFXcFtLW921tbF9Xz6Ro=",
+      "playedAt": "2026-11-22T18:16:03.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "RekSai",
       "source": "opgg-structured-history"
     }
   ]
