@@ -6457,6 +6457,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOKbwNiVs84Ab-_zUnMGX6Ie6YZXRsPcmSQ=",
+      "playedAt": "2026-11-22T00:44:22.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Trundle",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-04",
       "id": "ta1XN8oiMOLAdTRcP7g-0naGwgbA7nKfPuv1-Zmkk40=",
       "playedAt": "2026-11-22T17:29:10.000Z",
@@ -6481,6 +6490,60 @@
       "queueId": 420,
       "result": "V",
       "champion": "RekSai",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOLwzQAyXKo3FaOzcgr-Kwkq_b5b1wy7mLA=",
+      "playedAt": "2026-11-22T19:10:45.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Heimerdinger",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOIYubZ7kwoJP4iyM6XgcAKJGpxy8gwjUAs=",
+      "playedAt": "2026-11-22T21:42:10.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Seraphine",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOJS5GwTXTcOBHuqKnn0n0D1cebhVQHVysY=",
+      "playedAt": "2026-11-22T23:41:21.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Galio",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOLhv3hv5cBJZvh6qfKRts9cO_EzFFdB1VA=",
+      "playedAt": "2026-11-23T00:07:28.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Lissandra",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOLT37s1VWyAVV1oEdtD1u2zweY3OKVhAc8=",
+      "playedAt": "2026-11-23T00:21:11.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Annie",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOIYvtKW4nKdqvMh9Dly8_mAo5WhkB8H64A=",
+      "playedAt": "2026-11-23T01:06:35.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Hwei",
       "source": "opgg-structured-history"
     }
   ]
