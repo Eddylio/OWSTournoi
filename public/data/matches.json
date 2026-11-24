@@ -6511,6 +6511,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOIG97wA0sDLIpqt1LGZV7UdjDFBfi7uVNM=",
+      "playedAt": "2026-11-22T22:50:39.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Sett",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-06",
       "id": "ta1XN8oiMOJS5GwTXTcOBHuqKnn0n0D1cebhVQHVysY=",
       "playedAt": "2026-11-22T23:41:21.000Z",
@@ -6544,6 +6553,69 @@
       "queueId": 420,
       "result": "V",
       "champion": "Hwei",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOKFNcQX_bceOnz8LlspOr5SUMhz4U9DDzg=",
+      "playedAt": "2026-11-23T14:03:51.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Annie",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOJ_DdkSS01oyClztnucPrBf1QGHmV0Ti_8=",
+      "playedAt": "2026-11-23T14:38:21.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Annie",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOJG6IVo8HUvN-kvjEMKHKBvOy-p90wt_8c=",
+      "playedAt": "2026-11-23T15:17:48.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Viktor",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOJzaKtfOOe2Azw9ZRimySyPrwuGYEQAFnc=",
+      "playedAt": "2026-11-23T16:03:33.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Hwei",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOKwfuZ-s43V8VJHECDDbfkryDmX2XFNucM=",
+      "playedAt": "2026-11-23T19:37:48.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Vayne",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOKWx-kWmdDYOq5J-31VwwyuCXLl2Jc2Zzc=",
+      "playedAt": "2026-11-24T03:02:19.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOIemJsgubG1vq_EPEbynHyqcnJxc5I8md4=",
+      "playedAt": "2026-11-24T03:39:44.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
       "source": "opgg-structured-history"
     }
   ]
