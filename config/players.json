@@ -168,8 +168,8 @@
         "seasonLosses": 283,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/0nil0-euw/overview",
-        "throughMatchAt": "2026-11-24T20:24:47.000Z",
-        "observedAt": "2026-11-24T22:49:59.099325+00:00"
+        "throughMatchAt": "2026-11-24T21:34:11.000Z",
+        "observedAt": "2026-11-25T12:53:57.374944+00:00"
       }
     },
     {
@@ -295,15 +295,15 @@
       },
       "opggUrl": "https://op.gg/fr/lol/summoners/euw/exterminateur-otp",
       "verifiedSoloRank": {
-        "tier": "EMERALD",
-        "division": "I",
-        "lp": 62,
-        "seasonWins": 419,
-        "seasonLosses": 399,
+        "tier": "DIAMOND",
+        "division": "IV",
+        "lp": 11,
+        "seasonWins": 424,
+        "seasonLosses": 401,
         "source": "U.GG",
         "url": "https://u.gg/lol/profile/euw1/exterminateur-otp/overview",
-        "throughMatchAt": "2026-11-24T19:38:36.000Z",
-        "observedAt": "2026-11-24T22:50:05.672312+00:00"
+        "throughMatchAt": "2026-11-25T02:36:47.000Z",
+        "observedAt": "2026-11-25T12:54:06.235130+00:00"
       }
     },
     {
