@@ -6682,6 +6682,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-05",
+      "id": "ta1XN8oiMOImTwZUJbfXQ3fyYUwiSDqIdokGLQF-Ttg=",
+      "playedAt": "2026-11-24T17:58:58.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Smolder",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-04",
       "id": "ta1XN8oiMOLbRDKqevrExTvmgD47YFPm-Wxi8M5cWFU=",
       "playedAt": "2026-11-24T19:29:08.000Z",
@@ -6755,6 +6764,15 @@
     },
     {
       "playerId": "joueur-09",
+      "id": "ta1XN8oiMOKzSWCdlBIDH-ToQc_8G4BsVFMQis437SQ=",
+      "playedAt": "2026-11-25T00:15:28.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-09",
       "id": "ta1XN8oiMOJziuSMboCzMyMow6p12XXJacRtHvumja0=",
       "playedAt": "2026-11-25T00:52:07.000Z",
       "queueId": 420,
@@ -6787,6 +6805,42 @@
       "queueId": 420,
       "result": "V",
       "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKxDEOjhiOThDzUdMscWy5Z6Qqgcxgt9uM=",
+      "playedAt": "2026-11-25T16:20:03.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOKUjimfZdZ2rXYz3aQlfUB1vrKwuVSdOek=",
+      "playedAt": "2026-11-25T17:47:14.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Caitlyn",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
+      "id": "ta1XN8oiMOKHpj2k5fH-bTWE3d9_fHiC1X5b6sgSpvA=",
+      "playedAt": "2026-11-25T20:25:05.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Sivir",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-03",
+      "id": "ta1XN8oiMOLjqil93EvX-Fh4lUMF63rWaDbfro8_ln0=",
+      "playedAt": "2026-11-25T21:52:00.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Ezreal",
       "source": "opgg-structured-history"
     }
   ]
