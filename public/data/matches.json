@@ -6727,6 +6727,15 @@
       "source": "opgg-structured-history"
     },
     {
+      "playerId": "joueur-09",
+      "id": "ta1XN8oiMOLWM4p-LPemhqLoPFlz9_i9-4KwTY_vBtc=",
+      "playedAt": "2026-11-24T20:59:58.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gwen",
+      "source": "opgg-structured-history"
+    },
+    {
       "playerId": "joueur-05",
       "id": "ta1XN8oiMOKPR1IihFyj81SuWGzAE2kXSbhqwInmYto=",
       "playedAt": "2026-11-24T21:00:42.000Z",
@@ -6809,6 +6818,15 @@
     },
     {
       "playerId": "joueur-15",
+      "id": "ta1XN8oiMOJrVMDtxu83XzJGc52IcPWnksfsF9ZB4mM=",
+      "playedAt": "2026-11-25T15:42:35.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "MissFortune",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-15",
       "id": "ta1XN8oiMOKxDEOjhiOThDzUdMscWy5Z6Qqgcxgt9uM=",
       "playedAt": "2026-11-25T16:20:03.000Z",
       "queueId": 420,
@@ -6841,6 +6859,150 @@
       "queueId": 420,
       "result": "V",
       "champion": "Ezreal",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOIXxoPTasVVjOPCSEpyESKxQhbiojSDQ8U=",
+      "playedAt": "2026-11-26T15:57:59.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Yone",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOLuV90YAoY_NJjD3veKXv6rPSdtAJsLMoA=",
+      "playedAt": "2026-11-26T16:45:45.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Yone",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOLnKGhtWxWnOZi_TwKixAyk_pSO3qHU6NE=",
+      "playedAt": "2026-11-26T16:55:04.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Ambessa",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOIWbsvJP54IgOKpey9k646bJXydKWkQLPA=",
+      "playedAt": "2026-11-26T17:33:50.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Ambessa",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOJly9SBO5ZVI58Pi_vtkUq-PWWRKpLhsxM=",
+      "playedAt": "2026-11-26T18:01:22.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Ornn",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOJOR3xBEh7a_QZWhuhq8Zak0yIBtNGdiIY=",
+      "playedAt": "2026-11-26T18:07:23.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Ambessa",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOIYXUusUHyKxo4eRK9GALNBKl1gYyGGy_4=",
+      "playedAt": "2026-11-26T18:24:39.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Malphite",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOLk7warzrl_4hN5cNiwovL-5b2Bc0-CpWQ=",
+      "playedAt": "2026-11-26T18:49:49.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Gnar",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOK-cbwyvCpYtIr2hmp2c0dMxecLty93D18=",
+      "playedAt": "2026-11-26T19:01:05.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Chogath",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOIccdzOJYXtLtJeIA1P7Zhva9UNqyMLN0Q=",
+      "playedAt": "2026-11-26T19:10:19.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Nami",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOIN0DQ5zHrHn-HCyNYofAda_FnukU4fkkU=",
+      "playedAt": "2026-11-26T20:17:35.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Urgot",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOIs6jPivCzOkbq0kasrtLfUUv7RKVXiR5Y=",
+      "playedAt": "2026-11-26T20:46:45.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Gnar",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOJUjzyuLHV5elTX8TKi3aJ59tufeOnyPBs=",
+      "playedAt": "2026-11-26T21:01:27.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Senna",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-02",
+      "id": "ta1XN8oiMOJlTcUaDWonZ-if7ZuHjf9_-ATzXJzNlZo=",
+      "playedAt": "2026-11-26T21:17:31.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Urgot",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-04",
+      "id": "ta1XN8oiMOLNDPQbPYrboUJ6d8b9Qhe6LqTZuLZSfq4=",
+      "playedAt": "2026-11-26T21:36:55.000Z",
+      "queueId": 420,
+      "result": "V",
+      "champion": "Senna",
+      "source": "opgg-structured-history"
+    },
+    {
+      "playerId": "joueur-06",
+      "id": "ta1XN8oiMOJAjq2UW-Ypb84DBp-zqz-J-o-8WVyvKPI=",
+      "playedAt": "2026-11-26T22:08:17.000Z",
+      "queueId": 420,
+      "result": "D",
+      "champion": "Camille",
       "source": "opgg-structured-history"
     }
   ]
